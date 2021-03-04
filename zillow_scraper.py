@@ -17,7 +17,8 @@ import htmltext
 
 HOMES_DB_COLUMNS = ["id", "address", "bedrooms", "bathrooms", "sq_ft", "year_built", "for_sale", "price", "zillow_url", "last_modified"]
 HISTORY_DB_COLUMNS = ["id", "home_id", "date", "event", "price"]
-CITY_NAME = "austin"
+CITY_NAME = "miami"
+STATE_NAME = "fl"
 HEADERS = {
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
     'accept-encoding': 'gzip, deflate, br',
@@ -25,6 +26,19 @@ HEADERS = {
     'upgrade-insecure-requests': '1',
     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
 }
+
+def fetch_all_homes(homes_df, city=CITY_NAME, state=STATE_NAME):
+    PATH = '/Users/hannahtaubenfeld/Downloads/chromedriver'
+    browser=webdriver.Chrome(PATH)
+    for i in range(1,5):
+        
+        location = CITY_NAME + '-' + STATE_NAME
+        url = 'https://www.zillow.com/' + location + '/'+ str(i) + '_p/'
+        print(url)
+        r = browser.page_source
+        page_data = BeautifulSoup(r.content, 'html.parser')
+        homes_df = add_homes(homes_df, page_data)
+    return homes_df
 
 def fetch_homes(city=CITY_NAME):
     with requests.Session() as s:
@@ -107,11 +121,10 @@ def add_home_details(homes_df, history_df):
 
 if __name__ == "__main__":
     homes_df = pd.DataFrame(columns=HOMES_DB_COLUMNS)
-    homes = fetch_homes()
-    homes_df = add_homes(homes_df, homes)
-    history_df = pd.DataFrame(columns=HISTORY_DB_COLUMNS)
-    homes_df, history_df = add_home_details(homes_df, history_df)
-    history_df.to_csv('history.csv', index=False)
+    homes_df = fetch_all_homes(homes_df)
+    #history_df = pd.DataFrame(columns=HISTORY_DB_COLUMNS)
+    #homes_df, history_df = add_home_details(homes_df, history_df)
+   # history_df.to_csv('history.csv', index=False)
     homes_df.to_csv('homes.csv', index=False)
 
 
