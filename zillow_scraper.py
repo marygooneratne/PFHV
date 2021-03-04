@@ -28,16 +28,18 @@ HEADERS = {
 }
 
 def fetch_all_homes(homes_df, city=CITY_NAME, state=STATE_NAME):
-    PATH = '/Users/hannahtaubenfeld/Downloads/chromedriver'
-    browser=webdriver.Chrome(PATH)
+   # PATH = '/Users/hannahtaubenfeld/Downloads/chromedriver 2'
+   # browser=webdriver.Chrome(PATH)
     for i in range(1,5):
-        
-        location = CITY_NAME + '-' + STATE_NAME
-        url = 'https://www.zillow.com/' + location + '/'+ str(i) + '_p/'
-        print(url)
-        r = browser.page_source
-        page_data = BeautifulSoup(r.content, 'html.parser')
-        homes_df = add_homes(homes_df, page_data)
+        with requests.Session() as s:
+            location = CITY_NAME + '-' + STATE_NAME
+            url = 'https://www.zillow.com/' + location + '/'+ str(i) + '_p/'
+            print(url)
+            #r = browser.page_source
+            r = s.get(url, headers=HEADERS)
+            print(r)
+            page_data = BeautifulSoup(r.content, 'html.parser')
+            homes_df = add_homes(homes_df, page_data)
     return homes_df
 
 def fetch_homes(city=CITY_NAME):
