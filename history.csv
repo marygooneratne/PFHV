@@ -1,0 +1,129 @@
+id,home_id,date,event,price
+0,0,2021-02-28,Listed for sale,285000
+1,0,2021-02-08,Sold,null
+2,0,2011-03-10,Sold,null
+3,0,2006-06-26,Sold,null
+4,1,2021-02-28,Listed for sale,285000
+5,1,2021-02-08,Sold,null
+6,1,2011-03-10,Sold,null
+7,1,2006-06-26,Sold,null
+8,2,2021-02-25,Listed for sale,318900
+9,2,2021-02-18,Pending sale,318900
+10,2,2021-02-13,Listed for sale,318900
+11,3,2021-02-25,Listed for sale,318900
+12,4,2021-02-28,Listed for sale,236900
+13,5,2021-02-28,Listed for sale,236900
+14,6,2021-03-01,Listed for sale,330000
+15,7,2021-03-01,Listed for sale,330000
+16,8,2021-02-19,Price change,160000
+17,9,2021-02-19,Price change,160000
+18,10,2021-02-24,Listed for sale,999000
+19,11,2021-02-24,Listed for sale,999000
+20,12,2021-02-25,Listed for sale,499900
+21,13,2021-02-25,Listed for sale,499900
+22,14,2021-02-25,Listed for sale,265000
+23,15,2021-02-25,Listed for sale,265000
+24,16,2021-02-28,Listed for sale,359000
+25,17,2021-02-28,Listed for sale,359000
+26,18,2021-02-26,Listed for sale,225000
+27,19,2021-02-26,Listed for sale,225000
+28,20,2021-02-27,Listed for sale,410000
+29,21,2021-02-27,Listed for sale,410000
+30,22,2021-02-25,Listed for sale,299900
+31,23,2021-02-25,Listed for sale,299900
+32,24,2021-02-27,Listed for sale,525000
+33,25,2021-02-27,Listed for sale,525000
+34,26,2021-03-02,Listed for sale,655000
+35,27,2021-03-02,Listed for sale,655000
+36,28,2021-02-26,Listed for sale,750000
+37,29,2021-02-26,Listed for sale,750000
+38,30,2021-02-26,Listed for sale,449900
+39,31,2021-02-26,Listed for sale,449900
+40,32,2021-02-26,Listed for sale,499000
+41,33,2021-02-26,Listed for sale,499000
+42,34,2021-02-26,Listed for sale,450000
+43,35,2021-02-26,Listed for sale,450000
+44,36,2021-03-01,Listed for sale,375000
+45,37,2021-03-01,Listed for sale,375000
+46,38,2021-02-26,Listed for sale,305000
+47,39,2021-02-26,Listed for sale,305000
+48,40,2021-02-28,Listed for sale,285000
+49,41,2021-02-28,Listed for sale,285000
+50,42,2021-02-25,Listed for sale,318900
+51,43,2021-02-25,Listed for sale,318900
+52,44,2021-02-28,Listed for sale,236900
+53,45,2021-02-28,Listed for sale,236900
+54,46,2021-03-01,Listed for sale,330000
+55,47,2021-03-01,Listed for sale,330000
+56,48,2021-02-19,Price change,160000
+57,49,2021-02-19,Price change,160000
+58,50,2021-02-24,Listed for sale,999000
+59,51,2021-02-24,Listed for sale,999000
+60,52,2021-02-25,Listed for sale,499900
+61,53,2021-02-25,Listed for sale,499900
+62,54,2021-02-25,Listed for sale,265000
+63,55,2021-02-25,Listed for sale,265000
+64,56,2021-02-28,Listed for sale,359000
+65,57,2021-02-28,Listed for sale,359000
+66,58,2021-02-26,Listed for sale,225000
+67,59,2021-02-26,Listed for sale,225000
+68,60,2021-02-27,Listed for sale,410000
+69,61,2021-02-27,Listed for sale,410000
+70,62,2021-02-25,Listed for sale,299900
+71,63,2021-02-25,Listed for sale,299900
+72,64,2021-02-27,Listed for sale,525000
+73,65,2021-02-27,Listed for sale,525000
+74,66,2021-03-02,Listed for sale,655000
+75,67,2021-03-02,Listed for sale,655000
+76,68,2021-02-26,Listed for sale,750000
+77,69,2021-02-26,Listed for sale,750000
+78,70,2021-02-26,Listed for sale,449900
+79,71,2021-02-26,Listed for sale,449900
+80,72,2021-02-26,Listed for sale,499000
+81,73,2021-02-26,Listed for sale,499000
+82,74,2021-02-26,Listed for sale,450000
+83,75,2021-02-26,Listed for sale,450000
+84,76,2021-03-01,Listed for sale,375000
+85,77,2021-03-01,Listed for sale,375000
+86,78,2021-02-26,Listed for sale,305000
+87,79,2021-02-26,Listed for sale,305000
+88,80,2021-02-28,Listed for sale,285000
+89,81,2021-02-28,Listed for sale,285000
+90,82,2021-02-25,Listed for sale,318900
+91,83,2021-02-25,Listed for sale,318900
+92,84,2021-02-28,Listed for sale,236900
+93,85,2021-02-28,Listed for sale,236900
+94,86,2021-03-01,Listed for sale,330000
+95,87,2021-03-01,Listed for sale,330000
+96,88,2021-02-19,Price change,160000
+97,89,2021-02-19,Price change,160000
+98,90,2021-02-24,Listed for sale,999000
+99,91,2021-02-24,Listed for sale,999000
+100,92,2021-02-25,Listed for sale,499900
+101,93,2021-02-25,Listed for sale,499900
+102,94,2021-02-25,Listed for sale,265000
+103,95,2021-02-25,Listed for sale,265000
+104,96,2021-02-28,Listed for sale,359000
+105,97,2021-02-28,Listed for sale,359000
+106,98,2021-02-26,Listed for sale,225000
+107,99,2021-02-26,Listed for sale,225000
+108,100,2021-02-27,Listed for sale,410000
+109,101,2021-02-27,Listed for sale,410000
+110,102,2021-02-25,Listed for sale,299900
+111,103,2021-02-25,Listed for sale,299900
+112,104,2021-02-27,Listed for sale,525000
+113,105,2021-02-27,Listed for sale,525000
+114,106,2021-03-02,Listed for sale,655000
+115,107,2021-03-02,Listed for sale,655000
+116,108,2021-02-26,Listed for sale,750000
+117,109,2021-02-26,Listed for sale,750000
+118,110,2021-02-26,Listed for sale,449900
+119,111,2021-02-26,Listed for sale,449900
+120,112,2021-02-26,Listed for sale,499000
+121,113,2021-02-26,Listed for sale,499000
+122,114,2021-02-26,Listed for sale,450000
+123,115,2021-02-26,Listed for sale,450000
+124,116,2021-03-01,Listed for sale,375000
+125,117,2021-03-01,Listed for sale,375000
+126,118,2021-02-26,Listed for sale,305000
+127,119,2021-02-26,Listed for sale,305000
