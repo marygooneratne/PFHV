@@ -27,6 +27,7 @@ def create_db(conn_info):
         conn.autocommit = False
 
 def create_table(query, conn, cur):
+    print(conn)
     try:
         cur.execute(query)
     except Exception as e:
@@ -44,11 +45,26 @@ if __name__ == "__main__":
     cur = conn.cursor()
     homes_query = """
         CREATE TABLE homes (
-            
+            id SERIAL PRIMARY KEY,
+            address VARCHAR(100),
+            bedrooms INT,
+            bathrooms INT,
+            sq_ft INT,
+            year_built INT,
+            for_sale BOOL,
+            price INT,
+            zillow_url VARCHAR(100),
+            last_modified TIMESTAMP
         )
     """
     history_query = """
         CREATE TABLE history (
+            id SERIAL PRIMARY KEY,
+            home_id SERIAL REFERENCES homes(id),
+            date DATE,
+            event VARCHAR(100),
+            price INT,
+            last_modified TIMESTAMP
 
         )
     """
