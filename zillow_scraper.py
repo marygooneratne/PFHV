@@ -18,9 +18,10 @@ import htmltext
 from configparser import ConfigParser
 import psycopg2
 
-HOMES_DB_COLUMNS = ["id", "address", "bedrooms", "bathrooms", "sq_ft", "year_built", "for_sale", "price", "zillow_url", "last_modified"]
-HISTORY_DB_COLUMNS = ["id", "home_id", "date", "event", "price"]
-CITY_NAME = "austin"
+HOMES_DB_COLUMNS = ["id", "address", "bedrooms", "bathrooms", "sq_ft", "year_built", "for_sale", "current_price", "zillow_url", "last_modified"]
+HISTORY_DB_COLUMNS = ["id", "home_id", "date", "value"]
+CITY = "austin"
+STATE = "tx"
 HEADERS = {
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
     'accept-encoding': 'gzip, deflate, br',
@@ -28,11 +29,12 @@ HEADERS = {
     'upgrade-insecure-requests': '1',
     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
 }
+NUM_PAGES = 5
 
-def fetch_homes(city=CITY_NAME):
+def fetch_homes(page, city=CITY, state=STATE):
     with requests.Session() as s:
-        city = CITY_NAME + '/'
-        url = 'https://www.zillow.com/homes/for_sale/'+city    
+        url = "https://www.zillow.com/"+str(city)+"-"+str(state)+"/"+str(page)+"_p/"
+        print(url)
         r = s.get(url, headers=HEADERS)
     return BeautifulSoup(r.content, 'html.parser')
 
@@ -47,21 +49,22 @@ def parse_class(s):
     s = s[:s.index("<")]
     return s
 
-def add_homes(df, soup, num_homes=False):
+def add_homes(df, soup):
     '''
     Uses BeautifulSoup object (Zillow page of homes) to scrape list of homes and basic data and adds to df
     '''
     curr_id = len(df.index)
+    print('add_homes.curr_id=',curr_id)
     for i in soup:
         addresses = soup.find_all (class_= 'list-card-addr')
         links = soup.find_all (class_= 'list-card-link')
         prices = soup.find_all (class_= 'list-card-price')
         link_idx = 0
         for i in range(0, min([len(addresses), len(links), len(prices)])):
-            a = parse_class(addresses[i])[1:-1]
+            a = parse_class(addresses[i])
             l = str(links[link_idx]["href"])
             p = parse_class(prices[i])
-            df = df.append({"id": curr_id, "address":a, "zillow_url": l, "price": p, "for_sale": True}, ignore_index=True)
+            df = df.append({"id": curr_id, "address":a, "zillow_url": l, "current_price": p, "for_sale": True}, ignore_index=True)
             curr_id += 1
             link_idx +=2
     return df
@@ -79,18 +82,23 @@ def find_number(string):
 def fetch_home_details(url):
     soup = fetch_home(url)
     soup = str(soup)
-    soup = soup[soup.index("priceHistory")+16:]
-    history = soup[:soup.index("]")].replace("\\", "").replace("\"", "").split("},")
-    
+    string = '"taxHistory\\":[{'
+    history = ""
+    try:
+        history = soup[soup.index(string)+len(string):]
+        history = history[:history.index("]")].replace("\\", "").replace("\"", "").split("},")
+    except:
+        print('history not found')
+
     history_cleaned = []
     for row in history:
         event = {}
         row = row[1:].replace("}", "").replace("{", "").split(",")
+
         for d in row:
             d = d.split(":")
-            if(d[0] == "event"): event["event"] = d[1]
-            if(d[0] == "date"): event["date"] = d[1]
-            if(d[0] == "price"): event["price"] = d[1]
+            if(d[0] == "time" or d[0] == "ime"): event["date"] = d[1]
+            if(d[0] == "value"): event["value"] = d[1]
         history_cleaned.append(event)
     
     sqft = ""
@@ -126,7 +134,7 @@ def fetch_home_details(url):
         print("Unable to find price")
     
     lastmod = datetime.datetime.now()
-    details = {"bedrooms": bedrooms, "bathrooms": bathrooms, "sq_ft":sqft, "year_built":yr, "price": price, "last_modified": lastmod}
+    details = {"bedrooms": bedrooms, "bathrooms": bathrooms, "sq_ft":sqft, "year_built":yr, "current_price": price, "last_modified": lastmod}
     return history_cleaned, details
 
 def add_home_details(homes_df, history_df, num_homes=False):
@@ -136,14 +144,13 @@ def add_home_details(homes_df, history_df, num_homes=False):
             break
         history, details = fetch_home_details(row["zillow_url"])
         home_id = row['id']
-        homes_df.loc[i, ["bedrooms", "bathrooms", "sq_ft", "year_built", "price", "last_modified"]] = details
+        homes_df.loc[i, ["bedrooms", "bathrooms", "sq_ft", "year_built", "current_price", "last_modified"]] = details
         for h in history:
             if len(h.keys()) > 0:
                 r = {"id": curr_id, "home_id": home_id}
                 r.update(h)
                 curr_id += 1
                 history_df = history_df.append(r, ignore_index=True)
-                if curr_id > 10: break
     return homes_df, history_df
 
 def homes_df_to_db(homes_df):
@@ -219,16 +226,20 @@ def check(conn_info):
 
 if __name__ == "__main__":
     # fetch_home_details("https://www.zillow.com/homes/8408-Kansas-River-Dr-Austin,-TX,-78745_rb/58316348_zpid/")
-    # homes_df = pd.DataFrame(columns=HOMES_DB_COLUMNS)
-    # homes = fetch_homes()
-    # homes_df = add_homes(homes_df, homes, num_homes=2)
-    # history_df = pd.DataFrame(columns=HISTORY_DB_COLUMNS)
-    # homes_df, history_df = add_home_details(homes_df, history_df, num_homes=2)
+    homes_df = pd.DataFrame(columns=HOMES_DB_COLUMNS)
+    for i in range(1,NUM_PAGES):
+        homes = fetch_homes(i)
+        homes_df = add_homes(homes_df, homes)
+        print(homes_df.head())
+    history_df = pd.DataFrame(columns=HISTORY_DB_COLUMNS)
+    homes_df, history_df = add_home_details(homes_df, history_df)
     # homes_df_to_db(homes_df)
-    conn_info = load_conn_info("db.ini")
-    delete_table(conn_info)
-    # history_df.to_csv('history.csv', index=False)
-    # homes_df.to_csv('homes.csv', index=False)
+
+    history_df.to_csv('history.csv', index=False)
+    homes_df.to_csv('homes.csv', index=False)
+
+    # conn_info = load_conn_info("db.ini")
+    # delete_table(conn_info)
 
 
 
