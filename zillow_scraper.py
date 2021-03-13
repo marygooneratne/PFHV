@@ -16,19 +16,11 @@ import prettify
 import numbers
 import htmltext
 from configparser import ConfigParser
-import psycopg2
 
-<<<<<<< HEAD
-HOMES_DB_COLUMNS = ["id", "address", "bedrooms", "bathrooms", "sq_ft", "year_built", "for_sale", "price", "zillow_url", "last_modified"]
-HISTORY_DB_COLUMNS = ["id", "home_id", "date", "event", "price"]
-CITY_NAME = "miami"
-STATE_NAME = "fl"
-=======
 HOMES_DB_COLUMNS = ["id", "address", "bedrooms", "bathrooms", "sq_ft", "year_built", "for_sale", "current_price", "zillow_url", "last_modified"]
 HISTORY_DB_COLUMNS = ["id", "home_id", "date", "value"]
 CITY = "austin"
 STATE = "tx"
->>>>>>> 4d91856019daa66d22673baaa1fd7ad306aaa133
 HEADERS = {
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
     'accept-encoding': 'gzip, deflate, br',
@@ -38,26 +30,7 @@ HEADERS = {
 }
 NUM_PAGES = 5
 
-<<<<<<< HEAD
-def fetch_all_homes(homes_df, city=CITY_NAME, state=STATE_NAME):
-   # PATH = '/Users/hannahtaubenfeld/Downloads/chromedriver 2'
-   # browser=webdriver.Chrome(PATH)
-    for i in range(1,5):
-        with requests.Session() as s:
-            location = CITY_NAME + '-' + STATE_NAME
-            url = 'https://www.zillow.com/' + location + '/'+ str(i) + '_p/'
-            print(url)
-            #r = browser.page_source
-            r = s.get(url, headers=HEADERS)
-            print(r)
-            page_data = BeautifulSoup(r.content, 'html.parser')
-            homes_df = add_homes(homes_df, page_data)
-    return homes_df
-
-def fetch_homes(city=CITY_NAME):
-=======
 def fetch_homes(page, city=CITY, state=STATE):
->>>>>>> 4d91856019daa66d22673baaa1fd7ad306aaa133
     with requests.Session() as s:
         url = "https://www.zillow.com/"+str(city)+"-"+str(state)+"/"+str(page)+"_p/"
         print(url)
@@ -253,12 +226,6 @@ def check(conn_info):
 if __name__ == "__main__":
     # fetch_home_details("https://www.zillow.com/homes/8408-Kansas-River-Dr-Austin,-TX,-78745_rb/58316348_zpid/")
     homes_df = pd.DataFrame(columns=HOMES_DB_COLUMNS)
-<<<<<<< HEAD
-    homes_df = fetch_all_homes(homes_df)
-    #history_df = pd.DataFrame(columns=HISTORY_DB_COLUMNS)
-    #homes_df, history_df = add_home_details(homes_df, history_df)
-   # history_df.to_csv('history.csv', index=False)
-=======
     for i in range(1,NUM_PAGES):
         homes = fetch_homes(i)
         homes_df = add_homes(homes_df, homes)
@@ -268,7 +235,6 @@ if __name__ == "__main__":
     # homes_df_to_db(homes_df)
 
     history_df.to_csv('history.csv', index=False)
->>>>>>> 4d91856019daa66d22673baaa1fd7ad306aaa133
     homes_df.to_csv('homes.csv', index=False)
 
     # conn_info = load_conn_info("db.ini")
