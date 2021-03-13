@@ -4,7 +4,6 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
-from webdriver_manager.chrome import ChromeDriverManager
 import time
 import sys
 import numpy as np
@@ -33,18 +32,11 @@ HEADERS = {
 NUM_PAGES = 5
 
 def fetch_homes(page, city=CITY, state=STATE):
-    url = "https://www.zillow.com/"+str(city)+"-"+str(state)+"/"+str(page)+"_p/"
-
-    # with requests.Session() as s:
-    #     r = s.get(url, headers=HEADERS)
-    #     content = r.content
-    driver = webdriver.Chrome(ChromeDriverManager().install())
-    driver.get(url)
-    content = driver.page_source
-    return BeautifulSoup(content, 'html.parser')
-
-
-
+    with requests.Session() as s:
+        url = "https://www.zillow.com/"+str(city)+"-"+str(state)+"/"+str(page)+"_p/"
+        print(url)
+        r = s.get(url, headers=HEADERS)
+    return BeautifulSoup(r.content, 'html.parser')
 
 def fetch_home(url):
     with requests.Session() as s:
@@ -61,12 +53,13 @@ def add_homes(df, soup):
     '''
     Uses BeautifulSoup object (Zillow page of homes) to scrape list of homes and basic data and adds to df
     '''
+    curr_id = len(df.index)
+    print('add_homes.curr_id=',curr_id)
     for i in soup:
         addresses = soup.find_all (class_= 'list-card-addr')
         links = soup.find_all (class_= 'list-card-link')
         prices = soup.find_all (class_= 'list-card-price')
         link_idx = 0
-        curr_id = len(df.index)
         for i in range(0, min([len(addresses), len(links), len(prices)])):
             a = parse_class(addresses[i])
             l = str(links[link_idx]["href"])
@@ -210,6 +203,7 @@ def delete_table(conn_info):
         cur = conn.cursor()
         cur.execute(sql)
         string = cur.fetchall()
+        print(string)
         conn.commit()
         cur.close()
     except (Exception, psycopg2.DatabaseError) as error:
@@ -236,6 +230,7 @@ if __name__ == "__main__":
     for i in range(1,NUM_PAGES):
         homes = fetch_homes(i)
         homes_df = add_homes(homes_df, homes)
+        print(homes_df.head())
     history_df = pd.DataFrame(columns=HISTORY_DB_COLUMNS)
     homes_df, history_df = add_home_details(homes_df, history_df)
     # homes_df_to_db(homes_df)
@@ -245,3 +240,14 @@ if __name__ == "__main__":
 
     # conn_info = load_conn_info("db.ini")
     # delete_table(conn_info)
+
+
+
+
+
+
+
+
+
+
+ 
