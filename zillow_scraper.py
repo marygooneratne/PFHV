@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
+from webdriver_manager.chrome import ChromeDriverManager
 import time
 import sys
 import numpy as np
@@ -31,7 +32,7 @@ HEADERS = {
 NUM_PAGES = 3
 
 def fetch_homes(page, city=CITY, state=STATE):
-        url = "https://www.zillow.com/"+str(city)+"-"+str(state)+"/"+str(page)+"_p/"
+    url = "https://www.zillow.com/"+str(city)+"-"+str(state)+"/"+str(page)+"_p/"
        
     # with requests.Session() as s:
     #     r = s.get(url, headers=HEADERS)
