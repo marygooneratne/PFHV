@@ -30,7 +30,7 @@ HEADERS = {
     'upgrade-insecure-requests': '1',
     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
 }
-NUM_PAGES = 3
+NUM_PAGES = 5
 
 def fetch_homes(page, city=CITY, state=STATE):
     url = "https://www.zillow.com/"+str(city)+"-"+str(state)+"/"+str(page)+"_p/"
