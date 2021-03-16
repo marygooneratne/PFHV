@@ -234,14 +234,6 @@ def check(conn_info):
         print(error)
 
 if __name__ == "__main__":
-<<<<<<< HEAD
-    homes_df = pd.DataFrame(columns=HOMES_DB_COLUMNS)
-    homes_df = fetch_all_homes(homes_df)
-    #history_df = pd.DataFrame(columns=HISTORY_DB_COLUMNS)
-    #homes_df, history_df = add_home_details(homes_df, history_df)
-   # history_df.to_csv('history.csv', index=False)
-    homes_df.to_csv('homes.csv', index=False)
-=======
     # fetch_home_details("https://www.zillow.com/homes/8408-Kansas-River-Dr-Austin,-TX,-78745_rb/58316348_zpid/")
     # homes_df = pd.DataFrame(columns=HOMES_DB_COLUMNS)
     # homes = fetch_homes()
@@ -253,7 +245,6 @@ if __name__ == "__main__":
     delete_table(conn_info)
     # history_df.to_csv('history.csv', index=False)
     # homes_df.to_csv('homes.csv', index=False)
->>>>>>> e883c0889759ab57d4c2f32cd3adee14f28dee81
 
 
 
