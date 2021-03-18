@@ -72,7 +72,7 @@ for url in pbar(austin_urls):
 	uClient.close()
 
 	# html parsing
-	page_soup = soup(page_html, "html.parser")
+	page_soup = soup(page_html, "html.parser",from_encoding="iso-8859-1")
 
 	# name of zipcode
 	zipcode_name = page_soup.h1.text
@@ -115,7 +115,7 @@ for url in pbar(nyc_urls):
 	uClient.close()
 
 	# html parsing
-	page_soup = soup(page_html, "html.parser")
+	page_soup = soup(page_html, "html.parser",from_encoding="iso-8859-1")
 
 	# name of zipcode
 	zipcode_name = page_soup.h1.text
