@@ -61,7 +61,7 @@ def gradientBoosting(data):
     print(clf.score(x_test,y_test))
 
 def logisticReg(data):
-    logi=logisticRegression()
+    logi=LogisticRegression()
     labels = data['current_price']
     train1 = data.drop(['id', 'current_price'],axis=1)
     x_train, x_test, y_train, y_test = train_test_split(train1, labels, test_size = 0.10, random_state =2)
