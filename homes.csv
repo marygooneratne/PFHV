@@ -1,241 +1,801 @@
 id,address,bedrooms,bathrooms,sq_ft,year_built,for_sale,current_price,zillow_url,last_modified
-0,"1300 Long Winter Dr, Austin, TX 7875",4,6,1766,2006,True,310000,https://www.zillow.com/homedetails/11300-Long-Winter-Dr-Austin-TX-78754/70339343_zpid/,2021-03-11 21:25:52.091218
-1,"209 Magna Carta Loop, Austin, TX 7875",2,6,1848,2004,True,284900,https://www.zillow.com/homedetails/9209-Magna-Carta-Loop-Austin-TX-78754/63320803_zpid/,2021-03-11 21:25:52.846688
-2,"103 Merritt Dr, Austin, TX 7874",4,6,1357,1980,True,400000,https://www.zillow.com/homedetails/5103-Merritt-Dr-Austin-TX-78744/29489306_zpid/,2021-03-11 21:25:53.525824
-3,"604 Bonnell Vista St #E6, Austin, TX 7873",5604,,1005,1985,True,390000,https://www.zillow.com/homedetails/5604-Bonnell-Vista-St-E6-Austin-TX-78731/2072848923_zpid/,2021-03-11 21:25:54.375962
-4,"813 Arbor Pavillion Ln #86, Austin, TX 7874",2,6,1524,2014,True,290000,https://www.zillow.com/homedetails/5813-Arbor-Pavillion-Ln-86-Austin-TX-78744/2072970957_zpid/,2021-03-11 21:25:54.926089
-5,"2504 Ondara Dr, Austin, TX 7873",4,6,2596,2016,True,699000,https://www.zillow.com/homedetails/12504-Ondara-Dr-Austin-TX-78739/124906193_zpid/,2021-03-11 21:25:55.595726
-6,"715 Hansford Dr, Austin, TX 7875",4,6,1288,1970,True,249900,https://www.zillow.com/homedetails/9715-Hansford-Dr-Austin-TX-78753/29425519_zpid/,2021-03-11 21:25:56.178020
-7,"908 Verano Dr, Austin, TX 7873",4,,4687,2015,True,3385000,https://www.zillow.com/homedetails/3908-Verano-Dr-Austin-TX-78735/83831189_zpid/,2021-03-11 21:25:56.971946
-8,"00 Swanson Cv, Austin, TX 7874",3,6,1436,1996,True,320000,https://www.zillow.com/homedetails/600-Swanson-Cv-Austin-TX-78748/29510960_zpid/,2021-03-11 21:25:57.717924
-9,"205 Shenandoah Dr, Austin, TX 7875",3,6,1703,1969,True,495000,https://www.zillow.com/homedetails/8205-Shenandoah-Dr-Austin-TX-78753/29419574_zpid/,2021-03-11 21:25:58.451861
-10,"004 Ganymede Dr, Austin, TX 7872",3,6,2034,1984,True,530000,https://www.zillow.com/homedetails/5004-Ganymede-Dr-Austin-TX-78727/29444204_zpid/,2021-03-11 21:25:59.180366
-11,"208 Linkmeadow Dr, Austin, TX 7874",11,6,1343,1998,True,430000,https://www.zillow.com/homedetails/9208-Linkmeadow-Dr-Austin-TX-78748/29504433_zpid/,2021-03-11 21:25:59.879468
-12,"he Roosevelt Plan, Pioneer Hil",4,6,2320,2021,True,399990,https://www.zillow.com/community/pioneer-hill/2077117432_zpid/,2021-03-11 21:26:00.564000
-13,"he Midland Plan, Forest Bluf",1,,2170,2021,True,303990,https://www.zillow.com/community/forest-bluff/2077808915_zpid/,2021-03-11 21:26:01.214633
-14,"607 Manana St, Austin, TX 7873",8,6,10887,2003,True,10995000,https://www.zillow.com/homedetails/1607-Manana-St-Austin-TX-78730/64472521_zpid/,2021-03-11 21:26:01.941451
-15,"706 Balcones Club Dr, Austin, TX 7875",4,6,3040,1972,True,800000,https://www.zillow.com/homedetails/8706-Balcones-Club-Dr-Austin-TX-78750/29375783_zpid/,2021-03-11 21:26:02.670662
-16,"202 Aloe Cv, Austin, TX 7875",8202,6,3966,1993,True,897500,https://www.zillow.com/homedetails/8202-Aloe-Cv-Austin-TX-78750/29363314_zpid/,2021-03-11 21:26:03.527378
-17,"506 Best Way, Austin, TX 7872",2,6,800,2008,True,229900,https://www.zillow.com/homedetails/4506-Best-Way-Austin-TX-78725/83826666_zpid/,2021-03-11 21:26:04.255315
-18,"888 Tallwood Dr APT 3208, Austin, TX 7875",8888,6,841,1982,True,225000,https://www.zillow.com/homedetails/8888-Tallwood-Dr-APT-3208-Austin-TX-78759/70354772_zpid/,2021-03-11 21:26:04.935939
-19,"he Denali Plan, Parker Statio",2,6,1813,2021,True,358990,https://www.zillow.com/community/parker-station/2084660164_zpid/,2021-03-11 21:26:05.756666
-20,"605 Oak Springs Dr #1, Austin, TX 7872",3,6,1200,1959,True,435000,https://www.zillow.com/homedetails/3605-Oak-Springs-Dr-1-Austin-TX-78721/2072924609_zpid/,2021-03-11 21:26:06.328324
-21,"409 Nasco Dr, Austin, TX 7875",6409,6,2009,1952,True,850000,https://www.zillow.com/homedetails/6409-Nasco-Dr-Austin-TX-78757/29415982_zpid/,2021-03-11 21:26:06.949832
-22,"1613 Maybach Dr, Del Valle, TX 7861",3,6,1201,1996,True,189000,https://www.zillow.com/homedetails/11613-Maybach-Dr-Del-Valle-TX-78617/29470258_zpid/,2021-03-11 21:26:07.760068
-23,"604 Bradley Dr, Austin, TX 7872",6604,6,2317,1962,True,750000,https://www.zillow.com/homedetails/6604-Bradley-Dr-Austin-TX-78723/29408345_zpid/,2021-03-11 21:26:08.373485
-24,"200 Everest Ln, Austin, TX 7872",3,,2010,1981,True,500000,https://www.zillow.com/homedetails/4200-Everest-Ln-Austin-TX-78727/58305664_zpid/,2021-03-11 21:26:09.154338
-25,"401 Portofino Ridge Dr, Austin, TX 7873",7,6,16722,2002,True,12900000,https://www.zillow.com/homedetails/2401-Portofino-Ridge-Dr-Austin-TX-78735/29333063_zpid/,2021-03-11 21:26:10.001512
-26,"212 Westlake Dr, Austin, TX 7874",3,6,1840,1984,True,799000,https://www.zillow.com/homedetails/2212-Westlake-Dr-Austin-TX-78746/29337954_zpid/,2021-03-11 21:26:10.581384
-27,"311 Zuni Dr, Austin, TX 7875",3,6,2115,1979,True,550000,https://www.zillow.com/homedetails/4311-Zuni-Dr-Austin-TX-78759/29439499_zpid/,2021-03-11 21:26:12.263752
-28,"323 Airport Blvd, Austin, TX 7872",2,6,858,1947,True,450000,https://www.zillow.com/homedetails/4323-Airport-Blvd-Austin-TX-78722/29399598_zpid/,2021-03-11 21:26:13.110964
-29,"0610 Lyckman Ln, Austin, TX 7873",2,,2275,1998,True,1249999,https://www.zillow.com/homedetails/10610-Lyckman-Ln-Austin-TX-78737/28602898_zpid/,2021-03-11 21:26:13.789164
-30,"ingston Plan, Forest Bluf",2,6,2032,2021,True,298990,https://www.zillow.com/community/forest-bluff/2077808907_zpid/,2021-03-11 21:26:14.712004
-31,"609 Chadwyck Dr, Austin, TX 7872",4,6,1934,1967,True,599000,https://www.zillow.com/homedetails/5609-Chadwyck-Dr-Austin-TX-78723/29400990_zpid/,2021-03-11 21:26:15.516952
-32,"he Denton Plan, Forest Bluf",2,,1575,2021,True,279990,https://www.zillow.com/community/forest-bluff/2077808913_zpid/,2021-03-11 21:26:16.367225
-33,"1025 Boundless Valley Dr, Austin, TX 7875",11025,6,2009,2009,True,299900,https://www.zillow.com/homedetails/11025-Boundless-Valley-Dr-Austin-TX-78754/80091506_zpid/,2021-03-11 21:26:16.985946
-34,"3309 Gene Allan Rd, Austin, TX 7872",3,6,1947,1977,True,710000,https://www.zillow.com/homedetails/13309-Gene-Allan-Rd-Austin-TX-78727/29446258_zpid/,2021-03-11 21:26:17.693754
-35,"2009 Swearingen Dr, Austin, TX 7875",4,,1937,1985,True,687000,https://www.zillow.com/homedetails/12009-Swearingen-Dr-Austin-TX-78758/29436561_zpid/,2021-03-11 21:26:18.720543
-36,"300 Portofino Ridge Dr, Austin, TX 7873",7,6,9579,2002,True,5900000,https://www.zillow.com/homedetails/2300-Portofino-Ridge-Dr-Austin-TX-78735/29333052_zpid/,2021-03-11 21:26:19.765177
-37,"105 Lacevine Ln, Austin, TX 7873",8,,4208,1994,True,1995000,https://www.zillow.com/homedetails/3105-Lacevine-Ln-Austin-TX-78735/29333113_zpid/,2021-03-11 21:26:20.483647
-38,"922 Little Creek Trl, Austin, TX 7874",2,6,901,1975,True,175000,https://www.zillow.com/homedetails/5922-Little-Creek-Trl-Austin-TX-78744/29468570_zpid/,2021-03-11 21:26:21.320345
-39,"307 King Charles Dr, Austin, TX 7872",3,6,1328,1981,True,395000,https://www.zillow.com/homedetails/5307-King-Charles-Dr-Austin-TX-78724/29395350_zpid/,2021-03-11 21:26:21.969572
-40,"1300 Long Winter Dr, Austin, TX 7875",4,6,1766,2006,True,310000,https://www.zillow.com/homedetails/11300-Long-Winter-Dr-Austin-TX-78754/70339343_zpid/,2021-03-11 21:26:22.883903
-41,"209 Magna Carta Loop, Austin, TX 7875",2,6,1848,2004,True,284900,https://www.zillow.com/homedetails/9209-Magna-Carta-Loop-Austin-TX-78754/63320803_zpid/,2021-03-11 21:26:23.639560
-42,"103 Merritt Dr, Austin, TX 7874",4,6,1357,1980,True,400000,https://www.zillow.com/homedetails/5103-Merritt-Dr-Austin-TX-78744/29489306_zpid/,2021-03-11 21:26:24.441136
-43,"604 Bonnell Vista St #E6, Austin, TX 7873",5604,,1005,1985,True,390000,https://www.zillow.com/homedetails/5604-Bonnell-Vista-St-E6-Austin-TX-78731/2072848923_zpid/,2021-03-11 21:26:25.061128
-44,"813 Arbor Pavillion Ln #86, Austin, TX 7874",2,6,1524,2014,True,290000,https://www.zillow.com/homedetails/5813-Arbor-Pavillion-Ln-86-Austin-TX-78744/2072970957_zpid/,2021-03-11 21:26:25.985654
-45,"2504 Ondara Dr, Austin, TX 7873",4,6,2596,2016,True,699000,https://www.zillow.com/homedetails/12504-Ondara-Dr-Austin-TX-78739/124906193_zpid/,2021-03-11 21:26:26.557412
-46,"715 Hansford Dr, Austin, TX 7875",4,6,1288,1970,True,249900,https://www.zillow.com/homedetails/9715-Hansford-Dr-Austin-TX-78753/29425519_zpid/,2021-03-11 21:26:27.775986
-47,"908 Verano Dr, Austin, TX 7873",4,,4687,2015,True,3385000,https://www.zillow.com/homedetails/3908-Verano-Dr-Austin-TX-78735/83831189_zpid/,2021-03-11 21:26:28.499387
-48,"00 Swanson Cv, Austin, TX 7874",3,6,1436,1996,True,320000,https://www.zillow.com/homedetails/600-Swanson-Cv-Austin-TX-78748/29510960_zpid/,2021-03-11 21:26:29.134207
-49,"205 Shenandoah Dr, Austin, TX 7875",3,6,1703,1969,True,495000,https://www.zillow.com/homedetails/8205-Shenandoah-Dr-Austin-TX-78753/29419574_zpid/,2021-03-11 21:26:29.791632
-50,"004 Ganymede Dr, Austin, TX 7872",3,6,2034,1984,True,530000,https://www.zillow.com/homedetails/5004-Ganymede-Dr-Austin-TX-78727/29444204_zpid/,2021-03-11 21:26:30.706837
-51,"208 Linkmeadow Dr, Austin, TX 7874",11,6,1343,1998,True,430000,https://www.zillow.com/homedetails/9208-Linkmeadow-Dr-Austin-TX-78748/29504433_zpid/,2021-03-11 21:26:31.383846
-52,"he Roosevelt Plan, Pioneer Hil",4,6,2320,2021,True,399990,https://www.zillow.com/community/pioneer-hill/2077117432_zpid/,2021-03-11 21:26:32.364875
-53,"he Midland Plan, Forest Bluf",1,,2170,2021,True,303990,https://www.zillow.com/community/forest-bluff/2077808915_zpid/,2021-03-11 21:26:33.042243
-54,"607 Manana St, Austin, TX 7873",8,6,10887,2003,True,10995000,https://www.zillow.com/homedetails/1607-Manana-St-Austin-TX-78730/64472521_zpid/,2021-03-11 21:26:33.831114
-55,"706 Balcones Club Dr, Austin, TX 7875",4,6,3040,1972,True,800000,https://www.zillow.com/homedetails/8706-Balcones-Club-Dr-Austin-TX-78750/29375783_zpid/,2021-03-11 21:26:34.789217
-56,"202 Aloe Cv, Austin, TX 7875",8202,6,3966,1993,True,897500,https://www.zillow.com/homedetails/8202-Aloe-Cv-Austin-TX-78750/29363314_zpid/,2021-03-11 21:26:35.431975
-57,"506 Best Way, Austin, TX 7872",2,6,800,2008,True,229900,https://www.zillow.com/homedetails/4506-Best-Way-Austin-TX-78725/83826666_zpid/,2021-03-11 21:26:36.229668
-58,"888 Tallwood Dr APT 3208, Austin, TX 7875",8888,6,841,1982,True,225000,https://www.zillow.com/homedetails/8888-Tallwood-Dr-APT-3208-Austin-TX-78759/70354772_zpid/,2021-03-11 21:26:36.955429
-59,"he Denali Plan, Parker Statio",2,6,1813,2021,True,358990,https://www.zillow.com/community/parker-station/2084660164_zpid/,2021-03-11 21:26:37.784336
-60,"605 Oak Springs Dr #1, Austin, TX 7872",3,6,1200,1959,True,435000,https://www.zillow.com/homedetails/3605-Oak-Springs-Dr-1-Austin-TX-78721/2072924609_zpid/,2021-03-11 21:26:38.429926
-61,"409 Nasco Dr, Austin, TX 7875",6409,6,2009,1952,True,850000,https://www.zillow.com/homedetails/6409-Nasco-Dr-Austin-TX-78757/29415982_zpid/,2021-03-11 21:26:39.574908
-62,"1613 Maybach Dr, Del Valle, TX 7861",3,6,1201,1996,True,189000,https://www.zillow.com/homedetails/11613-Maybach-Dr-Del-Valle-TX-78617/29470258_zpid/,2021-03-11 21:26:40.213038
-63,"604 Bradley Dr, Austin, TX 7872",6604,6,2317,1962,True,750000,https://www.zillow.com/homedetails/6604-Bradley-Dr-Austin-TX-78723/29408345_zpid/,2021-03-11 21:26:41.143333
-64,"200 Everest Ln, Austin, TX 7872",3,,2010,1981,True,500000,https://www.zillow.com/homedetails/4200-Everest-Ln-Austin-TX-78727/58305664_zpid/,2021-03-11 21:26:41.802860
-65,"401 Portofino Ridge Dr, Austin, TX 7873",7,6,16722,2002,True,12900000,https://www.zillow.com/homedetails/2401-Portofino-Ridge-Dr-Austin-TX-78735/29333063_zpid/,2021-03-11 21:26:42.595054
-66,"212 Westlake Dr, Austin, TX 7874",3,6,1840,1984,True,799000,https://www.zillow.com/homedetails/2212-Westlake-Dr-Austin-TX-78746/29337954_zpid/,2021-03-11 21:26:43.333772
-67,"311 Zuni Dr, Austin, TX 7875",3,6,2115,1979,True,550000,https://www.zillow.com/homedetails/4311-Zuni-Dr-Austin-TX-78759/29439499_zpid/,2021-03-11 21:26:44.008843
-68,"323 Airport Blvd, Austin, TX 7872",2,6,858,1947,True,450000,https://www.zillow.com/homedetails/4323-Airport-Blvd-Austin-TX-78722/29399598_zpid/,2021-03-11 21:26:44.756688
-69,"0610 Lyckman Ln, Austin, TX 7873",2,,2275,1998,True,1249999,https://www.zillow.com/homedetails/10610-Lyckman-Ln-Austin-TX-78737/28602898_zpid/,2021-03-11 21:26:45.548517
-70,"ingston Plan, Forest Bluf",2,6,2032,2021,True,298990,https://www.zillow.com/community/forest-bluff/2077808907_zpid/,2021-03-11 21:26:46.267982
-71,"609 Chadwyck Dr, Austin, TX 7872",4,6,1934,1967,True,599000,https://www.zillow.com/homedetails/5609-Chadwyck-Dr-Austin-TX-78723/29400990_zpid/,2021-03-11 21:26:46.925290
-72,"he Denton Plan, Forest Bluf",2,,1575,2021,True,279990,https://www.zillow.com/community/forest-bluff/2077808913_zpid/,2021-03-11 21:26:47.608054
-73,"1025 Boundless Valley Dr, Austin, TX 7875",11025,6,2009,2009,True,299900,https://www.zillow.com/homedetails/11025-Boundless-Valley-Dr-Austin-TX-78754/80091506_zpid/,2021-03-11 21:26:48.304034
-74,"3309 Gene Allan Rd, Austin, TX 7872",3,6,1947,1977,True,710000,https://www.zillow.com/homedetails/13309-Gene-Allan-Rd-Austin-TX-78727/29446258_zpid/,2021-03-11 21:26:48.920627
-75,"2009 Swearingen Dr, Austin, TX 7875",4,,1937,1985,True,687000,https://www.zillow.com/homedetails/12009-Swearingen-Dr-Austin-TX-78758/29436561_zpid/,2021-03-11 21:26:49.643291
-76,"300 Portofino Ridge Dr, Austin, TX 7873",7,6,9579,2002,True,5900000,https://www.zillow.com/homedetails/2300-Portofino-Ridge-Dr-Austin-TX-78735/29333052_zpid/,2021-03-11 21:26:50.365416
-77,"105 Lacevine Ln, Austin, TX 7873",8,,4208,1994,True,1995000,https://www.zillow.com/homedetails/3105-Lacevine-Ln-Austin-TX-78735/29333113_zpid/,2021-03-11 21:26:51.032962
-78,"922 Little Creek Trl, Austin, TX 7874",2,6,901,1975,True,175000,https://www.zillow.com/homedetails/5922-Little-Creek-Trl-Austin-TX-78744/29468570_zpid/,2021-03-11 21:26:51.935141
-79,"307 King Charles Dr, Austin, TX 7872",3,6,1328,1981,True,395000,https://www.zillow.com/homedetails/5307-King-Charles-Dr-Austin-TX-78724/29395350_zpid/,2021-03-11 21:26:52.576363
-80,"1300 Long Winter Dr, Austin, TX 7875",4,6,1766,2006,True,310000,https://www.zillow.com/homedetails/11300-Long-Winter-Dr-Austin-TX-78754/70339343_zpid/,2021-03-11 21:26:53.331696
-81,"209 Magna Carta Loop, Austin, TX 7875",2,6,1848,2004,True,284900,https://www.zillow.com/homedetails/9209-Magna-Carta-Loop-Austin-TX-78754/63320803_zpid/,2021-03-11 21:26:54.050752
-82,"103 Merritt Dr, Austin, TX 7874",4,6,1357,1980,True,400000,https://www.zillow.com/homedetails/5103-Merritt-Dr-Austin-TX-78744/29489306_zpid/,2021-03-11 21:26:54.665357
-83,"604 Bonnell Vista St #E6, Austin, TX 7873",5604,,1005,1985,True,390000,https://www.zillow.com/homedetails/5604-Bonnell-Vista-St-E6-Austin-TX-78731/2072848923_zpid/,2021-03-11 21:26:55.779220
-84,"813 Arbor Pavillion Ln #86, Austin, TX 7874",2,6,1524,2014,True,290000,https://www.zillow.com/homedetails/5813-Arbor-Pavillion-Ln-86-Austin-TX-78744/2072970957_zpid/,2021-03-11 21:26:56.946390
-85,"2504 Ondara Dr, Austin, TX 7873",4,6,2596,2016,True,699000,https://www.zillow.com/homedetails/12504-Ondara-Dr-Austin-TX-78739/124906193_zpid/,2021-03-11 21:26:57.906282
-86,"715 Hansford Dr, Austin, TX 7875",4,6,1288,1970,True,249900,https://www.zillow.com/homedetails/9715-Hansford-Dr-Austin-TX-78753/29425519_zpid/,2021-03-11 21:26:58.603507
-87,"908 Verano Dr, Austin, TX 7873",4,,4687,2015,True,3385000,https://www.zillow.com/homedetails/3908-Verano-Dr-Austin-TX-78735/83831189_zpid/,2021-03-11 21:26:59.295501
-88,"00 Swanson Cv, Austin, TX 7874",3,6,1436,1996,True,320000,https://www.zillow.com/homedetails/600-Swanson-Cv-Austin-TX-78748/29510960_zpid/,2021-03-11 21:27:00.081530
-89,"205 Shenandoah Dr, Austin, TX 7875",3,6,1703,1969,True,495000,https://www.zillow.com/homedetails/8205-Shenandoah-Dr-Austin-TX-78753/29419574_zpid/,2021-03-11 21:27:00.698266
-90,"004 Ganymede Dr, Austin, TX 7872",3,6,2034,1984,True,530000,https://www.zillow.com/homedetails/5004-Ganymede-Dr-Austin-TX-78727/29444204_zpid/,2021-03-11 21:27:01.442647
-91,"208 Linkmeadow Dr, Austin, TX 7874",11,6,1343,1998,True,430000,https://www.zillow.com/homedetails/9208-Linkmeadow-Dr-Austin-TX-78748/29504433_zpid/,2021-03-11 21:27:02.198877
-92,"he Roosevelt Plan, Pioneer Hil",4,6,2320,2021,True,399990,https://www.zillow.com/community/pioneer-hill/2077117432_zpid/,2021-03-11 21:27:02.957354
-93,"he Midland Plan, Forest Bluf",1,,2170,2021,True,303990,https://www.zillow.com/community/forest-bluff/2077808915_zpid/,2021-03-11 21:27:03.721064
-94,"607 Manana St, Austin, TX 7873",8,6,10887,2003,True,10995000,https://www.zillow.com/homedetails/1607-Manana-St-Austin-TX-78730/64472521_zpid/,2021-03-11 21:27:04.585354
-95,"706 Balcones Club Dr, Austin, TX 7875",4,6,3040,1972,True,800000,https://www.zillow.com/homedetails/8706-Balcones-Club-Dr-Austin-TX-78750/29375783_zpid/,2021-03-11 21:27:05.309538
-96,"202 Aloe Cv, Austin, TX 7875",8202,6,3966,1993,True,897500,https://www.zillow.com/homedetails/8202-Aloe-Cv-Austin-TX-78750/29363314_zpid/,2021-03-11 21:27:06.123216
-97,"506 Best Way, Austin, TX 7872",2,6,800,2008,True,229900,https://www.zillow.com/homedetails/4506-Best-Way-Austin-TX-78725/83826666_zpid/,2021-03-11 21:27:06.851620
-98,"888 Tallwood Dr APT 3208, Austin, TX 7875",8888,6,841,1982,True,225000,https://www.zillow.com/homedetails/8888-Tallwood-Dr-APT-3208-Austin-TX-78759/70354772_zpid/,2021-03-11 21:27:07.622491
-99,"he Denali Plan, Parker Statio",2,6,1813,2021,True,358990,https://www.zillow.com/community/parker-station/2084660164_zpid/,2021-03-11 21:27:08.395245
-100,"605 Oak Springs Dr #1, Austin, TX 7872",3,6,1200,1959,True,435000,https://www.zillow.com/homedetails/3605-Oak-Springs-Dr-1-Austin-TX-78721/2072924609_zpid/,2021-03-11 21:27:08.990263
-101,"409 Nasco Dr, Austin, TX 7875",6409,6,2009,1952,True,850000,https://www.zillow.com/homedetails/6409-Nasco-Dr-Austin-TX-78757/29415982_zpid/,2021-03-11 21:27:09.712200
-102,"1613 Maybach Dr, Del Valle, TX 7861",3,6,1201,1996,True,189000,https://www.zillow.com/homedetails/11613-Maybach-Dr-Del-Valle-TX-78617/29470258_zpid/,2021-03-11 21:27:10.422744
-103,"604 Bradley Dr, Austin, TX 7872",6604,6,2317,1962,True,750000,https://www.zillow.com/homedetails/6604-Bradley-Dr-Austin-TX-78723/29408345_zpid/,2021-03-11 21:27:11.143553
-104,"200 Everest Ln, Austin, TX 7872",3,,2010,1981,True,500000,https://www.zillow.com/homedetails/4200-Everest-Ln-Austin-TX-78727/58305664_zpid/,2021-03-11 21:27:11.950327
-105,"401 Portofino Ridge Dr, Austin, TX 7873",7,6,16722,2002,True,12900000,https://www.zillow.com/homedetails/2401-Portofino-Ridge-Dr-Austin-TX-78735/29333063_zpid/,2021-03-11 21:27:12.610106
-106,"212 Westlake Dr, Austin, TX 7874",3,6,1840,1984,True,799000,https://www.zillow.com/homedetails/2212-Westlake-Dr-Austin-TX-78746/29337954_zpid/,2021-03-11 21:27:13.563757
-107,"311 Zuni Dr, Austin, TX 7875",3,6,2115,1979,True,550000,https://www.zillow.com/homedetails/4311-Zuni-Dr-Austin-TX-78759/29439499_zpid/,2021-03-11 21:27:14.210282
-108,"323 Airport Blvd, Austin, TX 7872",2,6,858,1947,True,450000,https://www.zillow.com/homedetails/4323-Airport-Blvd-Austin-TX-78722/29399598_zpid/,2021-03-11 21:27:14.875211
-109,"0610 Lyckman Ln, Austin, TX 7873",2,,2275,1998,True,1249999,https://www.zillow.com/homedetails/10610-Lyckman-Ln-Austin-TX-78737/28602898_zpid/,2021-03-11 21:27:15.716971
-110,"ingston Plan, Forest Bluf",2,6,2032,2021,True,298990,https://www.zillow.com/community/forest-bluff/2077808907_zpid/,2021-03-11 21:27:16.472160
-111,"609 Chadwyck Dr, Austin, TX 7872",4,6,1934,1967,True,599000,https://www.zillow.com/homedetails/5609-Chadwyck-Dr-Austin-TX-78723/29400990_zpid/,2021-03-11 21:27:17.182375
-112,"he Denton Plan, Forest Bluf",2,,1575,2021,True,279990,https://www.zillow.com/community/forest-bluff/2077808913_zpid/,2021-03-11 21:27:17.912323
-113,"1025 Boundless Valley Dr, Austin, TX 7875",11025,6,2009,2009,True,299900,https://www.zillow.com/homedetails/11025-Boundless-Valley-Dr-Austin-TX-78754/80091506_zpid/,2021-03-11 21:27:18.579984
-114,"3309 Gene Allan Rd, Austin, TX 7872",3,6,1947,1977,True,710000,https://www.zillow.com/homedetails/13309-Gene-Allan-Rd-Austin-TX-78727/29446258_zpid/,2021-03-11 21:27:19.332319
-115,"2009 Swearingen Dr, Austin, TX 7875",4,,1937,1985,True,687000,https://www.zillow.com/homedetails/12009-Swearingen-Dr-Austin-TX-78758/29436561_zpid/,2021-03-11 21:27:20.080025
-116,"300 Portofino Ridge Dr, Austin, TX 7873",7,6,9579,2002,True,5900000,https://www.zillow.com/homedetails/2300-Portofino-Ridge-Dr-Austin-TX-78735/29333052_zpid/,2021-03-11 21:27:20.984650
-117,"105 Lacevine Ln, Austin, TX 7873",8,,4208,1994,True,1995000,https://www.zillow.com/homedetails/3105-Lacevine-Ln-Austin-TX-78735/29333113_zpid/,2021-03-11 21:27:21.840392
-118,"922 Little Creek Trl, Austin, TX 7874",2,6,901,1975,True,175000,https://www.zillow.com/homedetails/5922-Little-Creek-Trl-Austin-TX-78744/29468570_zpid/,2021-03-11 21:27:22.530467
-119,"307 King Charles Dr, Austin, TX 7872",3,6,1328,1981,True,395000,https://www.zillow.com/homedetails/5307-King-Charles-Dr-Austin-TX-78724/29395350_zpid/,2021-03-11 21:27:23.153097
-120,"405 Lost Horizon Dr, Austin, TX 7875",6405,6,2845,1983,True,719500,https://www.zillow.com/homedetails/6405-Lost-Horizon-Dr-Austin-TX-78759/29365289_zpid/,2021-03-11 21:27:23.904359
-121,"704 Grooms St, Austin, TX 7870",3,6,1571,1922,True,725000,https://www.zillow.com/homedetails/3704-Grooms-St-Austin-TX-78705/29399083_zpid/,2021-03-11 21:27:24.570990
-122,"701 Maria Anna Rd, Austin, TX 7870",2701,6,3307,1971,True,1800000,https://www.zillow.com/homedetails/2701-Maria-Anna-Rd-Austin-TX-78703/29338789_zpid/,2021-03-11 21:27:25.443291
-123,"215 Post Rd APT 2035, Austin, TX 7870",1,6,601,1981,True,229000,https://www.zillow.com/homedetails/2215-Post-Rd-APT-2035-Austin-TX-78704/29460165_zpid/,2021-03-11 21:27:26.217549
-124,"201 River Place Blvd APT 7, Austin, TX 7873",6201,6,1837,2005,True,445000,https://www.zillow.com/homedetails/6201-River-Place-Blvd-APT-7-Austin-TX-78730/70352747_zpid/,2021-03-11 21:27:26.853838
-125,"915 Derecho Dr, Austin, TX 7873",4,6,2599,1998,True,699000,https://www.zillow.com/homedetails/9915-Derecho-Dr-Austin-TX-78737/29489041_zpid/,2021-03-11 21:27:27.531222
-126,"07 Post Road Dr UNIT B, Austin, TX 7870",3,6,1124,2018,True,599000,https://www.zillow.com/homedetails/407-Post-Road-Dr-UNIT-B-Austin-TX-78704/2075060370_zpid/,2021-03-11 21:27:28.264909
-127,"112 Covered Bridge Dr, Austin, TX 7873",7112,6,3837,2002,True,785000,https://www.zillow.com/homedetails/7112-Covered-Bridge-Dr-Austin-TX-78736/29476047_zpid/,2021-03-11 21:27:28.955883
-128,"0304 Dalea Vista Ct, Austin, TX 7873",4,6,2745,2001,True,650000,https://www.zillow.com/homedetails/10304-Dalea-Vista-Ct-Austin-TX-78739/58315787_zpid/,2021-03-11 21:27:29.755711
-129,"212 Guadalupe St APT 705, Austin, TX 7870",2,6,956,1973,True,399000,https://www.zillow.com/homedetails/1212-Guadalupe-St-APT-705-Austin-TX-78701/2080035433_zpid/,2021-03-11 21:27:30.487289
-130,"900 E Riverside Dr UNIT 14, Austin, TX 7874",2,6,1312,2009,True,269000,https://www.zillow.com/homedetails/6900-E-Riverside-Dr-UNIT-14-Austin-TX-78741/83827857_zpid/,2021-03-11 21:27:31.122615
-131,"10 Lee Barton Dr UNIT 618, Austin, TX 7870",2,6,1365,2006,True,615000,https://www.zillow.com/homedetails/210-Lee-Barton-Dr-UNIT-618-Austin-TX-78704/80098123_zpid/,2021-03-11 21:27:31.860745
-132," Veldt Dr, Austin, TX 7872",0,0,,0,True,60000,https://www.zillow.com/homedetails/0-Veldt-Dr-Austin-TX-78725/2072829939_zpid/,2021-03-11 21:27:32.516377
-133,"304 Wildridge Cir, Austin, TX 7875",3,6,1643,1972,True,650000,https://www.zillow.com/homedetails/4304-Wildridge-Cir-Austin-TX-78759/58299551_zpid/,2021-03-11 21:27:33.159832
-134,"525 S Lamar Blvd APT 206, Austin, TX 7870",1,6,861,2007,True,365000,https://www.zillow.com/homedetails/2525-S-Lamar-Blvd-APT-206-Austin-TX-78704/83126122_zpid/,2021-03-11 21:27:33.949487
-135,"414 E M L King Jr Blvd #A, Austin, TX 7870",5,,1355,2017,True,549900,https://www.zillow.com/homedetails/2414-E-M-L-King-Jr-Blvd-A-Austin-TX-78702/2075070419_zpid/,2021-03-11 21:27:34.599337
-136,"lan 215 Plan, Highpointe: 80ft. lot",4,6,2939,2021,True,625990,https://www.zillow.com/community/highpointe-80ft-lots/2082357184_zpid/,2021-03-11 21:27:35.509028
-137,"14 Shiny Rock Dr, Austin, TX 7874",3,6,1400,1991,True,350000,https://www.zillow.com/homedetails/714-Shiny-Rock-Dr-Austin-TX-78748/29512768_zpid/,2021-03-11 21:27:36.669353
-138,"2004 Dunfries Ln, Austin, TX 7875",2,6,3054,2005,True,450000,https://www.zillow.com/homedetails/12004-Dunfries-Ln-Austin-TX-78754/70338727_zpid/,2021-03-11 21:27:37.467381
-139,"107 Lambie St, Austin, TX 7870",7,6,2594,2015,True,1500000,https://www.zillow.com/homedetails/1107-Lambie-St-Austin-TX-78702/29382188_zpid/,2021-03-11 21:27:38.199117
-140,"408 Scottsdale Rd, Austin, TX 7872",0,6,1600,1971,True,530000,https://www.zillow.com/homedetails/4408-Scottsdale-Rd-Austin-TX-78721/29393269_zpid/,2021-03-11 21:27:38.927874
-141,"500 E Oltorf St #D-404, Austin, TX 7874",1,6,650,1985,True,149500,https://www.zillow.com/homedetails/4500-E-Oltorf-St-D-404-Austin-TX-78741/29464808_zpid/,2021-03-11 21:27:39.810627
-142,"303 Govalle Ave #2, Austin, TX 7870",3,6,1421,2021,True,675000,https://www.zillow.com/homedetails/3303-Govalle-Ave-2-Austin-TX-78702/2072849606_zpid/,2021-03-11 21:27:40.665021
-143,"1702 Oak Haven Rd, Austin, TX 7875",3,6,1300,1959,True,360000,https://www.zillow.com/homedetails/11702-Oak-Haven-Rd-Austin-TX-78753/58303228_zpid/,2021-03-11 21:27:41.297837
-144,"00 Bowie St APT 1701, Austin, TX 7870",2,6,1038,2007,True,749000,https://www.zillow.com/homedetails/300-Bowie-St-APT-1701-Austin-TX-78703/83832167_zpid/,2021-03-11 21:27:42.715993
-145,"he Reagan Plan, Pioneer Hil",4,6,1859,2021,True,380990,https://www.zillow.com/community/pioneer-hill/2077117426_zpid/,2021-03-11 21:27:43.793033
-146,"2221 Palisades Pkwy, Austin, TX 7873",5,6,3785,2009,True,800000,https://www.zillow.com/homedetails/12221-Palisades-Pkwy-Austin-TX-78732/83124856_zpid/,2021-03-11 21:27:44.528505
-147,"512 Berlin Ln, Austin, TX 7875",2,6,2466,2015,True,459900,https://www.zillow.com/homedetails/1512-Berlin-Ln-Austin-TX-78753/125807820_zpid/,2021-03-11 21:27:45.945119
-148,"he Yosemite II Plan, Pioneer Hil",3,6,1366,2021,True,346990,https://www.zillow.com/community/pioneer-hill/2077117428_zpid/,2021-03-11 21:27:47.057050
-149,"001 Pinto Path, Austin, TX 7873",3,6,1389,1985,True,465000,https://www.zillow.com/homedetails/8001-Pinto-Path-Austin-TX-78736/29477623_zpid/,2021-03-11 21:27:48.159923
-150,"316 Grasshopper Dr, Austin, TX 7874",3316,6,1638,1995,True,425000,https://www.zillow.com/homedetails/3316-Grasshopper-Dr-Austin-TX-78748/29504229_zpid/,2021-03-11 21:27:49.167528
-151,"0212 Shively Ln, Austin, TX 7874",4,6,3800,2011,True,790000,https://www.zillow.com/homedetails/10212-Shively-Ln-Austin-TX-78747/2080314284_zpid/,2021-03-11 21:27:50.291509
-152,"609 Escala Dr, Austin, TX 7873",7,6,9727,2001,True,5900000,https://www.zillow.com/homedetails/7609-Escala-Dr-Austin-TX-78735/58297284_zpid/,2021-03-11 21:27:51.299398
-153,"17 Emerald Ridge Dr, Austin, TX 7873",217,,4422,2009,True,1395000,https://www.zillow.com/homedetails/217-Emerald-Ridge-Dr-Austin-TX-78732/83822619_zpid/,2021-03-11 21:27:52.380324
-154,"4429 Robert I Walker Blvd, Austin, TX 7872",2,,1109,1985,True,290000,https://www.zillow.com/homedetails/14429-Robert-I-Walker-Blvd-Austin-TX-78728/29449344_zpid/,2021-03-11 21:27:53.226487
-155,"705 Harliquin Run, Austin, TX 7875",3,6,1516,1979,True,285000,https://www.zillow.com/homedetails/1705-Harliquin-Run-Austin-TX-78758/29430094_zpid/,2021-03-11 21:27:53.866270
-156,"522 Hitcher Bnd, Austin, TX 7874",3,,1835,1999,True,505000,https://www.zillow.com/homedetails/5522-Hitcher-Bnd-Austin-TX-78749/29496386_zpid/,2021-03-11 21:27:54.781492
-157,"601 N Quinlan Park Rd SUITE 203, Austin, TX 7873",2,6,2075,2020,True,525000,https://www.zillow.com/homedetails/2601-N-Quinlan-Park-Rd-SUITE-203-Austin-TX-78732/2077351707_zpid/,2021-03-11 21:27:55.471144
-158,"4920 Hartsmith Dr, Austin, TX 7872",4,6,1670,2018,True,325000,https://www.zillow.com/homedetails/14920-Hartsmith-Dr-Austin-TX-78725/305427990_zpid/,2021-03-11 21:27:56.330616
-159,"855 Westlake Dr, Austin, TX 7874",4,6,5616,2009,True,6500000,https://www.zillow.com/homedetails/1855-Westlake-Dr-Austin-TX-78746/29338005_zpid/,2021-03-11 21:27:56.937743
-160,"405 Lost Horizon Dr, Austin, TX 7875",6405,6,2845,1983,True,719500,https://www.zillow.com/homedetails/6405-Lost-Horizon-Dr-Austin-TX-78759/29365289_zpid/,2021-03-11 21:27:57.893990
-161,"704 Grooms St, Austin, TX 7870",3,6,1571,1922,True,725000,https://www.zillow.com/homedetails/3704-Grooms-St-Austin-TX-78705/29399083_zpid/,2021-03-11 21:27:58.961564
-162,"701 Maria Anna Rd, Austin, TX 7870",2701,6,3307,1971,True,1800000,https://www.zillow.com/homedetails/2701-Maria-Anna-Rd-Austin-TX-78703/29338789_zpid/,2021-03-11 21:27:59.903349
-163,"215 Post Rd APT 2035, Austin, TX 7870",1,6,601,1981,True,229000,https://www.zillow.com/homedetails/2215-Post-Rd-APT-2035-Austin-TX-78704/29460165_zpid/,2021-03-11 21:28:00.604718
-164,"201 River Place Blvd APT 7, Austin, TX 7873",6201,6,1837,2005,True,445000,https://www.zillow.com/homedetails/6201-River-Place-Blvd-APT-7-Austin-TX-78730/70352747_zpid/,2021-03-11 21:28:01.325393
-165,"915 Derecho Dr, Austin, TX 7873",4,6,2599,1998,True,699000,https://www.zillow.com/homedetails/9915-Derecho-Dr-Austin-TX-78737/29489041_zpid/,2021-03-11 21:28:02.032178
-166,"07 Post Road Dr UNIT B, Austin, TX 7870",3,6,1124,2018,True,599000,https://www.zillow.com/homedetails/407-Post-Road-Dr-UNIT-B-Austin-TX-78704/2075060370_zpid/,2021-03-11 21:28:02.841134
-167,"112 Covered Bridge Dr, Austin, TX 7873",7112,6,3837,2002,True,785000,https://www.zillow.com/homedetails/7112-Covered-Bridge-Dr-Austin-TX-78736/29476047_zpid/,2021-03-11 21:28:03.571606
-168,"0304 Dalea Vista Ct, Austin, TX 7873",4,6,2745,2001,True,650000,https://www.zillow.com/homedetails/10304-Dalea-Vista-Ct-Austin-TX-78739/58315787_zpid/,2021-03-11 21:28:04.304480
-169,"212 Guadalupe St APT 705, Austin, TX 7870",2,6,956,1973,True,399000,https://www.zillow.com/homedetails/1212-Guadalupe-St-APT-705-Austin-TX-78701/2080035433_zpid/,2021-03-11 21:28:05.128192
-170,"900 E Riverside Dr UNIT 14, Austin, TX 7874",2,6,1312,2009,True,269000,https://www.zillow.com/homedetails/6900-E-Riverside-Dr-UNIT-14-Austin-TX-78741/83827857_zpid/,2021-03-11 21:28:05.816780
-171,"10 Lee Barton Dr UNIT 618, Austin, TX 7870",2,6,1365,2006,True,615000,https://www.zillow.com/homedetails/210-Lee-Barton-Dr-UNIT-618-Austin-TX-78704/80098123_zpid/,2021-03-11 21:28:06.539284
-172," Veldt Dr, Austin, TX 7872",0,0,,0,True,60000,https://www.zillow.com/homedetails/0-Veldt-Dr-Austin-TX-78725/2072829939_zpid/,2021-03-11 21:28:07.124858
-173,"304 Wildridge Cir, Austin, TX 7875",3,6,1643,1972,True,650000,https://www.zillow.com/homedetails/4304-Wildridge-Cir-Austin-TX-78759/58299551_zpid/,2021-03-11 21:28:07.769530
-174,"525 S Lamar Blvd APT 206, Austin, TX 7870",1,6,861,2007,True,365000,https://www.zillow.com/homedetails/2525-S-Lamar-Blvd-APT-206-Austin-TX-78704/83126122_zpid/,2021-03-11 21:28:08.655053
-175,"414 E M L King Jr Blvd #A, Austin, TX 7870",5,,1355,2017,True,549900,https://www.zillow.com/homedetails/2414-E-M-L-King-Jr-Blvd-A-Austin-TX-78702/2075070419_zpid/,2021-03-11 21:28:09.413777
-176,"lan 215 Plan, Highpointe: 80ft. lot",4,6,2939,2021,True,625990,https://www.zillow.com/community/highpointe-80ft-lots/2082357184_zpid/,2021-03-11 21:28:10.216572
-177,"14 Shiny Rock Dr, Austin, TX 7874",3,6,1400,1991,True,350000,https://www.zillow.com/homedetails/714-Shiny-Rock-Dr-Austin-TX-78748/29512768_zpid/,2021-03-11 21:28:10.788644
-178,"2004 Dunfries Ln, Austin, TX 7875",2,6,3054,2005,True,450000,https://www.zillow.com/homedetails/12004-Dunfries-Ln-Austin-TX-78754/70338727_zpid/,2021-03-11 21:28:11.505898
-179,"107 Lambie St, Austin, TX 7870",7,6,2594,2015,True,1500000,https://www.zillow.com/homedetails/1107-Lambie-St-Austin-TX-78702/29382188_zpid/,2021-03-11 21:28:12.161491
-180,"408 Scottsdale Rd, Austin, TX 7872",0,6,1600,1971,True,530000,https://www.zillow.com/homedetails/4408-Scottsdale-Rd-Austin-TX-78721/29393269_zpid/,2021-03-11 21:28:12.773938
-181,"500 E Oltorf St #D-404, Austin, TX 7874",1,6,650,1985,True,149500,https://www.zillow.com/homedetails/4500-E-Oltorf-St-D-404-Austin-TX-78741/29464808_zpid/,2021-03-11 21:28:13.609070
-182,"303 Govalle Ave #2, Austin, TX 7870",3,6,1421,2021,True,675000,https://www.zillow.com/homedetails/3303-Govalle-Ave-2-Austin-TX-78702/2072849606_zpid/,2021-03-11 21:28:14.307940
-183,"1702 Oak Haven Rd, Austin, TX 7875",3,6,1300,1959,True,360000,https://www.zillow.com/homedetails/11702-Oak-Haven-Rd-Austin-TX-78753/58303228_zpid/,2021-03-11 21:28:14.933169
-184,"00 Bowie St APT 1701, Austin, TX 7870",2,6,1038,2007,True,749000,https://www.zillow.com/homedetails/300-Bowie-St-APT-1701-Austin-TX-78703/83832167_zpid/,2021-03-11 21:28:15.650646
-185,"he Reagan Plan, Pioneer Hil",4,6,1859,2021,True,380990,https://www.zillow.com/community/pioneer-hill/2077117426_zpid/,2021-03-11 21:28:16.463250
-186,"2221 Palisades Pkwy, Austin, TX 7873",5,6,3785,2009,True,800000,https://www.zillow.com/homedetails/12221-Palisades-Pkwy-Austin-TX-78732/83124856_zpid/,2021-03-11 21:28:17.161788
-187,"512 Berlin Ln, Austin, TX 7875",2,6,2466,2015,True,459900,https://www.zillow.com/homedetails/1512-Berlin-Ln-Austin-TX-78753/125807820_zpid/,2021-03-11 21:28:17.907794
-188,"he Yosemite II Plan, Pioneer Hil",3,6,1366,2021,True,346990,https://www.zillow.com/community/pioneer-hill/2077117428_zpid/,2021-03-11 21:28:18.607819
-189,"001 Pinto Path, Austin, TX 7873",3,6,1389,1985,True,465000,https://www.zillow.com/homedetails/8001-Pinto-Path-Austin-TX-78736/29477623_zpid/,2021-03-11 21:28:19.320126
-190,"316 Grasshopper Dr, Austin, TX 7874",3316,6,1638,1995,True,425000,https://www.zillow.com/homedetails/3316-Grasshopper-Dr-Austin-TX-78748/29504229_zpid/,2021-03-11 21:28:20.084386
-191,"0212 Shively Ln, Austin, TX 7874",4,6,3800,2011,True,790000,https://www.zillow.com/homedetails/10212-Shively-Ln-Austin-TX-78747/2080314284_zpid/,2021-03-11 21:28:20.769750
-192,"609 Escala Dr, Austin, TX 7873",7,6,9727,2001,True,5900000,https://www.zillow.com/homedetails/7609-Escala-Dr-Austin-TX-78735/58297284_zpid/,2021-03-11 21:28:21.367995
-193,"17 Emerald Ridge Dr, Austin, TX 7873",217,,4422,2009,True,1395000,https://www.zillow.com/homedetails/217-Emerald-Ridge-Dr-Austin-TX-78732/83822619_zpid/,2021-03-11 21:28:22.127069
-194,"4429 Robert I Walker Blvd, Austin, TX 7872",2,,1109,1985,True,290000,https://www.zillow.com/homedetails/14429-Robert-I-Walker-Blvd-Austin-TX-78728/29449344_zpid/,2021-03-11 21:28:22.925847
-195,"705 Harliquin Run, Austin, TX 7875",3,6,1516,1979,True,285000,https://www.zillow.com/homedetails/1705-Harliquin-Run-Austin-TX-78758/29430094_zpid/,2021-03-11 21:28:23.545734
-196,"522 Hitcher Bnd, Austin, TX 7874",3,,1835,1999,True,505000,https://www.zillow.com/homedetails/5522-Hitcher-Bnd-Austin-TX-78749/29496386_zpid/,2021-03-11 21:28:24.357267
-197,"601 N Quinlan Park Rd SUITE 203, Austin, TX 7873",2,6,2075,2020,True,525000,https://www.zillow.com/homedetails/2601-N-Quinlan-Park-Rd-SUITE-203-Austin-TX-78732/2077351707_zpid/,2021-03-11 21:28:25.067948
-198,"4920 Hartsmith Dr, Austin, TX 7872",4,6,1670,2018,True,325000,https://www.zillow.com/homedetails/14920-Hartsmith-Dr-Austin-TX-78725/305427990_zpid/,2021-03-11 21:28:25.690898
-199,"855 Westlake Dr, Austin, TX 7874",4,6,5616,2009,True,6500000,https://www.zillow.com/homedetails/1855-Westlake-Dr-Austin-TX-78746/29338005_zpid/,2021-03-11 21:28:26.400859
-200,"405 Lost Horizon Dr, Austin, TX 7875",6405,6,2845,1983,True,719500,https://www.zillow.com/homedetails/6405-Lost-Horizon-Dr-Austin-TX-78759/29365289_zpid/,2021-03-11 21:28:27.118284
-201,"704 Grooms St, Austin, TX 7870",3,6,1571,1922,True,725000,https://www.zillow.com/homedetails/3704-Grooms-St-Austin-TX-78705/29399083_zpid/,2021-03-11 21:28:27.902875
-202,"701 Maria Anna Rd, Austin, TX 7870",2701,6,3307,1971,True,1800000,https://www.zillow.com/homedetails/2701-Maria-Anna-Rd-Austin-TX-78703/29338789_zpid/,2021-03-11 21:28:28.560297
-203,"215 Post Rd APT 2035, Austin, TX 7870",1,6,601,1981,True,229000,https://www.zillow.com/homedetails/2215-Post-Rd-APT-2035-Austin-TX-78704/29460165_zpid/,2021-03-11 21:28:29.492514
-204,"201 River Place Blvd APT 7, Austin, TX 7873",6201,6,1837,2005,True,445000,https://www.zillow.com/homedetails/6201-River-Place-Blvd-APT-7-Austin-TX-78730/70352747_zpid/,2021-03-11 21:28:30.399006
-205,"915 Derecho Dr, Austin, TX 7873",4,6,2599,1998,True,699000,https://www.zillow.com/homedetails/9915-Derecho-Dr-Austin-TX-78737/29489041_zpid/,2021-03-11 21:28:31.050808
-206,"07 Post Road Dr UNIT B, Austin, TX 7870",3,6,1124,2018,True,599000,https://www.zillow.com/homedetails/407-Post-Road-Dr-UNIT-B-Austin-TX-78704/2075060370_zpid/,2021-03-11 21:28:32.216821
-207,"112 Covered Bridge Dr, Austin, TX 7873",7112,6,3837,2002,True,785000,https://www.zillow.com/homedetails/7112-Covered-Bridge-Dr-Austin-TX-78736/29476047_zpid/,2021-03-11 21:28:32.875770
-208,"0304 Dalea Vista Ct, Austin, TX 7873",4,6,2745,2001,True,650000,https://www.zillow.com/homedetails/10304-Dalea-Vista-Ct-Austin-TX-78739/58315787_zpid/,2021-03-11 21:28:33.784827
-209,"212 Guadalupe St APT 705, Austin, TX 7870",2,6,956,1973,True,399000,https://www.zillow.com/homedetails/1212-Guadalupe-St-APT-705-Austin-TX-78701/2080035433_zpid/,2021-03-11 21:28:34.595186
-210,"900 E Riverside Dr UNIT 14, Austin, TX 7874",2,6,1312,2009,True,269000,https://www.zillow.com/homedetails/6900-E-Riverside-Dr-UNIT-14-Austin-TX-78741/83827857_zpid/,2021-03-11 21:28:35.309069
-211,"10 Lee Barton Dr UNIT 618, Austin, TX 7870",2,6,1365,2006,True,615000,https://www.zillow.com/homedetails/210-Lee-Barton-Dr-UNIT-618-Austin-TX-78704/80098123_zpid/,2021-03-11 21:28:36.095164
-212," Veldt Dr, Austin, TX 7872",0,0,,0,True,60000,https://www.zillow.com/homedetails/0-Veldt-Dr-Austin-TX-78725/2072829939_zpid/,2021-03-11 21:28:36.694812
-213,"304 Wildridge Cir, Austin, TX 7875",3,6,1643,1972,True,650000,https://www.zillow.com/homedetails/4304-Wildridge-Cir-Austin-TX-78759/58299551_zpid/,2021-03-11 21:28:37.455295
-214,"525 S Lamar Blvd APT 206, Austin, TX 7870",1,6,861,2007,True,365000,https://www.zillow.com/homedetails/2525-S-Lamar-Blvd-APT-206-Austin-TX-78704/83126122_zpid/,2021-03-11 21:28:38.284936
-215,"414 E M L King Jr Blvd #A, Austin, TX 7870",5,,1355,2017,True,549900,https://www.zillow.com/homedetails/2414-E-M-L-King-Jr-Blvd-A-Austin-TX-78702/2075070419_zpid/,2021-03-11 21:28:38.996009
-216,"lan 215 Plan, Highpointe: 80ft. lot",4,6,2939,2021,True,625990,https://www.zillow.com/community/highpointe-80ft-lots/2082357184_zpid/,2021-03-11 21:28:39.699899
-217,"14 Shiny Rock Dr, Austin, TX 7874",3,6,1400,1991,True,350000,https://www.zillow.com/homedetails/714-Shiny-Rock-Dr-Austin-TX-78748/29512768_zpid/,2021-03-11 21:28:40.433482
-218,"2004 Dunfries Ln, Austin, TX 7875",2,6,3054,2005,True,450000,https://www.zillow.com/homedetails/12004-Dunfries-Ln-Austin-TX-78754/70338727_zpid/,2021-03-11 21:28:41.150902
-219,"107 Lambie St, Austin, TX 7870",7,6,2594,2015,True,1500000,https://www.zillow.com/homedetails/1107-Lambie-St-Austin-TX-78702/29382188_zpid/,2021-03-11 21:28:42.083733
-220,"408 Scottsdale Rd, Austin, TX 7872",0,6,1600,1971,True,530000,https://www.zillow.com/homedetails/4408-Scottsdale-Rd-Austin-TX-78721/29393269_zpid/,2021-03-11 21:28:42.739507
-221,"500 E Oltorf St #D-404, Austin, TX 7874",1,6,650,1985,True,149500,https://www.zillow.com/homedetails/4500-E-Oltorf-St-D-404-Austin-TX-78741/29464808_zpid/,2021-03-11 21:28:43.399999
-222,"303 Govalle Ave #2, Austin, TX 7870",3,6,1421,2021,True,675000,https://www.zillow.com/homedetails/3303-Govalle-Ave-2-Austin-TX-78702/2072849606_zpid/,2021-03-11 21:28:44.218415
-223,"1702 Oak Haven Rd, Austin, TX 7875",3,6,1300,1959,True,360000,https://www.zillow.com/homedetails/11702-Oak-Haven-Rd-Austin-TX-78753/58303228_zpid/,2021-03-11 21:28:44.843251
-224,"00 Bowie St APT 1701, Austin, TX 7870",2,6,1038,2007,True,749000,https://www.zillow.com/homedetails/300-Bowie-St-APT-1701-Austin-TX-78703/83832167_zpid/,2021-03-11 21:28:45.566343
-225,"he Reagan Plan, Pioneer Hil",4,6,1859,2021,True,380990,https://www.zillow.com/community/pioneer-hill/2077117426_zpid/,2021-03-11 21:28:46.357274
-226,"2221 Palisades Pkwy, Austin, TX 7873",5,6,3785,2009,True,800000,https://www.zillow.com/homedetails/12221-Palisades-Pkwy-Austin-TX-78732/83124856_zpid/,2021-03-11 21:28:47.048252
-227,"512 Berlin Ln, Austin, TX 7875",2,6,2466,2015,True,459900,https://www.zillow.com/homedetails/1512-Berlin-Ln-Austin-TX-78753/125807820_zpid/,2021-03-11 21:28:47.877761
-228,"he Yosemite II Plan, Pioneer Hil",3,6,1366,2021,True,346990,https://www.zillow.com/community/pioneer-hill/2077117428_zpid/,2021-03-11 21:28:48.534392
-229,"001 Pinto Path, Austin, TX 7873",3,6,1389,1985,True,465000,https://www.zillow.com/homedetails/8001-Pinto-Path-Austin-TX-78736/29477623_zpid/,2021-03-11 21:28:49.251798
-230,"316 Grasshopper Dr, Austin, TX 7874",3316,6,1638,1995,True,425000,https://www.zillow.com/homedetails/3316-Grasshopper-Dr-Austin-TX-78748/29504229_zpid/,2021-03-11 21:28:50.991149
-231,"0212 Shively Ln, Austin, TX 7874",4,6,3800,2011,True,790000,https://www.zillow.com/homedetails/10212-Shively-Ln-Austin-TX-78747/2080314284_zpid/,2021-03-11 21:28:51.699123
-232,"609 Escala Dr, Austin, TX 7873",7,6,9727,2001,True,5900000,https://www.zillow.com/homedetails/7609-Escala-Dr-Austin-TX-78735/58297284_zpid/,2021-03-11 21:28:52.517083
-233,"17 Emerald Ridge Dr, Austin, TX 7873",217,,4422,2009,True,1395000,https://www.zillow.com/homedetails/217-Emerald-Ridge-Dr-Austin-TX-78732/83822619_zpid/,2021-03-11 21:28:53.336373
-234,"4429 Robert I Walker Blvd, Austin, TX 7872",2,,1109,1985,True,290000,https://www.zillow.com/homedetails/14429-Robert-I-Walker-Blvd-Austin-TX-78728/29449344_zpid/,2021-03-11 21:28:54.119369
-235,"705 Harliquin Run, Austin, TX 7875",3,6,1516,1979,True,285000,https://www.zillow.com/homedetails/1705-Harliquin-Run-Austin-TX-78758/29430094_zpid/,2021-03-11 21:28:55.211137
-236,"522 Hitcher Bnd, Austin, TX 7874",3,,1835,1999,True,505000,https://www.zillow.com/homedetails/5522-Hitcher-Bnd-Austin-TX-78749/29496386_zpid/,2021-03-11 21:28:56.714268
-237,"601 N Quinlan Park Rd SUITE 203, Austin, TX 7873",2,6,2075,2020,True,525000,https://www.zillow.com/homedetails/2601-N-Quinlan-Park-Rd-SUITE-203-Austin-TX-78732/2077351707_zpid/,2021-03-11 21:28:57.369114
-238,"4920 Hartsmith Dr, Austin, TX 7872",4,6,1670,2018,True,325000,https://www.zillow.com/homedetails/14920-Hartsmith-Dr-Austin-TX-78725/305427990_zpid/,2021-03-11 21:28:58.266746
-239,"855 Westlake Dr, Austin, TX 7874",4,6,5616,2009,True,6500000,https://www.zillow.com/homedetails/1855-Westlake-Dr-Austin-TX-78746/29338005_zpid/,2021-03-11 21:28:58.911468
+0,"100 W 57th St APT 5R, New York, NY 10019",1,6,900,1962,TRUE,185000,https://www.zillow.com/homedetails/100-W-57th-St-APT-5R-New-York-NY-10019/2078079062_zpid/,20:15.7
+1,"12 E 63rd St, New York, NY 10065",20,,13000,1910,TRUE,65000000,https://www.zillow.com/homedetails/12-E-63rd-St-New-York-NY-10065/2099424678_zpid/,20:16.9
+2,"221-27 113th Dr, Queens Village, NY 11429",4,6,,1935,TRUE,599000,https://www.zillow.com/homedetails/221-27-113th-Dr-Queens-Village-NY-11429/2072490773_zpid/,20:18.0
+3,"105-14 134th St, South Richmond Hill, NY 11419",3,6,1264,1920,TRUE,389000,https://www.zillow.com/homedetails/105-14-134th-St-South-Richmond-Hill-NY-11419/2073091889_zpid/,20:18.9
+4,"303 E 57th St APT 32B, New York, NY 10022",2,6,1800,1968,TRUE,445000,https://www.zillow.com/homedetails/303-E-57th-St-APT-32B-New-York-NY-10022/119912033_zpid/,20:19.7
+5,"18-70 211th St APT 2D, Bayside, NY 11360",3,6,1400,1959,TRUE,379000,https://www.zillow.com/homedetails/18-70-211th-St-APT-2D-Bayside-NY-11360/89139258_zpid/,20:20.8
+6,"8829 183rd St, Jamaica, NY 11423",3,6,1632,1930,TRUE,250000,https://www.zillow.com/homedetails/8829-183rd-St-Jamaica-NY-11423/32135323_zpid/,20:22.0
+7,"10218 Russell St, Jamaica, NY 11414",2,,,1925,TRUE,329000,https://www.zillow.com/homedetails/10218-Russell-St-Jamaica-NY-11414/32218247_zpid/,20:23.3
+8,"100 W 57th St #11R, New York, NY 10019",1,6,900,1962,TRUE,215000,https://www.zillow.com/homedetails/100-W-57th-St-11R-New-York-NY-10019/2078461494_zpid/,20:24.3
+9,"106-43 156th St, Jamaica, NY 11433",8,6,2200,1931,TRUE,460000,https://www.zillow.com/homedetails/106-43-156th-St-Jamaica-NY-11433/2073914665_zpid/,20:25.2
+10,"755 Oakland Pl APT 4C, Bronx, NY 10457",1,6,580,1907,TRUE,50000,https://www.zillow.com/homedetails/755-Oakland-Pl-APT-4C-Bronx-NY-10457/2072913084_zpid/,20:26.3
+11,"81 Milford St, Brooklyn, NY 11208",5,6,1152,1910,TRUE,499000,https://www.zillow.com/homedetails/81-Milford-St-Brooklyn-NY-11208/30643606_zpid/,20:27.3
+12,"295 Skyline Dr #C, Staten Island, NY 10304",3,6,,2001,TRUE,348000,https://www.zillow.com/homedetails/295-Skyline-Dr-C-Staten-Island-NY-10304/2078655685_zpid/,20:28.3
+13,"111 W 57th St PENTHOUSE 72, New York, NY 10019",1,,7130,2020,TRUE,66000000,https://www.zillow.com/homedetails/111-W-57th-St-PENTHOUSE-72-New-York-NY-10019/2077908081_zpid/,20:29.5
+14,"150 Sullivan St APT 19, New York, NY 10012",2,6,20190,1900,TRUE,495000,https://www.zillow.com/homedetails/150-Sullivan-St-APT-19-New-York-NY-10012/244892508_zpid/,20:30.9
+15,"416 College Ave, Staten Island, NY 10314",4,6,,1920,TRUE,699900,https://www.zillow.com/homedetails/416-College-Ave-Staten-Island-NY-10314/32282456_zpid/,20:31.8
+16,"5303 Fillmore Ave, Brooklyn, NY 11234",5303,6,1278,1955,TRUE,550000,https://www.zillow.com/homedetails/5303-Fillmore-Ave-Brooklyn-NY-11234/30784604_zpid/,20:32.9
+17,"205 E 63rd St APT 15D, New York, NY 10065",2,6,,1963,TRUE,550000,https://www.zillow.com/homedetails/205-E-63rd-St-APT-15D-New-York-NY-10065/2078579913_zpid/,20:33.7
+18,"281 Wyona St, Brooklyn, NY 11207",9,6,3075,1901,TRUE,499900,https://www.zillow.com/homedetails/281-Wyona-St-Brooklyn-NY-11207/30634354_zpid/,20:34.7
+19,"116 E 70th St, New York, NY 10021",5,,6500,1901,TRUE,23000000,https://www.zillow.com/homedetails/116-E-70th-St-New-York-NY-10021/31534975_zpid/,20:35.6
+20,"131-16 115th Ave, South Ozone Park, NY 11420",3,6,,1925,TRUE,235000,https://www.zillow.com/homedetails/131-16-115th-Ave-South-Ozone-Park-NY-11420/2080380845_zpid/,20:36.7
+21,"432 Park Ave #82, New York, NY 10022",4,,8054,2015,TRUE,90000000,https://www.zillow.com/homedetails/432-Park-Ave-82-New-York-NY-10022/2078304565_zpid/,20:37.8
+22,"96 Crowell Ave, Staten Island, NY 10314",96,,,1925,TRUE,829900,https://www.zillow.com/homedetails/96-Crowell-Ave-Staten-Island-NY-10314/32281344_zpid/,20:38.6
+23,"421 Riedel Ave, Staten Island, NY 10306",2,6,1702,1975,TRUE,550000,https://www.zillow.com/homedetails/421-Riedel-Ave-Staten-Island-NY-10306/32343067_zpid/,20:39.6
+24,"4225 Gunther Ave, Bronx, NY 10466",3,6,1362,1925,TRUE,539000,https://www.zillow.com/homedetails/4225-Gunther-Ave-Bronx-NY-10466/29836992_zpid/,20:40.9
+25,"420 E 51st St APT 3D, New York, NY 10022",2,6,1250,1962,TRUE,425000,https://www.zillow.com/homedetails/420-E-51st-St-APT-3D-New-York-NY-10022/123950252_zpid/,20:42.0
+26,"2090 Madison Ave APT 3E, New York, NY 10037",1,6,750,1920,TRUE,310000,https://www.zillow.com/homedetails/2090-Madison-Ave-APT-3E-New-York-NY-10037/88887595_zpid/,20:43.4
+27,"301 E 61st St #19A, New York, NY 10065",4,,2900,2017,TRUE,9500000,https://www.zillow.com/homedetails/301-E-61st-St-19A-New-York-NY-10065/300195837_zpid/,20:44.5
+28,"1301 Saint Johns Pl, Brooklyn, NY 11213",4,,,2006,TRUE,550000,https://www.zillow.com/homedetails/1301-Saint-Johns-Pl-Brooklyn-NY-11213/79708100_zpid/,20:45.7
+29,"112-50 Northern Blvd #6B, Corona, NY 11368",2,6,,1953,TRUE,195000,https://www.zillow.com/homedetails/112-50-Northern-Blvd-6B-Corona-NY-11368/2078635345_zpid/,20:46.8
+30,"419 W 55th St APT 4C, New York, NY 10019",2,,1300,1911,TRUE,1150000,https://www.zillow.com/homedetails/419-W-55th-St-APT-4C-New-York-NY-10019/72538814_zpid/,20:47.7
+31,"123 E 61st St, New York, NY 10065",123,6,9300,1900,TRUE,18800000,https://www.zillow.com/homedetails/123-E-61st-St-New-York-NY-10065/31534377_zpid/,20:48.8
+32,"86-29 77th Ave, Ridgewood, NY 11385",2,6,,1940,TRUE,599000,https://www.zillow.com/homedetails/86-29-77th-Ave-Ridgewood-NY-11385/2072831598_zpid/,20:49.9
+33,"61 E 77th St, New York, NY 10075",1,6,49000,1920,TRUE,599000,https://www.zillow.com/homedetails/61-E-77th-St-New-York-NY-10075/244840282_zpid/,20:51.2
+34,"2911 D Ave, Brooklyn, NY 11226",3,6,2160,1910,TRUE,399000,https://www.zillow.com/homedetails/2911-D-Ave-Brooklyn-NY-11226/2075897556_zpid/,20:52.0
+35,"213-43 112th Ave, Queens Village, NY 11429",5,6,,1925,TRUE,699999,https://www.zillow.com/homedetails/213-43-112th-Ave-Queens-Village-NY-11429/2072574406_zpid/,20:52.9
+36,"20 W 53rd St, New York, NY 10019",1,,7381,2014,TRUE,39950000,https://www.zillow.com/homedetails/20-W-53rd-St-New-York-NY-10019/122272179_zpid/,20:53.8
+37,"499 Davis Ave #1, Staten Island, NY 10310",2,6,2408,1965,TRUE,898000,https://www.zillow.com/homedetails/499-Davis-Ave-1-Staten-Island-NY-10310/2075356594_zpid/,20:54.6
+38,"303 E 57th St APT 44G, New York, NY 10022",3,,3300,1968,TRUE,795000,https://www.zillow.com/homedetails/303-E-57th-St-APT-44G-New-York-NY-10022/2076710336_zpid/,20:56.0
+39,"4 W 21st St APT 14B, New York, NY 10010",3,6,1674,2006,TRUE,1595000,https://www.zillow.com/homedetails/4-W-21st-St-APT-14B-New-York-NY-10010/72538276_zpid/,20:56.8
+40,"24 Cooper St #5CD, New York, NY 10034",3,6,994,1925,TRUE,230000,https://www.zillow.com/homedetails/24-Cooper-St-5CD-New-York-NY-10034/2075662674_zpid/,20:57.9
+41,"861 Willowbrook Rd, Staten Island, NY 10314",2,6,1856,1970,TRUE,800000,https://www.zillow.com/homedetails/861-Willowbrook-Rd-Staten-Island-NY-10314/32291978_zpid/,20:58.7
+42,"61 Patchen Ave, Brooklyn, NY 11221",61,,2480,1899,TRUE,1395000,https://www.zillow.com/homedetails/61-Patchen-Ave-Brooklyn-NY-11221/142836880_zpid/,20:59.6
+43,"1828 Richmond Ter, Staten Island, NY 10310",5000,,,1828,TRUE,5000,https://www.zillow.com/homedetails/1828-Richmond-Ter-Staten-Island-NY-10310/2076910472_zpid/,21:00.5
+44,"100 W 57th St APT 5J, New York, NY 10019",2,6,1200,1962,TRUE,429000,https://www.zillow.com/homedetails/100-W-57th-St-APT-5J-New-York-NY-10019/2078579893_zpid/,21:01.3
+45,"19 E 61st St, New York, NY 10065",6,6,9742,1951,TRUE,27500000,https://www.zillow.com/homedetails/19-E-61st-St-New-York-NY-10065/2100756963_zpid/,21:02.3
+46,"118 Wooster St #4C5C, New York, NY 10012",1908,6,2476,1907,TRUE,5250000,https://www.zillow.com/homedetails/118-Wooster-St-4C5C-New-York-NY-10012/2075668877_zpid/,21:03.2
+47,"6604 Avenue T, Brooklyn, NY 11234",1,6,1260,1930,TRUE,659000,https://www.zillow.com/homedetails/6604-Avenue-T-Brooklyn-NY-11234/30782041_zpid/,21:04.2
+48,"163-45 Cross Bay Blvd, Howard Beach, NY 11414",5,6,,1984,TRUE,185000,https://www.zillow.com/homedetails/163-45-Cross-Bay-Blvd-Howard-Beach-NY-11414/2080383358_zpid/,21:08.0
+49,"43-20 219th St, Bayside, NY 11361",3,6,,1920,TRUE,879000,https://www.zillow.com/homedetails/43-20-219th-St-Bayside-NY-11361/2076768443_zpid/,21:08.9
+50,"303 E 57th St #37DE, New York, NY 10022",4,6,,1968,TRUE,750000,https://www.zillow.com/homedetails/303-E-57th-St-37DE-New-York-NY-10022/2073572102_zpid/,21:09.8
+51,"44 Linton Pl, Staten Island, NY 10308",44,6,2300,1994,TRUE,659000,https://www.zillow.com/homedetails/44-Linton-Pl-Staten-Island-NY-10308/32342210_zpid/,21:10.7
+52,"853 Macy Pl APT 6A, Bronx, NY 10455",2,6,975,2009,TRUE,260000,https://www.zillow.com/homedetails/853-Macy-Pl-APT-6A-Bronx-NY-10455/2077872250_zpid/,21:11.5
+53,"223-06 Manor Rd, Queens Village, NY 11427",2,6,,1955,TRUE,329000,https://www.zillow.com/homedetails/223-06-Manor-Rd-Queens-Village-NY-11427/2073270016_zpid/,21:12.5
+54,"334 W 20th St, New York, NY 10011",1836,,7058,1836,TRUE,25000000,https://www.zillow.com/homedetails/334-W-20th-St-New-York-NY-10011/31502487_zpid/,21:13.2
+55,"175 E 62nd St APT 18B, New York, NY 10065",2,6,1086,1963,TRUE,975000,https://www.zillow.com/homedetails/175-E-62nd-St-APT-18B-New-York-NY-10065/219684807_zpid/,21:14.3
+56,"142-19 120th Ave, Jamaica, NY 11436",4,6,1840,1940,TRUE,499000,https://www.zillow.com/homedetails/142-19-120th-Ave-Jamaica-NY-11436/2073053823_zpid/,21:15.5
+57,"1564 W 3rd St, Brooklyn, NY 11204",2,,1428,1920,TRUE,999000,https://www.zillow.com/homedetails/1564-W-3rd-St-Brooklyn-NY-11204/30719579_zpid/,21:16.3
+58,"1019 Van Siclen Ave APT 7D, Brooklyn, NY 11207",3,6,1186,1966,TRUE,399000,https://www.zillow.com/homedetails/1019-Van-Siclen-Ave-APT-7D-Brooklyn-NY-11207/2077222934_zpid/,21:17.2
+59,"30 Tricia Way, Staten Island, NY 10307",5,6,,1991,TRUE,1775000,https://www.zillow.com/homedetails/30-Tricia-Way-Staten-Island-NY-10307/32374809_zpid/,21:18.2
+60,"854 5th Ave, New York, NY 10065",0,6,20000,1910,TRUE,50000000,https://www.zillow.com/homedetails/854-5th-Ave-New-York-NY-10065/2094507705_zpid/,21:19.1
+61,"11 E 68th St PENTHOUSE W, New York, NY 10065",11,6,6189,1913,TRUE,39000000,https://www.zillow.com/homedetails/11-E-68th-St-PENTHOUSE-W-New-York-NY-10065/2077162095_zpid/,21:20.4
+62,"554 E 18th St, Brooklyn, NY 11226",554,6,4000,1910,TRUE,3125000,https://www.zillow.com/homedetails/554-E-18th-St-Brooklyn-NY-11226/30669014_zpid/,21:21.7
+63,"58-23 215th St, Oakland Gardens, NY 11364",3,6,,1935,TRUE,988000,https://www.zillow.com/homedetails/58-23-215th-St-Oakland-Gardens-NY-11364/2072910503_zpid/,21:23.3
+64,"1867 7th Ave #2A, New York, NY 10026",2,6,766,1925,TRUE,264900,https://www.zillow.com/homedetails/1867-7th-Ave-2A-New-York-NY-10026/2078429773_zpid/,21:24.7
+65,"280 Rensselaer Ave, Staten Island, NY 10312",280,6,2112,2002,TRUE,849000,https://www.zillow.com/homedetails/280-Rensselaer-Ave-Staten-Island-NY-10312/58578843_zpid/,21:25.7
+66,"9226 216th St, Jamaica, NY 11428",3,6,1691,1930,TRUE,669000,https://www.zillow.com/homedetails/9226-216th-St-Jamaica-NY-11428/32149164_zpid/,21:26.6
+67,"190 E 72nd St APT 31B, New York, NY 10021",2,6,,1962,TRUE,595000,https://www.zillow.com/homedetails/190-E-72nd-St-APT-31B-New-York-NY-10021/2079445336_zpid/,21:27.6
+68,"8 E 62nd St, New York, NY 10065",3,,14825,1910,TRUE,65000000,https://www.zillow.com/homedetails/8-E-62nd-St-New-York-NY-10065/31533267_zpid/,21:28.4
+69,"1015 Summit Ave APT 2A, Bronx, NY 10452",0,6,36900,1928,TRUE,60000,https://www.zillow.com/homedetails/1015-Summit-Ave-APT-2A-Bronx-NY-10452/244445673_zpid/,21:29.4
+70,"1611 Plymouth Ave #A, Bronx, NY 10461",1611,,3060,1910,TRUE,749000,https://www.zillow.com/homedetails/1611-Plymouth-Ave-A-Bronx-NY-10461/2076844014_zpid/,21:30.5
+71,"3021 Avenue Z APT 1K, Brooklyn, NY 11235",2,6,1000,1956,TRUE,289000,https://www.zillow.com/homedetails/3021-Avenue-Z-APT-1K-Brooklyn-NY-11235/245021746_zpid/,21:31.4
+72,"900 Sterling Pl, Brooklyn, NY 11216",2,,2576,1901,TRUE,995000,https://www.zillow.com/homedetails/900-Sterling-Pl-Brooklyn-NY-11216/30592531_zpid/,21:32.7
+73,"112-19 34th Ave APT 3H, Corona, NY 11368",2,6,1000,1953,TRUE,149900,https://www.zillow.com/homedetails/112-19-34th-Ave-APT-3H-Corona-NY-11368/2073914642_zpid/,21:33.6
+74,"13437 155th St, Jamaica, NY 11434",4,6,1920,1950,TRUE,389000,https://www.zillow.com/homedetails/13437-155th-St-Jamaica-NY-11434/32188223_zpid/,21:34.4
+75,"100 W 57th St APT 12I, New York, NY 10019",0,6,650,1962,TRUE,139000,https://www.zillow.com/homedetails/100-W-57th-St-APT-12I-New-York-NY-10019/81776186_zpid/,21:35.6
+76,"1034 E 212th St, Bronx, NY 10469",3,6,2314,2004,TRUE,299000,https://www.zillow.com/homedetails/1034-E-212th-St-Bronx-NY-10469/68311727_zpid/,21:36.3
+77,"31 Giegerich Pl, Staten Island, NY 10307",6,6,,1988,TRUE,3100000,https://www.zillow.com/homedetails/31-Giegerich-Pl-Staten-Island-NY-10307/32374878_zpid/,21:37.8
+78,"172 Woodvale Ave, Staten Island, NY 10309",3,6,3800,2001,TRUE,1095000,https://www.zillow.com/homedetails/172-Woodvale-Ave-Staten-Island-NY-10309/2087980718_zpid/,21:38.8
+79,"124 9th St, Staten Island, NY 10306",3,6,,1970,TRUE,849900,https://www.zillow.com/homedetails/124-9th-St-Staten-Island-NY-10306/32336593_zpid/,21:39.8
+80,"225 S 3rd St APT 10, Brooklyn, NY 11211",2,6,,1907,TRUE,499000,https://www.zillow.com/homedetails/225-S-3rd-St-APT-10-Brooklyn-NY-11211/80275580_zpid/,21:40.7
+81,"100 Remsen St APT 2J, Brooklyn, NY 11201",2,6,720,1950,TRUE,375000,https://www.zillow.com/homedetails/100-Remsen-St-APT-2J-Brooklyn-NY-11201/79718704_zpid/,21:41.8
+82,"218-32 110th Ave, Queens Village, NY 11429",2,6,,1920,TRUE,564888,https://www.zillow.com/homedetails/218-32-110th-Ave-Queens-Village-NY-11429/2072320692_zpid/,21:43.1
+83,"13181 Francis Lewis Blvd, Laurelton, NY 11413",3,6,1479,1940,TRUE,299000,https://www.zillow.com/homedetails/13181-Francis-Lewis-Blvd-Laurelton-NY-11413/32200876_zpid/,21:44.2
+84,"45 Elm St, Staten Island, NY 10310",4,6,,1920,TRUE,490000,https://www.zillow.com/homedetails/45-Elm-St-Staten-Island-NY-10310/32275150_zpid/,21:45.3
+85,"2559 Tenbroeck Ave, Bronx, NY 10469",3,6,1764,1950,TRUE,450000,https://www.zillow.com/homedetails/2559-Tenbroeck-Ave-Bronx-NY-10469/29821241_zpid/,21:46.1
+86,"10 E 43rd St APT 5G, Brooklyn, NY 11203",90,6,1065,1956,TRUE,259000,https://www.zillow.com/homedetails/10-E-43rd-St-APT-5G-Brooklyn-NY-11203/245018126_zpid/,21:47.2
+87,"754 Patterson Ave, Staten Island, NY 10306",1,6,,2017,TRUE,550000,https://www.zillow.com/homedetails/754-Patterson-Ave-Staten-Island-NY-10306/32333722_zpid/,21:48.2
+88,"540 Ocean Pkwy APT 1E, Brooklyn, NY 11218",2,6,1000,1962,TRUE,300000,https://www.zillow.com/homedetails/540-Ocean-Pkwy-APT-1E-Brooklyn-NY-11218/79713349_zpid/,21:49.2
+89,"60-39 Marathon Pkwy #445, Little Neck, NY 11362",3,6,960,1950,TRUE,328888,https://www.zillow.com/homedetails/60-39-Marathon-Pkwy-445-Little-Neck-NY-11362/219877640_zpid/,21:50.4
+90,"100 W 57th St #12R, New York, NY 10019",1,6,900,1962,TRUE,210000,https://www.zillow.com/homedetails/100-W-57th-St-12R-New-York-NY-10019/79497852_zpid/,21:51.9
+91,"111 Murray St #PH2, New York, NY 10007",111,6,7488,2018,TRUE,40000000,https://www.zillow.com/homedetails/111-Murray-St-PH2-New-York-NY-10007/2089608938_zpid/,21:52.7
+92,"17 Bowen St, Staten Island, NY 10304",3,6,1176,1940,TRUE,199900,https://www.zillow.com/homedetails/17-Bowen-St-Staten-Island-NY-10304/32319548_zpid/,21:53.8
+93,"1349 Franklin Ave APT 1A, Bronx, NY 10456",2,6,800,2007,TRUE,209000,https://www.zillow.com/homedetails/1349-Franklin-Ave-APT-1A-Bronx-NY-10456/89069916_zpid/,21:54.6
+94,"68 Gansevoort Blvd, Staten Island, NY 10314",2020,,,1960,TRUE,950000,https://www.zillow.com/homedetails/68-Gansevoort-Blvd-Staten-Island-NY-10314/32289534_zpid/,21:55.8
+95,"61 Foote Ave, Staten Island, NY 10301",2,,,1960,TRUE,830000,https://www.zillow.com/homedetails/61-Foote-Ave-Staten-Island-NY-10301/32286738_zpid/,21:56.8
+96,"4 Bayard St, Staten Island, NY 10312",2,6,,1930,TRUE,580000,https://www.zillow.com/homedetails/4-Bayard-St-Staten-Island-NY-10312/32355494_zpid/,21:57.6
+97,"614 Decatur St, Brooklyn, NY 11233",1,,2820,1899,TRUE,2195000,https://www.zillow.com/homedetails/614-Decatur-St-Brooklyn-NY-11233/30599717_zpid/,21:58.9
+98,"443 Greenwich St PENTHOUSE B, New York, NY 10013",443,,5588,1882,TRUE,38500000,https://www.zillow.com/homedetails/443-Greenwich-St-PENTHOUSE-B-New-York-NY-10013/2075247489_zpid/,22:00.0
+99,"186 Heffernan St, Staten Island, NY 10312",4,6,,1973,TRUE,698000,https://www.zillow.com/homedetails/186-Heffernan-St-Staten-Island-NY-10312/32359154_zpid/,22:00.8
+100,"415 Annadale Rd, Staten Island, NY 10312",4,6,3500,1930,TRUE,579000,https://www.zillow.com/homedetails/415-Annadale-Rd-Staten-Island-NY-10312/143782992_zpid/,22:01.8
+101,"150 E 49th St, New York, NY 10017",2,6,4414,1923,TRUE,2150000,https://www.zillow.com/homedetails/150-E-49th-St-New-York-NY-10017/30650643_zpid/,22:02.8
+102,"211 E 61st St, New York, NY 10065",4,,4800,1905,TRUE,11998000,https://www.zillow.com/homedetails/211-E-61st-St-New-York-NY-10065/31536109_zpid/,22:03.6
+103,"19018 114th Dr, Saint Albans, NY 11412",4,6,1629,1930,TRUE,330000,https://www.zillow.com/homedetails/19018-114th-Dr-Saint-Albans-NY-11412/32143487_zpid/,22:04.4
+104,"303 E 57th St APT 45G, New York, NY 10022",24,,3300,1968,TRUE,800000,https://www.zillow.com/homedetails/303-E-57th-St-APT-45G-New-York-NY-10022/2078579838_zpid/,22:05.7
+105,"1634 E 36th St, Brooklyn, NY 11234",1634,6,1300,1925,TRUE,695000,https://www.zillow.com/homedetails/1634-E-36th-St-Brooklyn-NY-11234/30757031_zpid/,22:06.4
+106,"140-16 135th Ave, Jamaica, NY 11436",30000,,,140,TRUE,30000,https://www.zillow.com/homedetails/140-16-135th-Ave-Jamaica-NY-11436/2078832520_zpid/,22:07.3
+107,"201 E 21st St APT 11R, New York, NY 10010",2,6,,1962,TRUE,1100000,https://www.zillow.com/homedetails/201-E-21st-St-APT-11R-New-York-NY-10010/2077443421_zpid/,22:08.0
+108,"170-10 118th Ave, Jamaica, NY 11434",4,6,1488,1930,TRUE,300000,https://www.zillow.com/homedetails/170-10-118th-Ave-Jamaica-NY-11434/2073660247_zpid/,22:09.0
+109,"950 Hoe Ave APT 2A, Bronx, NY 10459",3,6,900,1913,TRUE,140000,https://www.zillow.com/homedetails/950-Hoe-Ave-APT-2A-Bronx-NY-10459/244444356_zpid/,22:09.7
+110,"174 Carlton Ave, Brooklyn, NY 11205",5,6,,1901,TRUE,2450000,https://www.zillow.com/homedetails/174-Carlton-Ave-Brooklyn-NY-11205/30615131_zpid/,22:10.9
+111,"210 Woodrow Rd, Staten Island, NY 10312",210,,,1978,TRUE,629000,https://www.zillow.com/homedetails/210-Woodrow-Rd-Staten-Island-NY-10312/32358769_zpid/,22:12.0
+112,"12 Seth Loop, Staten Island, NY 10305",3,6,,1998,TRUE,695000,https://www.zillow.com/homedetails/12-Seth-Loop-Staten-Island-NY-10305/58478680_zpid/,22:13.1
+113,"902 E 48th St, Brooklyn, NY 11203",902,6,1288,1930,TRUE,550000,https://www.zillow.com/homedetails/902-E-48th-St-Brooklyn-NY-11203/30656626_zpid/,22:14.1
+114,"256 Elm St, Staten Island, NY 10310",3,6,,1915,TRUE,499998,https://www.zillow.com/homedetails/256-Elm-St-Staten-Island-NY-10310/32275365_zpid/,22:15.0
+115,"1017 8th Ave APT 4, Brooklyn, NY 11215",2,6,4548,1960,TRUE,1100000,https://www.zillow.com/homedetails/1017-8th-Ave-APT-4-Brooklyn-NY-11215/30588137_zpid/,22:16.0
+116,"10019 201st St, Jamaica, NY 11423",0,6,1940,1925,TRUE,279000,https://www.zillow.com/homedetails/10019-201st-St-Jamaica-NY-11423/32154318_zpid/,22:17.2
+117,"303 E 57th St APT 6D, New York, NY 10022",2,6,1400,1968,TRUE,495000,https://www.zillow.com/homedetails/303-E-57th-St-APT-6D-New-York-NY-10022/114158552_zpid/,22:18.1
+118,"100 W 57th St APT 12Q, New York, NY 10019",0,6,450,1962,TRUE,113000,https://www.zillow.com/homedetails/100-W-57th-St-APT-12Q-New-York-NY-10019/305378593_zpid/,22:19.1
+119,"43 8th Ave, Brooklyn, NY 11217",43,,5802,1899,TRUE,5950000,https://www.zillow.com/homedetails/43-8th-Ave-Brooklyn-NY-11217/30586744_zpid/,22:20.0
+120,"11560 198th St, Jamaica, NY 11412",5,6,1730,1940,TRUE,679999,https://www.zillow.com/homedetails/11560-198th-St-Jamaica-NY-11412/32159419_zpid/,22:21.2
+121,"303 E 57th St APT 43G, New York, NY 10022",4,6,3300,1968,TRUE,750000,https://www.zillow.com/homedetails/303-E-57th-St-APT-43G-New-York-NY-10022/72525903_zpid/,22:22.3
+122,"4011 Atlantic Ave, Brooklyn, NY 11224",4,,3280,1960,TRUE,1498000,https://www.zillow.com/homedetails/4011-Atlantic-Ave-Brooklyn-NY-11224/30733812_zpid/,22:23.4
+123,"303 E 57th St APT 9H, New York, NY 10022",1,6,,1968,TRUE,250000,https://www.zillow.com/homedetails/303-E-57th-St-APT-9H-New-York-NY-10022/2073522885_zpid/,22:24.2
+124,"4342 Edson Ave, Bronx, NY 10466",2,,2862,1925,TRUE,360000,https://www.zillow.com/homedetails/4342-Edson-Ave-Bronx-NY-10466/29838732_zpid/,22:25.0
+125,"408 W 25th St APT 3RW, New York, NY 10001",1,6,450,1910,TRUE,375000,https://www.zillow.com/homedetails/408-W-25th-St-APT-3RW-New-York-NY-10001/122588394_zpid/,22:26.4
+126,"3265 Tierney Pl, Bronx, NY 10465",3265,6,1620,1930,TRUE,499000,https://www.zillow.com/homedetails/3265-Tierney-Pl-Bronx-NY-10465/29847383_zpid/,22:27.2
+127,"2892 Harrington Ave, Bronx, NY 10461",40,6,1402,1920,TRUE,599888,https://www.zillow.com/homedetails/2892-Harrington-Ave-Bronx-NY-10461/29842315_zpid/,22:28.3
+128,"320 E 42nd St APT 205, New York, NY 10017",1,,350,1929,TRUE,319000,https://www.zillow.com/homedetails/320-E-42nd-St-APT-205-New-York-NY-10017/72525158_zpid/,22:29.4
+129,"30 W 130th St #TOWNHOUSE, New York, NY 10037",11,6,2498,1910,TRUE,950000,https://www.zillow.com/homedetails/30-W-130th-St-TOWNHOUSE-New-York-NY-10037/2073095442_zpid/,22:30.3
+130,"293 Lafayette St #PH1, New York, NY 10012",5,6,7241,1885,TRUE,42500000,https://www.zillow.com/homedetails/293-Lafayette-St-PH1-New-York-NY-10012/2081918257_zpid/,22:31.1
+131,"1125 5th Ave, New York, NY 10128",24,,70820,1925,TRUE,50000000,https://www.zillow.com/homedetails/1125-5th-Ave-New-York-NY-10128/31540851_zpid/,22:32.4
+132,"111-69 158th St, Jamaica, NY 11433",3,6,1488,1925,TRUE,427500,https://www.zillow.com/homedetails/111-69-158th-St-Jamaica-NY-11433/2080380718_zpid/,22:33.5
+133,"310 E 46th St PENTHOUSE HJ, New York, NY 10017",1886,6,4511,1929,TRUE,3500000,https://www.zillow.com/homedetails/310-E-46th-St-PENTHOUSE-HJ-New-York-NY-10017/2077720533_zpid/,22:34.6
+134,"63 Greene St PENTHOUSE C, New York, NY 10012",2,6,2569,1877,TRUE,6499000,https://www.zillow.com/homedetails/63-Greene-St-PENTHOUSE-C-New-York-NY-10012/2072617469_zpid/,22:35.6
+135,"132 Greene St APT 3-F, New York, NY 10012",1,6,1383,1885,TRUE,2495000,https://www.zillow.com/homedetails/132-Greene-St-APT-3-F-New-York-NY-10012/72512100_zpid/,22:36.5
+136,"39 Austin Ave, Staten Island, NY 10305",5,6,,1947,TRUE,599000,https://www.zillow.com/homedetails/39-Austin-Ave-Staten-Island-NY-10305/32323163_zpid/,22:37.5
+137,"34 Hill St, Brooklyn, NY 11208",34,6,1368,1910,TRUE,679000,https://www.zillow.com/homedetails/34-Hill-St-Brooklyn-NY-11208/30643898_zpid/,22:38.4
+138,"9611 160th Ave, Jamaica, NY 11414",5,6,2112,1960,TRUE,798897,https://www.zillow.com/homedetails/9611-160th-Ave-Jamaica-NY-11414/32217264_zpid/,22:39.2
+139,"60-11 Broadway #4R, Woodside, NY 11377",3,6,1622,1962,TRUE,329000,https://www.zillow.com/homedetails/60-11-Broadway-4R-Woodside-NY-11377/2084338501_zpid/,22:40.2
+140,"245 Colon Ave, Staten Island, NY 10308",245,,,1978,TRUE,579000,https://www.zillow.com/homedetails/245-Colon-Ave-Staten-Island-NY-10308/32351457_zpid/,22:41.8
+141,"303 E 57th St APT 6L, New York, NY 10022",2,6,,1968,TRUE,575000,https://www.zillow.com/homedetails/303-E-57th-St-APT-6L-New-York-NY-10022/2072995086_zpid/,22:43.1
+142,"130 Lenox Ave APT 206, New York, NY 10026",2,6,,1999,TRUE,597500,https://www.zillow.com/homedetails/130-Lenox-Ave-APT-206-New-York-NY-10026/2114086343_zpid/,22:43.9
+143,"343 E 74th St PENTHOUSE 1D, New York, NY 10021",5,6,1862,1987,TRUE,1500000,https://www.zillow.com/homedetails/343-E-74th-St-PENTHOUSE-1D-New-York-NY-10021/244717193_zpid/,22:45.0
+144,"532 3rd St, Brooklyn, NY 11215",60,6,4000,1901,TRUE,4750000,https://www.zillow.com/homedetails/532-3rd-St-Brooklyn-NY-11215/30587470_zpid/,22:46.0
+145,"2925 Matthews Ave APT 2A, Bronx, NY 10467",2,6,1100,1928,TRUE,175000,https://www.zillow.com/homedetails/2925-Matthews-Ave-APT-2A-Bronx-NY-10467/2103188461_zpid/,22:47.0
+146,"149 S 4th St APT 19, Brooklyn, NY 11211",2,6,,1906,TRUE,369000,https://www.zillow.com/homedetails/149-S-4th-St-APT-19-Brooklyn-NY-11211/2101662587_zpid/,22:47.8
+147,"2525 W 2nd St APT 1B, Brooklyn, NY 11223",1,6,950,1956,TRUE,229000,https://www.zillow.com/homedetails/2525-W-2nd-St-APT-1B-Brooklyn-NY-11223/245061374_zpid/,22:48.8
+148,"190 E 72nd St APT 11B, New York, NY 10021",2,6,,1962,TRUE,595000,https://www.zillow.com/homedetails/190-E-72nd-St-APT-11B-New-York-NY-10021/79503534_zpid/,22:49.6
+149,"157 W 57th St PENTHOUSE 87, New York, NY 10019",57,6,6234,2013,TRUE,44000000,https://www.zillow.com/homedetails/157-W-57th-St-PENTHOUSE-87-New-York-NY-10019/122273268_zpid/,22:50.5
+150,"303 W 122nd St #34, New York, NY 10027",1,6,1090,1913,TRUE,350000,https://www.zillow.com/homedetails/303-W-122nd-St-34-New-York-NY-10027/244861078_zpid/,22:51.6
+151,"303 E 57th St APT 30D, New York, NY 10022",2,6,1100,1968,TRUE,425000,https://www.zillow.com/homedetails/303-E-57th-St-APT-30D-New-York-NY-10022/72525887_zpid/,22:52.7
+152,"222 61st St, Brooklyn, NY 11220",2,6,3264,1899,TRUE,999999,https://www.zillow.com/homedetails/222-61st-St-Brooklyn-NY-11220/30690773_zpid/,22:54.0
+153,"294 Sherman St, Brooklyn, NY 11218",4,,1625,1899,TRUE,1475000,https://www.zillow.com/homedetails/294-Sherman-St-Brooklyn-NY-11218/30671577_zpid/,22:54.9
+154,"14787 Brookville Blvd, Jamaica, NY 11422",4,6,,1950,TRUE,350000,https://www.zillow.com/homedetails/14787-Brookville-Blvd-Jamaica-NY-11422/32213629_zpid/,22:56.0
+155,"87-26 127th St, Richmond Hill, NY 11418",3,6,1320,1960,TRUE,444900,https://www.zillow.com/homedetails/87-26-127th-St-Richmond-Hill-NY-11418/2077366184_zpid/,22:57.0
+156,"422 Thieriot Ave, Bronx, NY 10473",4,6,1600,1945,TRUE,199000,https://www.zillow.com/homedetails/422-Thieriot-Ave-Bronx-NY-10473/29791274_zpid/,22:58.5
+157,"9401 Farragut Rd, Brooklyn, NY 11236",4,6,,1940,TRUE,579000,https://www.zillow.com/homedetails/9401-Farragut-Rd-Brooklyn-NY-11236/143042495_zpid/,22:59.5
+158,"72 Mercer St APT 4W, New York, NY 10012",2,,2133,2005,TRUE,4700000,https://www.zillow.com/homedetails/72-Mercer-St-APT-4W-New-York-NY-10012/83937784_zpid/,23:00.3
+159,"18708 119th Rd, Jamaica, NY 11412",4,6,1800,1945,TRUE,649000,https://www.zillow.com/homedetails/18708-119th-Rd-Jamaica-NY-11412/32190925_zpid/,23:01.2
+160,"216-07 110th Ave, Queens Village, NY 11429",3,6,1840,1930,TRUE,689000,https://www.zillow.com/homedetails/216-07-110th-Ave-Queens-Village-NY-11429/2073144975_zpid/,31:11.6
+161,"67-12 Yellowstone Blvd APT F9, Forest Hills, NY 11375",1,6,600,1951,TRUE,269000,https://www.zillow.com/homedetails/67-12-Yellowstone-Blvd-APT-F9-Forest-Hills-NY-11375/72649735_zpid/,31:12.5
+162,"124 W 132nd St, New York, NY 10027",3,,4250,1894,TRUE,2995000,https://www.zillow.com/homedetails/124-W-132nd-St-New-York-NY-10027/245083803_zpid/,31:13.4
+163,"269 W 87th St #4B, New York, NY 10024",3,6,2193,2018,TRUE,2200000,https://www.zillow.com/homedetails/269-W-87th-St-4B-New-York-NY-10024/2087782983_zpid/,31:14.8
+164,"2777 Miles Ave, Bronx, NY 10465",2777,6,1756,1955,TRUE,499000,https://www.zillow.com/homedetails/2777-Miles-Ave-Bronx-NY-10465/29848798_zpid/,31:15.6
+165,"1200 E 53rd St APT 3M, Brooklyn, NY 11234",0,6,,1966,TRUE,135000,https://www.zillow.com/homedetails/1200-E-53rd-St-APT-3M-Brooklyn-NY-11234/2077487512_zpid/,31:16.7
+166,"16241 97th St, Howard Beach, NY 11414",1,6,1290,1945,TRUE,589000,https://www.zillow.com/homedetails/16241-97th-St-Howard-Beach-NY-11414/300308707_zpid/,31:17.5
+167,"2187 Holland Ave APT 4H, Bronx, NY 10462",1,6,780,1930,TRUE,74900,https://www.zillow.com/homedetails/2187-Holland-Ave-APT-4H-Bronx-NY-10462/244455506_zpid/,31:18.4
+168,"2147 E 65th St, Brooklyn, NY 11234",2147,6,2052,1960,TRUE,1199000,https://www.zillow.com/homedetails/2147-E-65th-St-Brooklyn-NY-11234/143053823_zpid/,31:19.4
+169,"1679 82nd St, Brooklyn, NY 11214",3,6,2800,1925,TRUE,1550000,https://www.zillow.com/homedetails/1679-82nd-St-Brooklyn-NY-11214/30709523_zpid/,31:20.6
+170,"246 Cornelia St APT D5, Brooklyn, NY 11221",1,6,,1928,TRUE,399000,https://www.zillow.com/homedetails/246-Cornelia-St-APT-D5-Brooklyn-NY-11221/216120768_zpid/,31:21.8
+171,"22 Leroy St APT 21, New York, NY 10014",22,6,,1910,TRUE,895000,https://www.zillow.com/homedetails/22-Leroy-St-APT-21-New-York-NY-10014/72513649_zpid/,31:23.0
+172,"309 Caton Ave, Brooklyn, NY 11218",2014,6,2300,1915,TRUE,1800000,https://www.zillow.com/homedetails/309-Caton-Ave-Brooklyn-NY-11218/30672604_zpid/,31:24.2
+173,"82-31 251st St, Bellerose, NY 11426",3,6,,1945,TRUE,579000,https://www.zillow.com/homedetails/82-31-251st-St-Bellerose-NY-11426/2073062287_zpid/,31:25.1
+174,"53 W 53rd St #PH76, New York, NY 10019",4,6,7973,2019,TRUE,63815000,https://www.zillow.com/homedetails/53-W-53rd-St-PH76-New-York-NY-10019/2087724598_zpid/,31:25.9
+175,"109-25 205th Pl, Saint Albans, NY 11412",4,6,1394,1950,TRUE,549000,https://www.zillow.com/homedetails/109-25-205th-Pl-Saint-Albans-NY-11412/2079509256_zpid/,31:26.8
+176,"8860 19th Ave, Brooklyn, NY 11214",8,6,1687,1940,TRUE,788000,https://www.zillow.com/homedetails/8860-19th-Ave-Brooklyn-NY-11214/30715183_zpid/,31:27.9
+177,"14461 25th Dr, Flushing, NY 11354",4,6,2000,1960,TRUE,1450000,https://www.zillow.com/homedetails/14461-25th-Dr-Flushing-NY-11354/32032839_zpid/,31:29.0
+178,"112-24 Northern Blvd APT 3A, Corona, NY 11368",1,6,,1953,TRUE,139000,https://www.zillow.com/homedetails/112-24-Northern-Blvd-APT-3A-Corona-NY-11368/2075322872_zpid/,31:29.8
+179,"15905 134th Ave, Jamaica, NY 11434",159,,1442,1945,TRUE,649999,https://www.zillow.com/homedetails/15905-134th-Ave-Jamaica-NY-11434/32188113_zpid/,31:30.6
+180,"1250 39th St, Brooklyn, NY 11218",7,6,2292,1901,TRUE,795000,https://www.zillow.com/homedetails/1250-39th-St-Brooklyn-NY-11218/30671806_zpid/,31:31.9
+181,"205 E 63rd St APT 7E, New York, NY 10065",1,,900,1963,TRUE,599000,https://www.zillow.com/homedetails/205-E-63rd-St-APT-7E-New-York-NY-10065/124727561_zpid/,31:32.7
+182,"55 E 74th St, New York, NY 10021",55,6,8500,1910,TRUE,16000000,https://www.zillow.com/homedetails/55-E-74th-St-New-York-NY-10021/2085328285_zpid/,31:33.7
+183,"113-42 Springfield Blvd #A, Queens Village, NY 11429",2,6,,1965,TRUE,769000,https://www.zillow.com/homedetails/113-42-Springfield-Blvd-A-Queens-Village-NY-11429/2077131981_zpid/,31:34.5
+184,"13723 249th St, Jamaica, NY 11422",5,6,1568,1925,TRUE,355000,https://www.zillow.com/homedetails/13723-249th-St-Jamaica-NY-11422/32211351_zpid/,31:35.7
+185,"3395 Nostrand Ave APT 3, Brooklyn, NY 11229",2,,1000,1963,TRUE,359000,https://www.zillow.com/homedetails/3395-Nostrand-Ave-APT-3-Brooklyn-NY-11229/2073750611_zpid/,31:36.5
+186,"1620 Radcliff Ave, Bronx, NY 10462",1,6,910,1930,TRUE,550000,https://www.zillow.com/homedetails/1620-Radcliff-Ave-Bronx-NY-10462/29814265_zpid/,31:37.6
+187,"5325 80th St, Flushing, NY 11373",3,6,1452,1940,TRUE,799000,https://www.zillow.com/homedetails/5325-80th-St-Flushing-NY-11373/31992755_zpid/,31:38.4
+188,"14 Pembrook Loop, Staten Island, NY 10309",14,,,1992,TRUE,599900,https://www.zillow.com/homedetails/14-Pembrook-Loop-Staten-Island-NY-10309/32373908_zpid/,31:39.9
+189,"11 Hawthorne Ave, Staten Island, NY 10314",11,6,,1925,TRUE,534900,https://www.zillow.com/homedetails/11-Hawthorne-Ave-Staten-Island-NY-10314/32302879_zpid/,31:41.3
+190,"130th Ave, South Ozone Park, NY 11420",5,6,952,1930,TRUE,465000,https://www.zillow.com/homedetails/145-38-130th-Ave-South-Ozone-Park-NY-11420/2072645612_zpid/,31:42.2
+191,"104-54 164th St, Jamaica, NY 11433",5,6,,104,TRUE,310000,https://www.zillow.com/homedetails/104-54-164th-St-Jamaica-NY-11433/2079660220_zpid/,31:43.0
+192,"170 72nd St #527/8, Brooklyn, NY 11209",3,,,170,TRUE,625000,https://www.zillow.com/homedetails/170-72nd-St-527-8-Brooklyn-NY-11209/216125917_zpid/,31:44.4
+193,"571 Barbey St #A, Brooklyn, NY 11207",3,6,3038,2005,TRUE,825000,https://www.zillow.com/homedetails/571-Barbey-St-A-Brooklyn-NY-11207/2072708679_zpid/,31:45.5
+194,"21-06 35th St #2B, Astoria, NY 11105",2,6,,1923,TRUE,350000,https://www.zillow.com/homedetails/21-06-35th-St-2B-Astoria-NY-11105/2073166094_zpid/,31:46.3
+195,"781 5th Ave FLOOR 18, New York, NY 10022",2000,,,1928,TRUE,55000000,https://www.zillow.com/homedetails/781-5th-Ave-FLOOR-18-New-York-NY-10022/2080654601_zpid/,31:47.3
+196,"4901 Henry Hudson Pkwy W APT 4E, Bronx, NY 10471",24,6,1100,1961,TRUE,419000,https://www.zillow.com/homedetails/4901-Henry-Hudson-Pkwy-W-APT-4E-Bronx-NY-10471/215957298_zpid/,31:48.5
+197,"1793 Mansion St, Bronx, NY 10460",2,6,2208,1901,TRUE,599000,https://www.zillow.com/homedetails/1793-Mansion-St-Bronx-NY-10460/29798854_zpid/,31:49.7
+198,"71 Sullivan St, New York, NY 10012",10,6,950,1900,TRUE,975000,https://www.zillow.com/homedetails/71-Sullivan-St-New-York-NY-10012/31497138_zpid/,31:50.5
+199,"3289 Lafayette Ave, Bronx, NY 10465",48,6,675,1920,TRUE,388000,https://www.zillow.com/homedetails/3289-Lafayette-Ave-Bronx-NY-10465/29846018_zpid/,31:51.4
+200,"935 E 178th St, Bronx, NY 10460",1,6,990,1993,TRUE,160000,https://www.zillow.com/homedetails/935-E-178th-St-Bronx-NY-10460/2103513114_zpid/,31:52.3
+201,"333 E 91st St #28CD, New York, NY 10128",28,,2952,2007,TRUE,2995000,https://www.zillow.com/homedetails/333-E-91st-St-28CD-New-York-NY-10128/219699332_zpid/,31:53.1
+202,"563 Saint Lawrence Ave #A, Bronx, NY 10473",3,,,1935,TRUE,769000,https://www.zillow.com/homedetails/563-Saint-Lawrence-Ave-A-Bronx-NY-10473/2077751886_zpid/,31:54.2
+203,"2701 Goethals Rd N #C2, Staten Island, NY 10303",2,6,,1998,TRUE,129900,https://www.zillow.com/homedetails/2701-Goethals-Rd-N-C2-Staten-Island-NY-10303/2072727911_zpid/,31:55.4
+204,"700 Ilyssa Way, Staten Island, NY 10312",1,,1510,1996,TRUE,419000,https://www.zillow.com/homedetails/700-Ilyssa-Way-Staten-Island-NY-10312/32360301_zpid/,31:56.4
+205,"81-03 91st Ave, Woodhaven, NY 11421",3,6,1344,1920,TRUE,608000,https://www.zillow.com/homedetails/81-03-91st-Ave-Woodhaven-NY-11421/2078232145_zpid/,31:57.3
+206,"2533 Westervelt Ave, Bronx, NY 10469",3,6,1400,1931,TRUE,539000,https://www.zillow.com/homedetails/2533-Westervelt-Ave-Bronx-NY-10469/29822455_zpid/,31:58.7
+207,"258 W 117th St #33W, New York, NY 10026",1,6,,1910,TRUE,212000,https://www.zillow.com/homedetails/258-W-117th-St-33W-New-York-NY-10026/2077056189_zpid/,31:59.7
+208,"89-15 Parsons Blvd #14M, Jamaica, NY 11432",3,6,,1961,TRUE,419000,https://www.zillow.com/homedetails/89-15-Parsons-Blvd-14M-Jamaica-NY-11432/248947568_zpid/,32:00.5
+209,"303 E 57th St #17CD, New York, NY 10022",2,6,2200,1968,TRUE,525000,https://www.zillow.com/homedetails/303-E-57th-St-17CD-New-York-NY-10022/2076809402_zpid/,32:01.3
+210,"2440 Amsterdam Ave APT 2G, New York, NY 10033",9,6,1170,1923,TRUE,361000,https://www.zillow.com/homedetails/2440-Amsterdam-Ave-APT-2G-New-York-NY-10033/2146708299_zpid/,32:02.2
+211,"151 Sawyer Ave, Staten Island, NY 10314",2,6,,1950,TRUE,979000,https://www.zillow.com/homedetails/151-Sawyer-Ave-Staten-Island-NY-10314/2072358097_zpid/,32:03.7
+212,"420 E 51st St APT 3G, New York, NY 10022",1,6,1000,1962,TRUE,350000,https://www.zillow.com/homedetails/420-E-51st-St-APT-3G-New-York-NY-10022/244502443_zpid/,32:04.6
+213,"284 5th Ave #PENTHOUSE, New York, NY 10001",3,,,1890,TRUE,3595000,https://www.zillow.com/homedetails/284-5th-Ave-PENTHOUSE-New-York-NY-10001/219652549_zpid/,32:05.5
+214,"243-61 144th Ave, Rosedale, NY 11422",2,6,,1940,TRUE,519294,https://www.zillow.com/homedetails/243-61-144th-Ave-Rosedale-NY-11422/2076650473_zpid/,32:06.4
+215,"3255 110th St, Flushing, NY 11369",32,,1890,1930,TRUE,789000,https://www.zillow.com/homedetails/3255-110th-St-Flushing-NY-11369/31969432_zpid/,32:07.7
+216,"333 E 91st St APT 29D, New York, NY 10128",2,,1499,2007,TRUE,1499000,https://www.zillow.com/homedetails/333-E-91st-St-APT-29D-New-York-NY-10128/122192709_zpid/,32:08.5
+217,"153 Chambers St, New York, NY 10007",3,6,2500,1920,TRUE,5250000,https://www.zillow.com/homedetails/153-Chambers-St-New-York-NY-10007/143077074_zpid/,32:09.5
+218,"108 W 114th St APT 3B, New York, NY 10026",1,6,381,1900,TRUE,260000,https://www.zillow.com/homedetails/108-W-114th-St-APT-3B-New-York-NY-10026/2088684755_zpid/,32:10.9
+219,"15405 118th Ave, Jamaica, NY 11434",2,,836,1920,TRUE,240000,https://www.zillow.com/homedetails/15405-118th-Ave-Jamaica-NY-11434/32186625_zpid/,32:11.8
+220,"1481 E 55th St, Brooklyn, NY 11234",3,6,1512,1925,TRUE,619000,https://www.zillow.com/homedetails/1481-E-55th-St-Brooklyn-NY-11234/30764705_zpid/,32:12.8
+221,"508 E 78th St APT 6A, New York, NY 10075",2,6,,1910,TRUE,399500,https://www.zillow.com/homedetails/508-E-78th-St-APT-6A-New-York-NY-10075/72530420_zpid/,32:13.7
+222,"750 W 232nd St, Bronx, NY 10463",5,6,7000,1950,TRUE,3450000,https://www.zillow.com/homedetails/750-W-232nd-St-Bronx-NY-10463/29851862_zpid/,32:14.6
+223,"2063 Turnbull Ave, Bronx, NY 10473",2,6,2172,1940,TRUE,185000,https://www.zillow.com/homedetails/2063-Turnbull-Ave-Bronx-NY-10473/29793584_zpid/,32:15.4
+224,"134 Decatur St, Brooklyn, NY 11216",5,6,3600,1899,TRUE,1690000,https://www.zillow.com/homedetails/134-Decatur-St-Brooklyn-NY-11216/30611258_zpid/,32:16.4
+225,"11534 Van Wyck Expy, Jamaica, NY 11420",3,6,1728,1930,TRUE,770000,https://www.zillow.com/homedetails/11534-Van-Wyck-Expy-Jamaica-NY-11420/32174271_zpid/,32:17.4
+226,"111 Murray St, New York, NY 10007",111,6,3126,2018,TRUE,8800000,https://www.zillow.com/homedetails/111-Murray-St-New-York-NY-10007/219635721_zpid/,32:18.4
+227,"8121 Shore Rd, Brooklyn, NY 11209",3,6,10010,1915,TRUE,8800000,https://www.zillow.com/homedetails/8121-Shore-Rd-Brooklyn-NY-11209/30697227_zpid/,32:19.4
+228,"343 E 74th St APT 15B, New York, NY 10021",90,,1198,1987,TRUE,1175000,https://www.zillow.com/homedetails/343-E-74th-St-APT-15B-New-York-NY-10021/244753137_zpid/,32:21.3
+229,"310 Riverside Dr APT 314, New York, NY 10025",1,6,531,1929,TRUE,345000,https://www.zillow.com/homedetails/310-Riverside-Dr-APT-314-New-York-NY-10025/244741559_zpid/,32:22.9
+230,"144-55 Melbourne Ave APT 3F, Flushing, NY 11367",2,6,1000,1954,TRUE,210000,https://www.zillow.com/homedetails/144-55-Melbourne-Ave-APT-3F-Flushing-NY-11367/83050509_zpid/,32:24.0
+231,"217 W 57th St #115, New York, NY 10019",2021,6,7074,2020,TRUE,63750000,https://www.zillow.com/homedetails/217-W-57th-St-115-New-York-NY-10019/2080418951_zpid/,32:24.9
+232,"82-33 61st Rd, Middle Village, NY 11379",1,6,,1950,TRUE,839888,https://www.zillow.com/homedetails/82-33-61st-Rd-Middle-Village-NY-11379/2072526222_zpid/,32:26.2
+233,"2187 Holland Ave APT 4G, Bronx, NY 10462",2,6,1068,1930,TRUE,134900,https://www.zillow.com/homedetails/2187-Holland-Ave-APT-4G-Bronx-NY-10462/215952750_zpid/,32:27.1
+234,"575 Park Ave APT 1403, New York, NY 10065",1,6,800,1927,TRUE,375000,https://www.zillow.com/homedetails/575-Park-Ave-APT-1403-New-York-NY-10065/2078579912_zpid/,32:28.0
+235,"315 E 77th St APT 2G, New York, NY 10075",1,6,500,1928,TRUE,427500,https://www.zillow.com/homedetails/315-E-77th-St-APT-2G-New-York-NY-10075/244853210_zpid/,32:28.7
+236,"123 W 74th St APT 1A, New York, NY 10023",1,6,54105,1925,TRUE,429000,https://www.zillow.com/homedetails/123-W-74th-St-APT-1A-New-York-NY-10023/244875589_zpid/,32:29.7
+237,"94 Thompson St #T, New York, NY 10012",360,,3500,1900,TRUE,10900000,https://www.zillow.com/homedetails/94-Thompson-St-T-New-York-NY-10012/219641232_zpid/,32:30.8
+238,"20 Keiber Ct, Staten Island, NY 10314",20,6,,1950,TRUE,599000,https://www.zillow.com/homedetails/20-Keiber-Ct-Staten-Island-NY-10314/32281233_zpid/,32:32.0
+239,"190 Cozine Ave APT 7D, Brooklyn, NY 11207",73,6,1173,190,TRUE,399000,https://www.zillow.com/homedetails/190-Cozine-Ave-APT-7D-Brooklyn-NY-11207/2127186078_zpid/,32:32.8
+240,"116 Pinehurst Ave APT H11, New York, NY 10033",2,6,950,1925,TRUE,645000,https://www.zillow.com/homedetails/116-Pinehurst-Ave-APT-H11-New-York-NY-10033/82776299_zpid/,32:33.7
+241,"28 Bosworth St, Staten Island, NY 10310",2,6,,1986,TRUE,599000,https://www.zillow.com/homedetails/28-Bosworth-St-Staten-Island-NY-10310/32279168_zpid/,32:34.5
+242,"1091 Bushwick Ave APT 3D, Brooklyn, NY 11221",1,6,12480,1931,TRUE,250000,https://www.zillow.com/homedetails/1091-Bushwick-Ave-APT-3D-Brooklyn-NY-11221/245001745_zpid/,32:35.3
+243,"946 Hoe Ave APT 3B, Bronx, NY 10459",3,6,17550,1913,TRUE,179000,https://www.zillow.com/homedetails/946-Hoe-Ave-APT-3B-Bronx-NY-10459/244450137_zpid/,32:36.1
+244,"8 W 13th St APT 8RE, New York, NY 10011",0,6,34168,1910,TRUE,699000,https://www.zillow.com/homedetails/8-W-13th-St-APT-8RE-New-York-NY-10011/321901915_zpid/,32:37.2
+245,"130 Barrow St PENTHOUSE 17, New York, NY 10014",130,6,1014,1920,TRUE,1750000,https://www.zillow.com/homedetails/130-Barrow-St-PENTHOUSE-17-New-York-NY-10014/31499822_zpid/,32:38.0
+246,"170 Lenox Ave #5A, New York, NY 10026",9,6,,1961,TRUE,485000,https://www.zillow.com/homedetails/170-Lenox-Ave-5A-New-York-NY-10026/2072913686_zpid/,32:39.0
+247,"303 E 57th St APT 24B, New York, NY 10022",2,6,1300,1968,TRUE,560000,https://www.zillow.com/homedetails/303-E-57th-St-APT-24B-New-York-NY-10022/72525879_zpid/,32:39.8
+248,"1355 Richmond Rd, Staten Island, NY 10304",4,6,,1920,TRUE,599000,https://www.zillow.com/homedetails/1355-Richmond-Rd-Staten-Island-NY-10304/32294450_zpid/,32:41.0
+249,"209-80 18th Ave #4A, Bayside, NY 11360",2,6,,1950,TRUE,240000,https://www.zillow.com/homedetails/209-80-18th-Ave-4A-Bayside-NY-11360/2080683430_zpid/,32:42.1
+250,"105 W 77th St APT 5C, New York, NY 10024",1,6,429,1890,TRUE,679000,https://www.zillow.com/homedetails/105-W-77th-St-APT-5C-New-York-NY-10024/65317208_zpid/,32:43.3
+251,"4-74 48th Ave #39G, Long Island City, NY 11109",2,6,1041,1996,TRUE,675000,https://www.zillow.com/homedetails/4-74-48th-Ave-39G-Long-Island-City-NY-11109/2080712378_zpid/,32:44.3
+252,"929 Park Ave #1A, New York, NY 10028",9,,800,1913,TRUE,775000,https://www.zillow.com/homedetails/929-Park-Ave-1A-New-York-NY-10028/114442488_zpid/,32:45.4
+253,"105 W 78th St #4, New York, NY 10024",2,6,1199,1900,TRUE,1995000,https://www.zillow.com/homedetails/105-W-78th-St-4-New-York-NY-10024/31521858_zpid/,32:46.5
+254,"11860 227th St, Jamaica, NY 11411",2,6,1038,1950,TRUE,250000,https://www.zillow.com/homedetails/11860-227th-St-Jamaica-NY-11411/32196923_zpid/,32:47.7
+255,"135-34 234th St, Rosedale, NY 11422",4,6,1344,1930,TRUE,335000,https://www.zillow.com/homedetails/135-34-234th-St-Rosedale-NY-11422/2077937445_zpid/,32:48.6
+256,"65-13 77th Pl, Middle Village, NY 11379",3,6,1272,1935,TRUE,788888,https://www.zillow.com/homedetails/65-13-77th-Pl-Middle-Village-NY-11379/2072646246_zpid/,32:49.4
+257,"346B 13th St, Brooklyn, NY 11215",7,6,3333,2018,TRUE,3000000,https://www.zillow.com/homedetails/346B-13th-St-Brooklyn-NY-11215/2087203688_zpid/,32:50.2
+258,"5715 Mosholu Ave APT 5H, Bronx, NY 10471",1,6,800,1962,TRUE,179000,https://www.zillow.com/homedetails/5715-Mosholu-Ave-APT-5H-Bronx-NY-10471/244459363_zpid/,32:51.5
+259,"1 Central Park S #509, New York, NY 10019",4,6,4299,1907,TRUE,19950000,https://www.zillow.com/homedetails/1-Central-Park-S-509-New-York-NY-10019/2073670378_zpid/,32:52.6
+260,"548 Golf View Ct #1, Staten Island, NY 10314",548,6,1900,548,TRUE,399999,https://www.zillow.com/homedetails/548-Golf-View-Ct-1-Staten-Island-NY-10314/2076869546_zpid/,32:53.6
+261,"21719 Hempstead Ave, Jamaica, NY 11429",217,6,1528,1960,TRUE,579000,https://www.zillow.com/homedetails/21719-Hempstead-Ave-Jamaica-NY-11429/32152779_zpid/,32:54.7
+262,"193 Edwin St, Staten Island, NY 10312",5,6,2736,1989,TRUE,999000,https://www.zillow.com/homedetails/193-Edwin-St-Staten-Island-NY-10312/32366740_zpid/,32:55.9
+263,"233 Little Clove Rd, Staten Island, NY 10301",233,6,,1955,TRUE,599000,https://www.zillow.com/homedetails/233-Little-Clove-Rd-Staten-Island-NY-10301/32288214_zpid/,32:56.7
+264,"3207 Beverley Rd, Brooklyn, NY 11226",20,,2512,1910,TRUE,899000,https://www.zillow.com/homedetails/3207-Beverley-Rd-Brooklyn-NY-11226/30660463_zpid/,32:58.2
+265,"11 Saint Nicholas Ave APT 4D, New York, NY 10026",0,6,,1900,TRUE,195000,https://www.zillow.com/homedetails/11-Saint-Nicholas-Ave-APT-4D-New-York-NY-10026/2086668055_zpid/,32:59.1
+266,"8333 Austin St APT 2M, Kew Gardens, NY 11415",2,6,1100,1950,TRUE,384888,https://www.zillow.com/homedetails/8333-Austin-St-APT-2M-Kew-Gardens-NY-11415/2072520099_zpid/,33:00.2
+267,"30-19 Corporal Kennedy St, Bayside, NY 11360",5,,,1960,TRUE,949000,https://www.zillow.com/homedetails/30-19-Corporal-Kennedy-St-Bayside-NY-11360/2072526220_zpid/,33:01.3
+268,"1176 Ocean Pkwy #4E, Brooklyn, NY 11230",0,6,1100,1952,TRUE,339000,https://www.zillow.com/homedetails/1176-Ocean-Pkwy-4E-Brooklyn-NY-11230/245002209_zpid/,33:02.3
+269,"753 E 5th St APT 4A, New York, NY 10009",2,,1100,2003,TRUE,1099000,https://www.zillow.com/homedetails/753-E-5th-St-APT-4A-New-York-NY-10009/69524025_zpid/,33:03.5
+270,"1361 E 89th St, Brooklyn, NY 11236",3,6,1320,1955,TRUE,499000,https://www.zillow.com/homedetails/1361-E-89th-St-Brooklyn-NY-11236/30772076_zpid/,33:04.6
+271,"1713 E 93rd St, Brooklyn, NY 11236",2,6,1028,1930,TRUE,585000,https://www.zillow.com/homedetails/1713-E-93rd-St-Brooklyn-NY-11236/30779717_zpid/,33:05.5
+272,"35 Alaska St, Staten Island, NY 10310",3000,6,1008,2003,TRUE,299999,https://www.zillow.com/homedetails/35-Alaska-St-Staten-Island-NY-10310/32275856_zpid/,33:06.5
+273,"168-03 118th Rd, Jamaica, NY 11434",6,6,1500,1920,TRUE,699000,https://www.zillow.com/homedetails/168-03-118th-Rd-Jamaica-NY-11434/2077211683_zpid/,33:07.7
+274,"154 Fox Ln, Staten Island, NY 10306",2,6,736,1955,TRUE,279000,https://www.zillow.com/homedetails/154-Fox-Ln-Staten-Island-NY-10306/32344309_zpid/,33:08.6
+275,"35 E Franklin Ln, Staten Island, NY 10306",2,6,1152,1986,TRUE,399000,https://www.zillow.com/homedetails/35-E-Franklin-Ln-Staten-Island-NY-10306/2077314211_zpid/,33:09.5
+276,"170-06 Crocheron Ave #3G, Flushing, NY 11358",2,6,,1951,TRUE,350000,https://www.zillow.com/homedetails/170-06-Crocheron-Ave-3G-Flushing-NY-11358/79745645_zpid/,33:10.4
+277,"19939 34th Ave, Flushing, NY 11358",3,6,,1930,TRUE,848000,https://www.zillow.com/homedetails/19939-34th-Ave-Flushing-NY-11358/32059629_zpid/,33:11.3
+278,"995 5th Ave, New York, NY 10028",995,6,5042,1926,TRUE,50000000,https://www.zillow.com/homedetails/995-5th-Ave-New-York-NY-10028/219692413_zpid/,33:12.6
+279,"190 Maybury Ave, Staten Island, NY 10308",3,6,,1965,TRUE,649000,https://www.zillow.com/homedetails/190-Maybury-Ave-Staten-Island-NY-10308/32345812_zpid/,33:13.6
+280,"186 Norfolk St, Brooklyn, NY 11235",2,6,924,1920,TRUE,315000,https://www.zillow.com/homedetails/186-Norfolk-St-Brooklyn-NY-11235/30791354_zpid/,33:14.4
+281,"2052 Bathgate Ave, Bronx, NY 10457",5,,1516,1910,TRUE,575000,https://www.zillow.com/homedetails/2052-Bathgate-Ave-Bronx-NY-10457/29784304_zpid/,33:15.4
+282,"33-04 Junction Blvd APT 6M, Jackson Heights, NY 11372",1,6,818,1959,TRUE,260000,https://www.zillow.com/homedetails/33-04-Junction-Blvd-APT-6M-Jackson-Heights-NY-11372/294925776_zpid/,33:16.4
+283,"343 E 18th St, New York, NY 10003",400,6,6000,1901,TRUE,9995000,https://www.zillow.com/homedetails/343-E-18th-St-New-York-NY-10003/31508851_zpid/,33:17.6
+284,"9-09 43rd Ave, Long Island City, NY 11101",4,6,2475,1901,TRUE,1749000,https://www.zillow.com/homedetails/9-09-43rd-Ave-Long-Island-City-NY-11101/2073195962_zpid/,33:18.7
+285,"17358 105th Ave, Jamaica, NY 11433",3,6,,1925,TRUE,549000,https://www.zillow.com/homedetails/17358-105th-Ave-Jamaica-NY-11433/32140399_zpid/,33:20.4
+286,"10711 91st St, Ozone Park, NY 11417",3,6,,1930,TRUE,679000,https://www.zillow.com/homedetails/10711-91st-St-Ozone-Park-NY-11417/2076666405_zpid/,33:21.6
+287,"72 Kennington St, Staten Island, NY 10308",3,6,,1998,TRUE,679900,https://www.zillow.com/homedetails/72-Kennington-St-Staten-Island-NY-10308/32342101_zpid/,33:22.9
+288,"111-74 145th St, Jamaica, NY 11435",111,6,,1925,TRUE,529000,https://www.zillow.com/homedetails/111-74-145th-St-Jamaica-NY-11435/2077754238_zpid/,33:23.9
+289,"219-28 138th Rd, Springfield Gardens, NY 11413",3,6,1552,1920,TRUE,575000,https://www.zillow.com/homedetails/219-28-138th-Rd-Springfield-Gardens-NY-11413/2073085798_zpid/,33:24.9
+290,"146 1/2 Java St, Brooklyn, NY 11222",11,,2900,1910,TRUE,2850000,https://www.zillow.com/homedetails/146-1-2-Java-St-Brooklyn-NY-11222/30619997_zpid/,33:25.8
+291,"67-40 Yellowstone Blvd #6L, Forest Hills, NY 11375",2,6,1001,1951,TRUE,468000,https://www.zillow.com/homedetails/67-40-Yellowstone-Blvd-6L-Forest-Hills-NY-11375/2075394280_zpid/,33:26.7
+292,"83-44 Lefferts Blvd APT 3B, Kew Gardens, NY 11415",83,6,1600,1932,TRUE,489000,https://www.zillow.com/homedetails/83-44-Lefferts-Blvd-APT-3B-Kew-Gardens-NY-11415/2072319466_zpid/,33:27.6
+293,"229 W 144th St APT 53, New York, NY 10030",2,6,800,1930,TRUE,219000,https://www.zillow.com/homedetails/229-W-144th-St-APT-53-New-York-NY-10030/244753130_zpid/,33:28.7
+294,"64 Alex Cir, Staten Island, NY 10305",2,6,,2000,TRUE,499888,https://www.zillow.com/homedetails/64-Alex-Cir-Staten-Island-NY-10305/58577953_zpid/,33:29.6
+295,"14412 Shore Ave, Jamaica, NY 11435",5,6,2500,1920,TRUE,649000,https://www.zillow.com/homedetails/14412-Shore-Ave-Jamaica-NY-11435/32137689_zpid/,33:30.4
+296,"225-29 Hillside Ave, Queens Village, NY 11427",225,6,,1950,TRUE,325000,https://www.zillow.com/homedetails/225-29-Hillside-Ave-Queens-Village-NY-11427/2079172873_zpid/,33:31.5
+297,"157-14 Locke Ave, Whitestone, NY 11357",25,6,,1955,TRUE,849000,https://www.zillow.com/homedetails/157-14-Locke-Ave-Whitestone-NY-11357/2077446703_zpid/,33:32.5
+298,"10710 142nd St, Jamaica, NY 11435",4,6,1568,1920,TRUE,370000,https://www.zillow.com/homedetails/10710-142nd-St-Jamaica-NY-11435/32137487_zpid/,33:33.3
+299,"306 Olmstead Ave, Bronx, NY 10473",5,6,1902,2002,TRUE,690000,https://www.zillow.com/homedetails/306-Olmstead-Ave-Bronx-NY-10473/62635591_zpid/,33:34.4
+300,"19814 51st Ave, Flushing, NY 11365",3,6,1350,1950,TRUE,898000,https://www.zillow.com/homedetails/19814-51st-Ave-Flushing-NY-11365/32083138_zpid/,33:35.4
+301,"469 Union St, Brooklyn, NY 11231",3,6,3364,2018,TRUE,2995000,https://www.zillow.com/homedetails/469-Union-St-Brooklyn-NY-11231/112499658_zpid/,33:36.4
+302,"820 Thomas S Boyland St, Brooklyn, NY 11212",3,,3300,1910,TRUE,949000,https://www.zillow.com/homedetails/820-Thomas-S-Boyland-St-Brooklyn-NY-11212/30633090_zpid/,33:37.6
+303,"45-53 204th St, Bayside, NY 11361",2,6,,1945,TRUE,585000,https://www.zillow.com/homedetails/45-53-204th-St-Bayside-NY-11361/2072542214_zpid/,33:38.4
+304,"85 Amity Pl, Staten Island, NY 10303",85,6,1159,1988,TRUE,495000,https://www.zillow.com/homedetails/85-Amity-Pl-Staten-Island-NY-10303/32306816_zpid/,33:39.7
+305,"105-33 Farmers Blvd, Saint Albans, NY 11412",4,6,1776,1925,TRUE,675000,https://www.zillow.com/homedetails/105-33-Farmers-Blvd-Saint-Albans-NY-11412/2078053766_zpid/,33:40.8
+306,"205 E 16th St APT 6B, New York, NY 10003",2,6,1200,1888,TRUE,2000000,https://www.zillow.com/homedetails/205-E-16th-St-APT-6B-New-York-NY-10003/69510552_zpid/,33:41.6
+307,"79 Parkview Loop, Staten Island, NY 10314",164,6,1500,1980,TRUE,489999,https://www.zillow.com/homedetails/79-Parkview-Loop-Staten-Island-NY-10314/299997658_zpid/,33:42.4
+308,"15 Pershing St, Staten Island, NY 10305",15,,2170,2005,TRUE,999900,https://www.zillow.com/homedetails/15-Pershing-St-Staten-Island-NY-10305/79729975_zpid/,33:43.5
+309,"317 W 95th St APT 2E, New York, NY 10025",2,6,1200,1902,TRUE,995000,https://www.zillow.com/homedetails/317-W-95th-St-APT-2E-New-York-NY-10025/31526703_zpid/,33:44.3
+310,"33-04 Junction Blvd #3S, Jackson Heights, NY 11372",3,6,,1950,TRUE,305200,https://www.zillow.com/homedetails/33-04-Junction-Blvd-3S-Jackson-Heights-NY-11372/2076704433_zpid/,33:45.3
+311,"814B Tilden St #1A, Bronx, NY 10467",1,6,530,1962,TRUE,89000,https://www.zillow.com/homedetails/814B-Tilden-St-1A-Bronx-NY-10467/2076712046_zpid/,33:46.1
+312,"161 W 105th St APT 5WR, New York, NY 10025",2,6,875,1930,TRUE,500000,https://www.zillow.com/homedetails/161-W-105th-St-APT-5WR-New-York-NY-10025/80384726_zpid/,33:47.4
+313,"44-59 Kissena Blvd #2H, Flushing, NY 11355",3,6,1300,1954,TRUE,359000,https://www.zillow.com/homedetails/44-59-Kissena-Blvd-2H-Flushing-NY-11355/2077798577_zpid/,33:48.5
+314,"116 Pinehurst Ave APT D33, New York, NY 10033",2,6,,1925,TRUE,829000,https://www.zillow.com/homedetails/116-Pinehurst-Ave-APT-D33-New-York-NY-10033/72536238_zpid/,33:49.2
+315,"241-20 Northern Blvd #5G, Little Neck, NY 11362",0,6,,1964,TRUE,126000,https://www.zillow.com/homedetails/241-20-Northern-Blvd-5G-Little-Neck-NY-11362/2077339712_zpid/,33:50.6
+316,"1027B E 229th St, Bronx, NY 10466",3,6,1276,1950,TRUE,499000,https://www.zillow.com/homedetails/1027B-E-229th-St-Bronx-NY-10466/2081742915_zpid/,33:51.5
+317,"105 Emerson Ave, Staten Island, NY 10301",4,6,,1960,TRUE,950000,https://www.zillow.com/homedetails/105-Emerson-Ave-Staten-Island-NY-10301/32293580_zpid/,33:52.5
+318,"78-34 64th St, Ridgewood, NY 11385",1,,,1940,TRUE,750000,https://www.zillow.com/homedetails/78-34-64th-St-Ridgewood-NY-11385/2073568396_zpid/,33:53.8
+319,"129 Alaska St, Staten Island, NY 10310",129,6,,1920,TRUE,459000,https://www.zillow.com/homedetails/129-Alaska-St-Staten-Island-NY-10310/32275919_zpid/,33:54.7
+320,"53 W 53rd St #62, New York, NY 10019",62,6,6954,2019,TRUE,46255000,https://www.zillow.com/homedetails/53-W-53rd-St-62-New-York-NY-10019/2077507332_zpid/,35:17.5
+321,"97 S 8th St APT 22, Brooklyn, NY 11249",97,6,,1910,TRUE,369000,https://www.zillow.com/homedetails/97-S-8th-St-APT-22-Brooklyn-NY-11249/2084224760_zpid/,35:19.6
+322,"157 W 57th St PENTHOUSE 86, New York, NY 10019",4,,6240,2013,TRUE,39800000,https://www.zillow.com/homedetails/157-W-57th-St-PENTHOUSE-86-New-York-NY-10019/122272198_zpid/,35:20.9
+323,"563 Monroe St, Brooklyn, NY 11221",1,,2520,1905,TRUE,1695000,https://www.zillow.com/homedetails/563-Monroe-St-Brooklyn-NY-11221/30603453_zpid/,35:22.3
+324,"321 Mayfair Dr N, Brooklyn, NY 11234",5,,4659,1965,TRUE,1849000,https://www.zillow.com/homedetails/321-Mayfair-Dr-N-Brooklyn-NY-11234/30788268_zpid/,35:23.5
+325,"27 E 65th St APT 12E, New York, NY 10065",65,,1850,1963,TRUE,1500000,https://www.zillow.com/homedetails/27-E-65th-St-APT-12E-New-York-NY-10065/244889600_zpid/,35:25.0
+326,"333 E 43rd St APT 909, New York, NY 10017",1,6,149000,1928,TRUE,399000,https://www.zillow.com/homedetails/333-E-43rd-St-APT-909-New-York-NY-10017/244870266_zpid/,35:26.4
+327,"1160 Colgate Ave APT 4B, Bronx, NY 10472",1,6,600,1927,TRUE,89000,https://www.zillow.com/homedetails/1160-Colgate-Ave-APT-4B-Bronx-NY-10472/2078581981_zpid/,35:27.3
+328,"1600 Broadway APT 15C, New York, NY 10019",2,,1329,2005,TRUE,1795000,https://www.zillow.com/homedetails/1600-Broadway-APT-15C-New-York-NY-10019/80006751_zpid/,35:28.4
+329,"150-30 15th Dr, Whitestone, NY 11357",2,6,1370,1920,TRUE,710000,https://www.zillow.com/homedetails/150-30-15th-Dr-Whitestone-NY-11357/2079077005_zpid/,35:29.5
+330,"30 Park Pl #78B, New York, NY 10007",5,,5937,2016,TRUE,25000000,https://www.zillow.com/homedetails/30-Park-Pl-78B-New-York-NY-10007/219636874_zpid/,35:30.3
+331,"11434 208th St, Jamaica, NY 11411",2,,1482,1930,TRUE,614900,https://www.zillow.com/homedetails/11434-208th-St-Jamaica-NY-11411/32158952_zpid/,35:31.4
+332,"29-27 163rd St, Flushing, NY 11358",3,6,1710,1940,TRUE,729000,https://www.zillow.com/homedetails/29-27-163rd-St-Flushing-NY-11358/2080148536_zpid/,35:32.7
+333,"848 E 218th St, Bronx, NY 10467",2,,1555,1901,TRUE,494999,https://www.zillow.com/homedetails/848-E-218th-St-Bronx-NY-10467/29827224_zpid/,35:34.2
+334,"108 Seigel St APT 15, Brooklyn, NY 11206",3,6,,1958,TRUE,350000,https://www.zillow.com/homedetails/108-Seigel-St-APT-15-Brooklyn-NY-11206/2083881571_zpid/,35:35.2
+335,"5620 Netherland Ave APT 3G, Bronx, NY 10471",2,6,850,1949,TRUE,215000,https://www.zillow.com/homedetails/5620-Netherland-Ave-APT-3G-Bronx-NY-10471/2079265883_zpid/,35:36.3
+336,"11225 34th Ave APT 5B, Corona, NY 11368",7,6,,11225,TRUE,168000,https://www.zillow.com/homedetails/11225-34th-Ave-APT-5B-Corona-NY-11368/2076513261_zpid/,35:37.7
+337,"130 Lenox Ave #705, New York, NY 10026",3,6,1200,1999,TRUE,699000,https://www.zillow.com/homedetails/130-Lenox-Ave-705-New-York-NY-10026/2080017096_zpid/,35:39.3
+338,"162-40 9th Ave #4A, Whitestone, NY 11357",3,6,,1958,TRUE,399888,https://www.zillow.com/homedetails/162-40-9th-Ave-4A-Whitestone-NY-11357/2080212006_zpid/,35:40.6
+339,"209-80 18th Ave APT 2F, Bayside, NY 11360",2,6,1050,1958,TRUE,235000,https://www.zillow.com/homedetails/209-80-18th-Ave-APT-2F-Bayside-NY-11360/2072417386_zpid/,35:41.7
+340,"14 Ascan Ave, Forest Hills, NY 11375",101,6,3600,1935,TRUE,2168000,https://www.zillow.com/homedetails/14-Ascan-Ave-Forest-Hills-NY-11375/32005380_zpid/,35:42.7
+341,"3151 Waterbury Ave, Bronx, NY 10465",4,6,2012,1960,TRUE,698000,https://www.zillow.com/homedetails/3151-Waterbury-Ave-Bronx-NY-10465/29843074_zpid/,35:43.6
+342,"522 W 29th St, New York, NY 10001",24,6,4510,2017,TRUE,19450000,https://www.zillow.com/homedetails/522-W-29th-St-New-York-NY-10001/2081168434_zpid/,35:44.4
+343,"77-16 Austin St #5M, Forest Hills, NY 11375",1,6,,1929,TRUE,250000,https://www.zillow.com/homedetails/77-16-Austin-St-5M-Forest-Hills-NY-11375/125449454_zpid/,35:45.2
+344,"2244 E 57th Pl, Brooklyn, NY 11234",3,,2552,1965,TRUE,1125000,https://www.zillow.com/homedetails/2244-E-57th-Pl-Brooklyn-NY-11234/30788665_zpid/,35:46.4
+345,"301 E 63rd St APT 14J, New York, NY 10065",1,,950,1959,TRUE,525000,https://www.zillow.com/homedetails/301-E-63rd-St-APT-14J-New-York-NY-10065/72529095_zpid/,35:47.4
+346,"57-21 E Hampton Blvd, Oakland Gardens, NY 11364",3,6,,1950,TRUE,888000,https://www.zillow.com/homedetails/57-21-E-Hampton-Blvd-Oakland-Gardens-NY-11364/2080380416_zpid/,35:48.3
+347,"84 Willow Wood Ln, Staten Island, NY 10308",84,6,,1985,TRUE,725000,https://www.zillow.com/homedetails/84-Willow-Wood-Ln-Staten-Island-NY-10308/32340934_zpid/,35:49.2
+348,"221-72 Horace Harding Expy #1, Oakland Gardens, NY 11364",3,6,,221,TRUE,315000,https://www.zillow.com/homedetails/221-72-Horace-Harding-Expy-1-Oakland-Gardens-NY-11364/2072323991_zpid/,35:50.5
+349,"251-46 61st Ave #1, Little Neck, NY 11362",2,6,,1950,TRUE,415000,https://www.zillow.com/homedetails/251-46-61st-Ave-1-Little-Neck-NY-11362/2072323046_zpid/,35:51.4
+350,"420 E 51st St #1C, New York, NY 10022",1080,6,,1962,TRUE,510000,https://www.zillow.com/homedetails/420-E-51st-St-1C-New-York-NY-10022/2072473398_zpid/,35:52.4
+351,"2550 Olinville Ave APT 4K, Bronx, NY 10467",4,6,900,1965,TRUE,299000,https://www.zillow.com/homedetails/2550-Olinville-Ave-APT-4K-Bronx-NY-10467/244458723_zpid/,35:53.4
+352,"27 9th St, Staten Island, NY 10306",3,,,1945,TRUE,699999,https://www.zillow.com/homedetails/27-9th-St-Staten-Island-NY-10306/32336465_zpid/,35:54.2
+353,"1901 Madison Ave APT 107, New York, NY 10035",24,6,168963,1994,TRUE,410000,https://www.zillow.com/homedetails/1901-Madison-Ave-APT-107-New-York-NY-10035/244765543_zpid/,35:55.1
+354,"5306 Snyder Ave, Brooklyn, NY 11203",1,,2958,1925,TRUE,999000,https://www.zillow.com/homedetails/5306-Snyder-Ave-Brooklyn-NY-11203/30654398_zpid/,35:56.4
+355,"6535 Broadway APT 4H, Bronx, NY 10471",0,6,546,1969,TRUE,99000,https://www.zillow.com/homedetails/6535-Broadway-APT-4H-Bronx-NY-10471/244427654_zpid/,35:57.9
+356,"730 Saint Nicholas Ave, New York, NY 10031",11,6,8100,1910,TRUE,4900000,https://www.zillow.com/homedetails/730-Saint-Nicholas-Ave-New-York-NY-10031/31552833_zpid/,35:59.0
+357,"19 Noah Ct, Staten Island, NY 10303",5,6,,2001,TRUE,459900,https://www.zillow.com/homedetails/19-Noah-Ct-Staten-Island-NY-10303/62723317_zpid/,36:00.3
+358,"198 Monitor St APT 3B, Brooklyn, NY 11222",1,6,580,2005,TRUE,759000,https://www.zillow.com/homedetails/198-Monitor-St-APT-3B-Brooklyn-NY-11222/68313777_zpid/,36:01.1
+359,"4-74 48th Ave APT 10E, Long Island City, NY 11109",2,6,753,1996,TRUE,618888,https://www.zillow.com/homedetails/4-74-48th-Ave-APT-10E-Long-Island-City-NY-11109/79739877_zpid/,36:02.3
+360,"128 Central Park S #11C, New York, NY 10019",2,,912,1925,TRUE,1495000,https://www.zillow.com/homedetails/128-Central-Park-S-11C-New-York-NY-10019/125469360_zpid/,36:03.2
+361,"166-17 111th Ave, Jamaica, NY 11433",3,6,,1920,TRUE,575000,https://www.zillow.com/homedetails/166-17-111th-Ave-Jamaica-NY-11433/2073621108_zpid/,36:04.2
+362,"237A Hart St, Brooklyn, NY 11206",1,6,,2000,TRUE,799000,https://www.zillow.com/homedetails/237A-Hart-St-Brooklyn-NY-11206/2073195513_zpid/,36:05.8
+363,"435 Convent Ave APT 25, New York, NY 10031",1,6,850,1902,TRUE,550000,https://www.zillow.com/homedetails/435-Convent-Ave-APT-25-New-York-NY-10031/72535721_zpid/,36:06.6
+364,"60 Bay 32nd St #1E, Brooklyn, NY 11214",4,6,1573,2009,TRUE,739000,https://www.zillow.com/homedetails/60-Bay-32nd-St-1E-Brooklyn-NY-11214/94716504_zpid/,36:08.0
+365,"1200 Woodycrest Ave APT 4A, Bronx, NY 10452",0,6,550,1936,TRUE,80000,https://www.zillow.com/homedetails/1200-Woodycrest-Ave-APT-4A-Bronx-NY-10452/2101686703_zpid/,36:08.9
+366,"60-42 Little Neck Pkwy #1F-859, Little Neck, NY 11362",2,6,950,1950,TRUE,358888,https://www.zillow.com/homedetails/60-42-Little-Neck-Pkwy-1F-859-Little-Neck-NY-11362/2074320843_zpid/,36:10.0
+367,"105-40 88th St, Ozone Park, NY 11417",5,6,,1925,TRUE,799000,https://www.zillow.com/homedetails/105-40-88th-St-Ozone-Park-NY-11417/2080380923_zpid/,36:11.1
+368,"68 Garden St #B3C, Brooklyn, NY 11206",2,6,1060,2007,TRUE,395000,https://www.zillow.com/homedetails/68-Garden-St-B3C-Brooklyn-NY-11206/2076873582_zpid/,36:12.2
+369,"72-81 113th St #2B, Flushing, NY 11375",0,6,122606,1950,TRUE,159900,https://www.zillow.com/homedetails/72-81-113th-St-2B-Flushing-NY-11375/245470375_zpid/,36:13.2
+370,"433 W 54th St APT 13, New York, NY 10019",1,6,9920,1920,TRUE,475000,https://www.zillow.com/homedetails/433-W-54th-St-APT-13-New-York-NY-10019/244828906_zpid/,36:16.9
+371,"1170 Ocean Pkwy APT 7J, Brooklyn, NY 11230",2,6,1050,1965,TRUE,225000,https://www.zillow.com/homedetails/1170-Ocean-Pkwy-APT-7J-Brooklyn-NY-11230/245038074_zpid/,36:18.0
+372,"347 E 59th St, Brooklyn, NY 11203",1,6,1400,1940,TRUE,749000,https://www.zillow.com/homedetails/347-E-59th-St-Brooklyn-NY-11203/30765999_zpid/,36:18.7
+373,"190 E 72nd St APT 29C, New York, NY 10021",3,6,,1962,TRUE,995000,https://www.zillow.com/homedetails/190-E-72nd-St-APT-29C-New-York-NY-10021/2078242964_zpid/,36:19.9
+374,"60th Ave, Flushing, NY 11355",3,6,1224,1945,TRUE,938000,https://www.zillow.com/homedetails/14829-60th-Ave-Flushing-NY-11355/32065308_zpid/,36:21.1
+375,"96-11 65th Rd APT 214, Rego Park, NY 11374",96,6,,1939,TRUE,355000,https://www.zillow.com/homedetails/96-11-65th-Rd-APT-214-Rego-Park-NY-11374/80276673_zpid/,36:22.4
+376,"1515 W 7th St APT 4B, Brooklyn, NY 11204",1,6,800,1927,TRUE,150000,https://www.zillow.com/homedetails/1515-W-7th-St-APT-4B-Brooklyn-NY-11204/2082797263_zpid/,36:23.3
+377,"23 Waverly Pl APT 6S, New York, NY 10003",1,6,,1891,TRUE,700000,https://www.zillow.com/homedetails/23-Waverly-Pl-APT-6S-New-York-NY-10003/125116341_zpid/,36:27.1
+378,"975 Union Ave APT 20, Bronx, NY 10459",975,6,800,1912,TRUE,79999,https://www.zillow.com/homedetails/975-Union-Ave-APT-20-Bronx-NY-10459/244426979_zpid/,36:28.0
+379,"240 Franklin Ave APT 1A, Brooklyn, NY 11205",3,,2213,2004,TRUE,1500000,https://www.zillow.com/homedetails/240-Franklin-Ave-APT-1A-Brooklyn-NY-11205/64457670_zpid/,36:29.0
+380,"56 W 119th St APT 5H, New York, NY 10026",0,6,,1920,TRUE,125000,https://www.zillow.com/homedetails/56-W-119th-St-APT-5H-New-York-NY-10026/2081808607_zpid/,36:30.0
+381,"232 W 10th St, New York, NY 10014",3,,2684,1833,TRUE,4950000,https://www.zillow.com/homedetails/232-W-10th-St-New-York-NY-10014/31500776_zpid/,36:30.9
+382,"140-12 Marissa St, Springfield Gardens, NY 11413",3,6,1400,1991,TRUE,549999,https://www.zillow.com/homedetails/140-12-Marissa-St-Springfield-Gardens-NY-11413/2072452819_zpid/,36:32.1
+383,"2905 Bronxwood Ave, Bronx, NY 10469",2905,6,2061,2006,TRUE,725000,https://www.zillow.com/homedetails/2905-Bronxwood-Ave-Bronx-NY-10469/83178505_zpid/,36:33.0
+384,"83 Walker St #6, New York, NY 10013",2,,1397,2015,TRUE,2395000,https://www.zillow.com/homedetails/83-Walker-St-6-New-York-NY-10013/321899096_zpid/,36:34.2
+385,"900 Union Ave #C, Bronx, NY 10459",1,,1090,1995,TRUE,279999,https://www.zillow.com/homedetails/900-Union-Ave-C-Bronx-NY-10459/29779743_zpid/,36:35.2
+386,"19 Greencroft Ave, Staten Island, NY 10308",3,6,1176,1970,TRUE,499000,https://www.zillow.com/homedetails/19-Greencroft-Ave-Staten-Island-NY-10308/32345518_zpid/,36:35.9
+387,"138 Baltic St APT 5C, Brooklyn, NY 11201",1879,6,998,1870,TRUE,1250000,https://www.zillow.com/homedetails/138-Baltic-St-APT-5C-Brooklyn-NY-11201/116165383_zpid/,36:36.9
+388,"125 E 74th St APT 4C, New York, NY 10021",2,6,,1928,TRUE,999000,https://www.zillow.com/homedetails/125-E-74th-St-APT-4C-New-York-NY-10021/2073863735_zpid/,36:38.1
+389,"200 Hurlbert St, Staten Island, NY 10305",200,6,,1965,TRUE,768000,https://www.zillow.com/homedetails/200-Hurlbert-St-Staten-Island-NY-10305/32327351_zpid/,36:39.0
+390,"91-15 164th Ave, Howard Beach, NY 11414",3,6,1680,1970,TRUE,300000,https://www.zillow.com/homedetails/91-15-164th-Ave-Howard-Beach-NY-11414/2077201934_zpid/,36:40.1
+391,"1545 Robertson Pl, Bronx, NY 10465",3,6,1428,1925,TRUE,679000,https://www.zillow.com/homedetails/1545-Robertson-Pl-Bronx-NY-10465/29843862_zpid/,36:41.5
+392,"13309 Foch Blvd, South Ozone Park, NY 11420",4,6,,1955,TRUE,599000,https://www.zillow.com/homedetails/13309-Foch-Blvd-South-Ozone-Park-NY-11420/32174621_zpid/,36:42.6
+393,"2525 W 2nd St APT 1B, Brooklyn, NY 11223",1,6,950,1957,TRUE,229000,https://www.zillow.com/homedetails/2525-W-2nd-St-APT-1B-Brooklyn-NY-11223/245010496_zpid/,36:43.6
+394,"16 Whitaker Pl, Staten Island, NY 10304",3,6,,1915,TRUE,620000,https://www.zillow.com/homedetails/16-Whitaker-Pl-Staten-Island-NY-10304/32325856_zpid/,36:44.4
+395,"170 26th St, Brooklyn, NY 11232",278,6,1500,1910,TRUE,1150000,https://www.zillow.com/homedetails/170-26th-St-Brooklyn-NY-11232/30574116_zpid/,36:45.2
+396,"526 W 158th St APT 51, New York, NY 10032",158,6,900,1925,TRUE,200000,https://www.zillow.com/homedetails/526-W-158th-St-APT-51-New-York-NY-10032/2106069796_zpid/,36:46.3
+397,"1213 Avenue Z APT C25, Brooklyn, NY 11235",2,6,900,1960,TRUE,425000,https://www.zillow.com/homedetails/1213-Avenue-Z-APT-C25-Brooklyn-NY-11235/79717022_zpid/,36:47.5
+398,"60 Parkview Loop, Staten Island, NY 10314",3,6,1480,1981,TRUE,459000,https://www.zillow.com/homedetails/60-Parkview-Loop-Staten-Island-NY-10314/32303722_zpid/,36:48.9
+399,"471 Bainbridge St, Brooklyn, NY 11233",5,6,2200,1899,TRUE,999999,https://www.zillow.com/homedetails/471-Bainbridge-St-Brooklyn-NY-11233/30599739_zpid/,36:50.0
+400,"124 E 102nd St APT 6, New York, NY 10029",700,6,700,1900,TRUE,350000,https://www.zillow.com/homedetails/124-E-102nd-St-APT-6-New-York-NY-10029/2094005660_zpid/,36:51.3
+401,"47 Willow Wood Ln, Staten Island, NY 10308",2,6,2408,1982,TRUE,645000,https://www.zillow.com/homedetails/47-Willow-Wood-Ln-Staten-Island-NY-10308/32340954_zpid/,36:52.2
+402,"66 N 1st St APT 3B, Brooklyn, NY 11249",1910,6,1079,1910,TRUE,1499000,https://www.zillow.com/homedetails/66-N-1st-St-APT-3B-Brooklyn-NY-11249/112080396_zpid/,36:53.1
+403,"104-43 210th St, Queens Village, NY 11429",104,6,1558,1930,TRUE,649000,https://www.zillow.com/homedetails/104-43-210th-St-Queens-Village-NY-11429/2078265052_zpid/,36:53.9
+404,"316 W 47th St APT 3RE, New York, NY 10036",1,6,328,1920,TRUE,345000,https://www.zillow.com/homedetails/316-W-47th-St-APT-3RE-New-York-NY-10036/2089964879_zpid/,36:54.6
+405,"15811 Linden Blvd, Jamaica, NY 11434",3,6,,1940,TRUE,430000,https://www.zillow.com/homedetails/15811-Linden-Blvd-Jamaica-NY-11434/32185566_zpid/,36:55.6
+406,"41 Murray St, New York, NY 10007",41,,21250,1856,TRUE,2500000,https://www.zillow.com/homedetails/41-Murray-St-New-York-NY-10007/97536647_zpid/,36:56.5
+407,"632 Hendrix St, Brooklyn, NY 11207",632,,1496,1915,TRUE,719000,https://www.zillow.com/homedetails/632-Hendrix-St-Brooklyn-NY-11207/30640988_zpid/,36:57.7
+408,"30 Park Pl #78A, New York, NY 10007",39,6,6127,2016,TRUE,39500000,https://www.zillow.com/homedetails/30-Park-Pl-78A-New-York-NY-10007/219636873_zpid/,36:58.9
+409,"15547 Lahn St, Jamaica, NY 11414",2,6,2300,1955,TRUE,1099000,https://www.zillow.com/homedetails/15547-Lahn-St-Jamaica-NY-11414/32170834_zpid/,37:00.1
+410,"143 Jackson St APT 4A, Brooklyn, NY 11211",2,6,1107,2006,TRUE,1175000,https://www.zillow.com/homedetails/143-Jackson-St-APT-4A-Brooklyn-NY-11211/83045772_zpid/,37:01.7
+411,"303 E 57th St APT 32A, New York, NY 10022",20000,2,3000,1968,TRUE,499000,https://www.zillow.com/homedetails/303-E-57th-St-APT-32A-New-York-NY-10022/2073861416_zpid/,37:02.8
+412,"1452 E 53rd St, Brooklyn, NY 11234",1,6,1024,1925,TRUE,589000,https://www.zillow.com/homedetails/1452-E-53rd-St-Brooklyn-NY-11234/30763201_zpid/,37:03.7
+413,"63 Opal Ln, Staten Island, NY 10309",5,6,,2012,TRUE,989999,https://www.zillow.com/homedetails/63-Opal-Ln-Staten-Island-NY-10309/79733619_zpid/,37:04.7
+414,"44 E 65th St APT 4A, New York, NY 10065",1,6,550,1920,TRUE,590000,https://www.zillow.com/homedetails/44-E-65th-St-APT-4A-New-York-NY-10065/72527130_zpid/,37:05.7
+415,"39 Wycliff Ln, Staten Island, NY 10312",4,,,2003,TRUE,769999,https://www.zillow.com/homedetails/39-Wycliff-Ln-Staten-Island-NY-10312/58578709_zpid/,37:06.7
+416,"230 Ashland Pl APT 20C, Brooklyn, NY 11217",2,6,1200,2010,TRUE,1300000,https://www.zillow.com/homedetails/230-Ashland-Pl-APT-20C-Brooklyn-NY-11217/89069530_zpid/,37:07.8
+417,"10 E 62nd St, New York, NY 10065",4,,14750,1910,TRUE,49998000,https://www.zillow.com/homedetails/10-E-62nd-St-New-York-NY-10065/31533266_zpid/,37:08.6
+418,"170 W 76th St PENTHOUSE 3, New York, NY 10023",4,,1700,1926,TRUE,2850000,https://www.zillow.com/homedetails/170-W-76th-St-PENTHOUSE-3-New-York-NY-10023/2077111216_zpid/,37:09.5
+419,"315 E 68th St APT 13J, New York, NY 10065",1,6,,1931,TRUE,698000,https://www.zillow.com/homedetails/315-E-68th-St-APT-13J-New-York-NY-10065/94684810_zpid/,37:12.4
+420,"12 Tatro St, Staten Island, NY 10306",4,6,,1965,TRUE,678000,https://www.zillow.com/homedetails/12-Tatro-St-Staten-Island-NY-10306/32343735_zpid/,37:13.5
+421,"324 Parsons Blvd, Malba, NY 11357",3,6,2800,2007,TRUE,2095000,https://www.zillow.com/homedetails/324-Parsons-Blvd-Malba-NY-11357/32026115_zpid/,37:14.4
+422,"412 11th St APT 2R, Brooklyn, NY 11215",412,6,,412,TRUE,749000,https://www.zillow.com/homedetails/412-11th-St-APT-2R-Brooklyn-NY-11215/216114465_zpid/,37:15.5
+423,"169 Allen St APT 2D, New York, NY 10002",0,6,400,1920,TRUE,379000,https://www.zillow.com/homedetails/169-Allen-St-APT-2D-New-York-NY-10002/244743189_zpid/,37:16.4
+424,"60 Knolls Cres APT 1M, Bronx, NY 10463",60,6,,1953,TRUE,153038,https://www.zillow.com/homedetails/60-Knolls-Cres-APT-1M-Bronx-NY-10463/119917523_zpid/,37:17.6
+425,"23 Fairview Pl, Brooklyn, NY 11226",4,,2122,1910,TRUE,1300000,https://www.zillow.com/homedetails/23-Fairview-Pl-Brooklyn-NY-11226/30658710_zpid/,37:18.6
+426,"149 Sullivan St APT 3D, New York, NY 10012",149,6,22513,1900,TRUE,780000,https://www.zillow.com/homedetails/149-Sullivan-St-APT-3D-New-York-NY-10012/244772312_zpid/,37:20.5
+427,"160 E 81st St, New York, NY 10028",160,6,550,1899,TRUE,26000000,https://www.zillow.com/homedetails/160-E-81st-St-New-York-NY-10028/31541191_zpid/,37:22.1
+428,"99-51 Russell St, Howard Beach, NY 11414",1,6,,1930,TRUE,799000,https://www.zillow.com/homedetails/99-51-Russell-St-Howard-Beach-NY-11414/2079479154_zpid/,37:23.5
+429,"704 Brook Ave APT 3U, Bronx, NY 10455",2,6,1100,2010,TRUE,299000,https://www.zillow.com/homedetails/704-Brook-Ave-APT-3U-Bronx-NY-10455/2084902319_zpid/,37:24.2
+430,"109-50 135th St, South Ozone Park, NY 11420",0,6,1485,1920,TRUE,250000,https://www.zillow.com/homedetails/109-50-135th-St-South-Ozone-Park-NY-11420/2078833035_zpid/,37:25.2
+431,"30 Grove St, New York, NY 10014",5,6,5864,1915,TRUE,28000000,https://www.zillow.com/homedetails/30-Grove-St-New-York-NY-10014/31499272_zpid/,37:26.2
+432,"403 Greenwich St #A, New York, NY 10013",655,6,1901,2017,TRUE,4800000,https://www.zillow.com/homedetails/403-Greenwich-St-A-New-York-NY-10013/300201140_zpid/,37:27.2
+433,"99-54 163rd Rd, Howard Beach, NY 11414",4,6,2400,1920,TRUE,525000,https://www.zillow.com/homedetails/99-54-163rd-Rd-Howard-Beach-NY-11414/2078151221_zpid/,37:28.3
+434,"63 Elson St, Staten Island, NY 10314",2000,6,1746,1978,TRUE,599900,https://www.zillow.com/homedetails/63-Elson-St-Staten-Island-NY-10314/32305108_zpid/,37:29.4
+435,"144-32 181st St, Springfield Gardens, NY 11413",8,6,,1980,TRUE,849999,https://www.zillow.com/homedetails/144-32-181st-St-Springfield-Gardens-NY-11413/2080684076_zpid/,37:30.3
+436,"51 Marine Way, Staten Island, NY 10306",3,6,1440,1997,TRUE,595000,https://www.zillow.com/homedetails/51-Marine-Way-Staten-Island-NY-10306/32335426_zpid/,37:31.1
+437,"124-16 84th Rd #6A, Kew Gardens, NY 11415",0,6,600,1938,TRUE,250000,https://www.zillow.com/homedetails/124-16-84th-Rd-6A-Kew-Gardens-NY-11415/2072318807_zpid/,37:32.1
+438,"920 E 17th St APT 616, Brooklyn, NY 11230",2,,1300,1948,TRUE,650000,https://www.zillow.com/homedetails/920-E-17th-St-APT-616-Brooklyn-NY-11230/122552218_zpid/,37:32.9
+439,"388 Edinboro Rd, Staten Island, NY 10306",4,6,5368,1935,TRUE,2395000,https://www.zillow.com/homedetails/388-Edinboro-Rd-Staten-Island-NY-10306/32311406_zpid/,37:33.8
+440,"161 Coffey St, Brooklyn, NY 11231",3,6,1536,1899,TRUE,2990000,https://www.zillow.com/homedetails/161-Coffey-St-Brooklyn-NY-11231/30573536_zpid/,37:34.5
+441,"420 E 51st St APT 3C, New York, NY 10022",24,6,1200,1962,TRUE,429000,https://www.zillow.com/homedetails/420-E-51st-St-APT-3C-New-York-NY-10022/244803919_zpid/,37:35.7
+442,"519 E 51st St, Brooklyn, NY 11203",3,,1600,1920,TRUE,799000,https://www.zillow.com/homedetails/519-E-51st-St-Brooklyn-NY-11203/30654341_zpid/,37:36.7
+443,"222-02 38th Ave, Bayside, NY 11361",4,6,,2013,TRUE,1980000,https://www.zillow.com/homedetails/222-02-38th-Ave-Bayside-NY-11361/2075660496_zpid/,37:37.7
+444,"573 76th St, Brooklyn, NY 11209",573,6,2595,1905,TRUE,1450000,https://www.zillow.com/homedetails/573-76th-St-Brooklyn-NY-11209/30695472_zpid/,37:38.5
+445,"21614 104th Ave, Queens Village, NY 11429",3,6,1352,1975,TRUE,689000,https://www.zillow.com/homedetails/21614-104th-Ave-Queens-Village-NY-11429/145602765_zpid/,37:39.6
+446,"4254 196th St, Flushing, NY 11358",3,6,1260,1945,TRUE,809000,https://www.zillow.com/homedetails/4254-196th-St-Flushing-NY-11358/32045862_zpid/,37:44.5
+447,"101 W 24th St PENTHOUSE 1C, New York, NY 10011",2,6,2320,2006,TRUE,4995000,https://www.zillow.com/homedetails/101-W-24th-St-PENTHOUSE-1C-New-York-NY-10011/97537595_zpid/,37:45.6
+448,"303 E 57th St APT 31G, New York, NY 10022",31,,,1968,TRUE,580000,https://www.zillow.com/homedetails/303-E-57th-St-APT-31G-New-York-NY-10022/2075620821_zpid/,37:46.3
+449,"160 Guernsey St, Brooklyn, NY 11222",4,6,2240,1899,TRUE,1995000,https://www.zillow.com/homedetails/160-Guernsey-St-Brooklyn-NY-11222/30620600_zpid/,37:47.3
+450,"9807 Avenue L, Brooklyn, NY 11236",2,,1400,1925,TRUE,635000,https://www.zillow.com/homedetails/9807-Avenue-L-Brooklyn-NY-11236/30776342_zpid/,37:48.2
+451,"1927 78th St APT 3B, Brooklyn, NY 11214",3,6,1680,2010,TRUE,929000,https://www.zillow.com/homedetails/1927-78th-St-APT-3B-Brooklyn-NY-11214/94717561_zpid/,37:49.2
+452,"844 Hollywood Ave, Bronx, NY 10465",5,,,1920,TRUE,649000,https://www.zillow.com/homedetails/844-Hollywood-Ave-Bronx-NY-10465/29844893_zpid/,37:50.6
+453,"285 E 35th St APT 2D, Brooklyn, NY 11203",2,6,1200,285,TRUE,212500,https://www.zillow.com/homedetails/285-E-35th-St-APT-2D-Brooklyn-NY-11203/2075431731_zpid/,37:51.8
+454,"5 Brandis Ave, Staten Island, NY 10312",3,6,2245,1970,TRUE,729000,https://www.zillow.com/homedetails/5-Brandis-Ave-Staten-Island-NY-10312/32356274_zpid/,37:52.7
+455,"1463 Kennellworth Pl, Bronx, NY 10465",3,6,752,1940,TRUE,559000,https://www.zillow.com/homedetails/1463-Kennellworth-Pl-Bronx-NY-10465/29843721_zpid/,37:53.6
+456,"123-22 146th St, Jamaica, NY 11436",2,6,,1920,TRUE,270000,https://www.zillow.com/homedetails/123-22-146th-St-Jamaica-NY-11436/2074028021_zpid/,37:54.6
+457,"408 W 25th St APT 2RW, New York, NY 10001",0,6,,1910,TRUE,360000,https://www.zillow.com/homedetails/408-W-25th-St-APT-2RW-New-York-NY-10001/72515018_zpid/,37:56.6
+458,"13-01 34th Ave #2, Astoria, NY 11106",1,,2262,1996,TRUE,1149000,https://www.zillow.com/homedetails/13-01-34th-Ave-2-Astoria-NY-11106/2077422868_zpid/,37:57.8
+459,"1 Sutton Pl S, New York, NY 10022",6,6,231680,1926,TRUE,45000000,https://www.zillow.com/homedetails/1-Sutton-Pl-S-New-York-NY-10022/31533194_zpid/,37:58.8
+460,"181 8th St, Brooklyn, NY 11215",181,,3385,1901,TRUE,3100000,https://www.zillow.com/homedetails/181-8th-St-Brooklyn-NY-11215/30584432_zpid/,37:59.9
+461,"309 E 105th St APT 3N, New York, NY 10029",6,6,726,1900,TRUE,469000,https://www.zillow.com/homedetails/309-E-105th-St-APT-3N-New-York-NY-10029/31546730_zpid/,38:01.2
+462,"49 Ladd Ave, Staten Island, NY 10312",3,6,,1975,TRUE,597000,https://www.zillow.com/homedetails/49-Ladd-Ave-Staten-Island-NY-10312/32357741_zpid/,38:02.3
+463,"802 Lamont Ave, Staten Island, NY 10309",2,6,,2020,TRUE,1349999,https://www.zillow.com/homedetails/802-Lamont-Ave-Staten-Island-NY-10309/2077326553_zpid/,38:03.5
+464,"215-31 23rd Ave, Bayside, NY 11360",3,6,,1968,TRUE,449998,https://www.zillow.com/homedetails/215-31-23rd-Ave-Bayside-NY-11360/2078123579_zpid/,38:04.3
+465,"33-45 94th St APT 3E, Jackson Heights, NY 11372",1,6,700,1959,TRUE,235000,https://www.zillow.com/homedetails/33-45-94th-St-APT-3E-Jackson-Heights-NY-11372/83055949_zpid/,38:05.2
+466,"1212 S Railroad Ave, Staten Island, NY 10306",3,6,1800,1990,TRUE,649999,https://www.zillow.com/homedetails/1212-S-Railroad-Ave-Staten-Island-NY-10306/32330242_zpid/,38:06.2
+467,"241 5th Ave PENTHOUSE 15, New York, NY 10016",3,6,2706,2012,TRUE,6500000,https://www.zillow.com/homedetails/241-5th-Ave-PENTHOUSE-15-New-York-NY-10016/2072338929_zpid/,38:07.4
+468,"1691 Monroe Ave, Bronx, NY 10457",2,,2540,1910,TRUE,899000,https://www.zillow.com/homedetails/1691-Monroe-Ave-Bronx-NY-10457/29781624_zpid/,38:08.3
+469,"227 Rosedale Ave, Staten Island, NY 10312",3,6,,1988,TRUE,459000,https://www.zillow.com/homedetails/227-Rosedale-Ave-Staten-Island-NY-10312/32363344_zpid/,38:09.6
+470,"303 E 57th St #14-K, New York, NY 10022",1,6,,1968,TRUE,550000,https://www.zillow.com/homedetails/303-E-57th-St-14-K-New-York-NY-10022/2144649401_zpid/,38:11.2
+471,"73-41 217th St, Oakland Gardens, NY 11364",2,6,,1955,TRUE,289999,https://www.zillow.com/homedetails/73-41-217th-St-Oakland-Gardens-NY-11364/2078734042_zpid/,38:12.4
+472,"8041 90th Rd, Jamaica, NY 11421",6,6,2785,1920,TRUE,674900,https://www.zillow.com/homedetails/8041-90th-Rd-Jamaica-NY-11421/32109634_zpid/,38:13.2
+473,"296 Candon Ave, Staten Island, NY 10309",3,6,,1997,TRUE,639000,https://www.zillow.com/homedetails/296-Candon-Ave-Staten-Island-NY-10309/32372911_zpid/,38:14.1
+474,"1259 Grant Ave APT 10C, Bronx, NY 10456",2,6,900,2008,TRUE,180000,https://www.zillow.com/homedetails/1259-Grant-Ave-APT-10C-Bronx-NY-10456/2090778999_zpid/,38:15.0
+475,"320 E 14th St APT 5, New York, NY 10003",4,6,5265,1920,TRUE,1795000,https://www.zillow.com/homedetails/320-E-14th-St-APT-5-New-York-NY-10003/244748194_zpid/,38:16.0
+476,"187-04 Dunkirk Drive, Saint Albans, NY 11412",6,6,2386,2014,TRUE,849000,https://www.zillow.com/homedetails/187-04-Dunkirk-Drive-Saint-Albans-NY-11412/2102752031_zpid/,38:17.0
+477,"71-11 Yellowstone Blvd #4K, Forest Hills, NY 11375",1,6,,1954,TRUE,295000,https://www.zillow.com/homedetails/71-11-Yellowstone-Blvd-4K-Forest-Hills-NY-11375/2072340699_zpid/,38:17.9
+478,"15 Maple Ave, Bronx, NY 10465",4,6,1700,1921,TRUE,625000,https://www.zillow.com/homedetails/15-Maple-Ave-Bronx-NY-10465/2123770349_zpid/,38:18.8
+479,"244 Hylan Blvd, Staten Island, NY 10305",2,6,,1925,TRUE,469000,https://www.zillow.com/homedetails/244-Hylan-Blvd-Staten-Island-NY-10305/32318863_zpid/,38:20.0
+480,"1062 Bergen St APT 2D, Brooklyn, NY 11216",1062,6,433,1900,TRUE,480000,https://www.zillow.com/homedetails/1062-Bergen-St-APT-2D-Brooklyn-NY-11216/59996425_zpid/,39:47.9
+481,"814 Tilden St #3C, Bronx, NY 10467",1,6,750,1962,TRUE,99000,https://www.zillow.com/homedetails/814-Tilden-St-3C-Bronx-NY-10467/2109283828_zpid/,39:49.0
+482,"486 Kissel Ave, Staten Island, NY 10301",4,6,,1920,TRUE,649999,https://www.zillow.com/homedetails/486-Kissel-Ave-Staten-Island-NY-10301/32274212_zpid/,39:50.3
+483,"1065 Lexington Ave APT 2A, New York, NY 10021",3,6,45621,1925,TRUE,1795000,https://www.zillow.com/homedetails/1065-Lexington-Ave-APT-2A-New-York-NY-10021/244903505_zpid/,39:51.2
+484,"34 E 62nd St, Manhattan, NY 10065",5,6,9200,2011,TRUE,19750000,https://www.zillow.com/homedetails/34-E-62nd-St-Manhattan-NY-10065/2108488525_zpid/,39:52.1
+485,"216B Edgewater Park #B, Bronx, NY 10465",2,6,,0,TRUE,50000,https://www.zillow.com/homedetails/216B-Edgewater-Park-B-Bronx-NY-10465/2075700260_zpid/,39:53.2
+486,"236 E 78th St APT 6A, New York, NY 10075",0,6,11334,1910,TRUE,299000,https://www.zillow.com/homedetails/236-E-78th-St-APT-6A-New-York-NY-10075/244731124_zpid/,39:54.0
+487,"190-15 105th Ave, Saint Albans, NY 11412",11,,,1930,TRUE,509900,https://www.zillow.com/homedetails/190-15-105th-Ave-Saint-Albans-NY-11412/2080480635_zpid/,39:54.8
+488,"88-47 238th St, Bellerose, NY 11426",3,6,,1930,TRUE,599000,https://www.zillow.com/homedetails/88-47-238th-St-Bellerose-NY-11426/2072566696_zpid/,39:56.1
+489,"234-34 133rd Ave #1, Rosedale, NY 11422",1,,700,1950,TRUE,159000,https://www.zillow.com/homedetails/234-34-133rd-Ave-1-Rosedale-NY-11422/2075650238_zpid/,39:56.9
+490,"57-42 244th St, Little Neck, NY 11362",3,6,1061,1953,TRUE,385000,https://www.zillow.com/homedetails/57-42-244th-St-Little-Neck-NY-11362/219877100_zpid/,39:58.1
+491,"34 Gramercy Park E #6BF, New York, NY 10003",1883,6,80000,1883,TRUE,1600000,https://www.zillow.com/homedetails/34-Gramercy-Park-E-6BF-New-York-NY-10003/244800889_zpid/,39:58.8
+492,"298 E 2nd St #3, New York, NY 10009",298,,1838,2020,TRUE,1750000,https://www.zillow.com/homedetails/298-E-2nd-St-3-New-York-NY-10009/2081361697_zpid/,40:00.0
+493,"34 Myrtle Ave, Staten Island, NY 10310",4,6,,1945,TRUE,545000,https://www.zillow.com/homedetails/34-Myrtle-Ave-Staten-Island-NY-10310/32275567_zpid/,40:01.0
+494,"178 8th Ave, Brooklyn, NY 11215",2,6,6070,1901,TRUE,6300000,https://www.zillow.com/homedetails/178-8th-Ave-Brooklyn-NY-11215/30587171_zpid/,40:02.0
+495,"1530 E 51st St, Brooklyn, NY 11234",1530,6,868,1920,TRUE,580000,https://www.zillow.com/homedetails/1530-E-51st-St-Brooklyn-NY-11234/30763081_zpid/,40:03.0
+496,"8808 104th St, Jamaica, NY 11418",3,6,,1920,TRUE,589000,https://www.zillow.com/homedetails/8808-104th-St-Jamaica-NY-11418/32118223_zpid/,40:03.9
+497,"6209 Amboy Rd, Staten Island, NY 10309",4,6,,1920,TRUE,799000,https://www.zillow.com/homedetails/6209-Amboy-Rd-Staten-Island-NY-10309/32371042_zpid/,40:05.1
+498,"550 Park Ave FLOOR 10, New York, NY 10065",550,,,1917,TRUE,32000000,https://www.zillow.com/homedetails/550-Park-Ave-FLOOR-10-New-York-NY-10065/2076722075_zpid/,40:06.5
+499,"100 Remsen St APT 8D, Brooklyn, NY 11201",1,6,600,1950,TRUE,375000,https://www.zillow.com/homedetails/100-Remsen-St-APT-8D-Brooklyn-NY-11201/79531571_zpid/,40:08.0
+500,"190 E 72nd St APT 14D, New York, NY 10021",4,6,,1962,TRUE,1249000,https://www.zillow.com/homedetails/190-E-72nd-St-APT-14D-New-York-NY-10021/2072764152_zpid/,40:09.0
+501,"16003 87th St, Jamaica, NY 11414",4,6,2000,1965,TRUE,1299000,https://www.zillow.com/homedetails/16003-87th-St-Jamaica-NY-11414/32215580_zpid/,40:10.0
+502,"144-67 Charter Rd #13C, Jamaica, NY 11435",3,6,1400,1947,TRUE,299999,https://www.zillow.com/homedetails/144-67-Charter-Rd-13C-Jamaica-NY-11435/72701249_zpid/,40:10.9
+503,"508 E 78th St APT 1M, New York, NY 10075",1,6,330,1910,TRUE,349000,https://www.zillow.com/homedetails/508-E-78th-St-APT-1M-New-York-NY-10075/79505176_zpid/,40:12.0
+504,"1485 E 51st St, Brooklyn, NY 11234",3,6,1540,1930,TRUE,859000,https://www.zillow.com/homedetails/1485-E-51st-St-Brooklyn-NY-11234/30762265_zpid/,40:13.3
+505,"575 Yetman Ave, Staten Island, NY 10307",3,6,2905,2004,TRUE,1050000,https://www.zillow.com/homedetails/575-Yetman-Ave-Staten-Island-NY-10307/64553764_zpid/,40:14.7
+506,"497 Greenwich St #6A, New York, NY 10013",497,,1600,1915,TRUE,3000000,https://www.zillow.com/homedetails/497-Greenwich-St-6A-New-York-NY-10013/2078338949_zpid/,40:15.7
+507,"15 Central Park W #PH43, New York, NY 10023",5,,4739,2007,TRUE,57500000,https://www.zillow.com/homedetails/15-Central-Park-W-PH43-New-York-NY-10023/2083155303_zpid/,40:16.5
+508,"521 E 88th St APT 1C, New York, NY 10128",2,6,1050,1920,TRUE,995000,https://www.zillow.com/homedetails/521-E-88th-St-APT-1C-New-York-NY-10128/123536221_zpid/,40:17.8
+509,"155 E 37th St, New York, NY 10016",9,6,3628,1920,TRUE,4400000,https://www.zillow.com/homedetails/155-E-37th-St-New-York-NY-10016/2110660093_zpid/,40:18.7
+510,"224-72 Horace Harding Expy FLOOR 1, Oakland Gardens, NY 11364",3,6,,1955,TRUE,315000,https://www.zillow.com/homedetails/224-72-Horace-Harding-Expy-FLOOR-1-Oakland-Gardens-NY-11364/2072340701_zpid/,40:19.9
+511,"83 Eagle St #3, Brooklyn, NY 11222",2,6,1024,2020,TRUE,1500000,https://www.zillow.com/homedetails/83-Eagle-St-3-Brooklyn-NY-11222/2072798589_zpid/,40:21.4
+512,"340 W 50th St #2C, New York, NY 10019",1,6,1025,340,TRUE,500000,https://www.zillow.com/homedetails/340-W-50th-St-2C-New-York-NY-10019/2072601817_zpid/,40:22.9
+513,"1922 Mcgraw Ave APT 5H, Bronx, NY 10462",1,6,,1929,TRUE,160000,https://www.zillow.com/homedetails/1922-Mcgraw-Ave-APT-5H-Bronx-NY-10462/215951976_zpid/,40:24.1
+514,"106-15 Queens Blvd #5H, Forest Hills, NY 11375",2,6,,1946,TRUE,439000,https://www.zillow.com/homedetails/106-15-Queens-Blvd-5H-Forest-Hills-NY-11375/245527791_zpid/,40:24.9
+515,"150-15 Village Rd #46C, Jamaica, NY 11435",3,6,1200,1951,TRUE,310999,https://www.zillow.com/homedetails/150-15-Village-Rd-46C-Jamaica-NY-11435/124398541_zpid/,40:25.6
+516,"27 W 84th St #2FE, New York, NY 10024",1,,376,1910,TRUE,374999,https://www.zillow.com/homedetails/27-W-84th-St-2FE-New-York-NY-10024/2076938683_zpid/,40:26.6
+517,"2800 Schurz Ave, Bronx, NY 10465",2800,,3321,1930,TRUE,1650000,https://www.zillow.com/homedetails/2800-Schurz-Ave-Bronx-NY-10465/2076712622_zpid/,40:27.4
+518,"34 Park Pl #1, Brooklyn, NY 11217",4,,1800,1901,TRUE,4500000,https://www.zillow.com/homedetails/34-Park-Pl-1-Brooklyn-NY-11217/62646432_zpid/,40:28.2
+519,"100 W 57th St APT 14F, New York, NY 10019",0,6,650,1962,TRUE,150000,https://www.zillow.com/homedetails/100-W-57th-St-APT-14F-New-York-NY-10019/72519047_zpid/,40:29.1
+520,"24 Monroe Pl APT 8B, Brooklyn, NY 11201",1,6,,1928,TRUE,629000,https://www.zillow.com/homedetails/24-Monroe-Pl-APT-8B-Brooklyn-NY-11201/89555163_zpid/,40:30.3
+521,"49 Downing St APT G3, New York, NY 10014",1,,1225,1896,TRUE,1650000,https://www.zillow.com/homedetails/49-Downing-St-APT-G3-New-York-NY-10014/72512345_zpid/,40:31.2
+522,"65-48 79th Pl, Middle Village, NY 11379",1,6,,1925,TRUE,699000,https://www.zillow.com/homedetails/65-48-79th-Pl-Middle-Village-NY-11379/2077301033_zpid/,40:32.2
+523,"107 Saint Johns Pl, Brooklyn, NY 11217",6,,,1899,TRUE,3995000,https://www.zillow.com/homedetails/107-Saint-Johns-Pl-Brooklyn-NY-11217/2072589978_zpid/,40:33.6
+524,"11 Cranberry St, Brooklyn, NY 11201",5,,6700,1899,TRUE,13495000,https://www.zillow.com/homedetails/11-Cranberry-St-Brooklyn-NY-11201/30567284_zpid/,40:34.7
+525,"52-54 65th Pl #LGK, Maspeth, NY 11378",52,6,,52,TRUE,379000,https://www.zillow.com/homedetails/52-54-65th-Pl-LGK-Maspeth-NY-11378/2076677082_zpid/,40:35.8
+526,"179-15 80th Rd, Jamaica, NY 11432",2,6,3452,2016,TRUE,2930000,https://www.zillow.com/homedetails/179-15-80th-Rd-Jamaica-NY-11432/2072445910_zpid/,40:36.6
+527,"597 Mac Donough St, Brooklyn, NY 11233",5,6,2268,1899,TRUE,1428000,https://www.zillow.com/homedetails/597-Mac-Donough-St-Brooklyn-NY-11233/2073266268_zpid/,40:37.5
+528,"80 W Washington Pl, New York, NY 10011",6,,8757,1900,TRUE,24900000,https://www.zillow.com/homedetails/80-W-Washington-Pl-New-York-NY-10011/2077185911_zpid/,40:38.4
+529,"70 Remsen St #2AB, Brooklyn, NY 11201",2,6,1200,1928,TRUE,1485000,https://www.zillow.com/homedetails/70-Remsen-St-2AB-Brooklyn-NY-11201/84767502_zpid/,40:39.2
+530,"217-63 54th Ave, Oakland Gardens, NY 11364",4,6,4000,1935,TRUE,999000,https://www.zillow.com/homedetails/217-63-54th-Ave-Oakland-Gardens-NY-11364/2077645506_zpid/,40:40.4
+531,"312 Greene Ave, Brooklyn, NY 11238",5,,3368,1901,TRUE,2499999,https://www.zillow.com/homedetails/312-Greene-Ave-Brooklyn-NY-11238/30613429_zpid/,40:41.2
+532,"1933 Vyse Ave, Bronx, NY 10460",7,6,3321,2002,TRUE,849999,https://www.zillow.com/homedetails/1933-Vyse-Ave-Bronx-NY-10460/83178654_zpid/,40:42.1
+533,"356 Burns St, Flushing, NY 11375",2,6,1969,1915,TRUE,1749000,https://www.zillow.com/homedetails/356-Burns-St-Flushing-NY-11375/32006175_zpid/,40:43.2
+534,"2135 Clinton Ave, Bronx, NY 10457",3,6,1320,1985,TRUE,499000,https://www.zillow.com/homedetails/2135-Clinton-Ave-Bronx-NY-10457/29785236_zpid/,40:44.6
+535,"956 E 221st St #2F, Bronx, NY 10469",2,6,1778,1935,TRUE,679000,https://www.zillow.com/homedetails/956-E-221st-St-2F-Bronx-NY-10469/2073137576_zpid/,40:45.5
+536,"214 W 11th St, New York, NY 10014",5,6,3344,1899,TRUE,24500000,https://www.zillow.com/homedetails/214-W-11th-St-New-York-NY-10014/31500503_zpid/,40:46.4
+537,"186-20 Ilion Ave, Saint Albans, NY 11412",3,6,,1930,TRUE,565000,https://www.zillow.com/homedetails/186-20-Ilion-Ave-Saint-Albans-NY-11412/2072341992_zpid/,40:47.8
+538,"345 Oakland Ave, Staten Island, NY 10310",1988,,,1920,TRUE,689000,https://www.zillow.com/homedetails/345-Oakland-Ave-Staten-Island-NY-10310/32275070_zpid/,40:48.6
+539,"572 E 32nd St, Brooklyn, NY 11210",2,,3500,1915,TRUE,869000,https://www.zillow.com/homedetails/572-E-32nd-St-Brooklyn-NY-11210/30663675_zpid/,40:49.9
+540,"538 Buchanan Ave #B, Staten Island, NY 10314",2,6,,1993,TRUE,345000,https://www.zillow.com/homedetails/538-Buchanan-Ave-B-Staten-Island-NY-10314/2076473811_zpid/,40:51.3
+541,"1808 Forest Hill Rd, Staten Island, NY 10314",2,6,,1978,TRUE,360000,https://www.zillow.com/homedetails/1808-Forest-Hill-Rd-Staten-Island-NY-10314/32316170_zpid/,40:52.4
+542,"1652 Forest Hill Rd, Staten Island, NY 10314",5,,,1986,TRUE,365750,https://www.zillow.com/homedetails/1652-Forest-Hill-Rd-Staten-Island-NY-10314/32315413_zpid/,40:53.5
+543,"636 E 14th St APT 6, New York, NY 10009",1,6,500,636,TRUE,399000,https://www.zillow.com/homedetails/636-E-14th-St-APT-6-New-York-NY-10009/2077385190_zpid/,40:54.5
+544,"134-20 225th St, Springfield Gardens, NY 11413",4,6,,1930,TRUE,465000,https://www.zillow.com/homedetails/134-20-225th-St-Springfield-Gardens-NY-11413/2080686729_zpid/,40:55.5
+545,"30 W 85th St, New York, NY 10024",30,,7856,1900,TRUE,19750000,https://www.zillow.com/homedetails/30-W-85th-St-New-York-NY-10024/143132020_zpid/,40:56.5
+546,"525 W 236th St APT 4H, Bronx, NY 10463",525,6,1800,1956,TRUE,495000,https://www.zillow.com/homedetails/525-W-236th-St-APT-4H-Bronx-NY-10463/244449713_zpid/,40:57.3
+547,"14720 257th St, Jamaica, NY 11422",4,6,2350,1960,TRUE,698500,https://www.zillow.com/homedetails/14720-257th-St-Jamaica-NY-11422/32212144_zpid/,40:58.2
+548,"120-01 18th Ave #2, College Pt, NY 11356",6,6,3552,1910,TRUE,699000,https://www.zillow.com/homedetails/120-01-18th-Ave-2-College-Pt-NY-11356/2073620417_zpid/,40:59.1
+549,"145 Sullivan St APT 1B, New York, NY 10012",0,6,500,1910,TRUE,575000,https://www.zillow.com/homedetails/145-Sullivan-St-APT-1B-New-York-NY-10012/72512171_zpid/,41:00.2
+550,"2530 Gerritsen Ave, Brooklyn, NY 11229",3,,1360,1955,TRUE,749000,https://www.zillow.com/homedetails/2530-Gerritsen-Ave-Brooklyn-NY-11229/30794693_zpid/,41:01.4
+551,"31 Coventry Loop, Staten Island, NY 10312",31,6,,1988,TRUE,429000,https://www.zillow.com/homedetails/31-Coventry-Loop-Staten-Island-NY-10312/32363579_zpid/,41:02.5
+552,"44 Clermont Pl, Staten Island, NY 10314",3,,,1950,TRUE,599900,https://www.zillow.com/homedetails/44-Clermont-Pl-Staten-Island-NY-10314/32289543_zpid/,41:03.7
+553,"6911 Yellowstone Blvd APT A44, Forest Hills, NY 11375",6911,6,,1939,TRUE,400000,https://www.zillow.com/homedetails/6911-Yellowstone-Blvd-APT-A44-Forest-Hills-NY-11375/245408097_zpid/,41:04.7
+554,"1420 Pinson St, Far Rockaway, NY 11691",11,6,2925,1920,TRUE,425900,https://www.zillow.com/homedetails/1420-Pinson-St-Far-Rockaway-NY-11691/32221274_zpid/,41:05.6
+555,"3118 Union St APT 7B, Flushing, NY 11354",3,6,1148,2007,TRUE,699000,https://www.zillow.com/homedetails/3118-Union-St-APT-7B-Flushing-NY-11354/89067297_zpid/,41:06.4
+556,"149-49 20th Rd, Whitestone, NY 11357",3,6,,1930,TRUE,938888,https://www.zillow.com/homedetails/149-49-20th-Rd-Whitestone-NY-11357/2072868049_zpid/,41:07.5
+557,"626 Arden Ave, Staten Island, NY 10312",4,6,,1960,TRUE,499999,https://www.zillow.com/homedetails/626-Arden-Ave-Staten-Island-NY-10312/32364457_zpid/,41:08.2
+558,"328 Avenue S, Brooklyn, NY 11223",4,6,1728,1960,TRUE,1100000,https://www.zillow.com/homedetails/328-Avenue-S-Brooklyn-NY-11223/30734777_zpid/,41:09.4
+559,"17965 Selover Rd, Jamaica, NY 11434",3,6,1600,1935,TRUE,399000,https://www.zillow.com/homedetails/17965-Selover-Rd-Jamaica-NY-11434/32191410_zpid/,41:10.5
+560,"4 W 21st St APT 3D, New York, NY 10010",4,6,1518,2006,TRUE,1295000,https://www.zillow.com/homedetails/4-W-21st-St-APT-3D-New-York-NY-10010/72538246_zpid/,41:11.5
+561,"250 Mercer St #A503A603, New York, NY 10012",250,6,,1888,TRUE,1995000,https://www.zillow.com/homedetails/250-Mercer-St-A503A603-New-York-NY-10012/2077270364_zpid/,41:12.5
+562,"220 E 65th St APT 22C, New York, NY 10065",2,,1326,1978,TRUE,2400000,https://www.zillow.com/homedetails/220-E-65th-St-APT-22C-New-York-NY-10065/31536619_zpid/,41:13.4
+563,"140-39 34th Ave SUITE 6K, Flushing, NY 11354",3,6,1200,1960,TRUE,448000,https://www.zillow.com/homedetails/140-39-34th-Ave-SUITE-6K-Flushing-NY-11354/2074815520_zpid/,41:14.5
+564,"350 W 246th St, Bronx, NY 10471",3,6,2635,1930,TRUE,1700000,https://www.zillow.com/homedetails/350-W-246th-St-Bronx-NY-10471/29852626_zpid/,41:15.3
+565,"107-10 142nd St, Jamaica, NY 11435",107,,,1920,TRUE,799000,https://www.zillow.com/homedetails/107-10-142nd-St-Jamaica-NY-11435/2073339656_zpid/,41:16.3
+566,"634 Coster St, Bronx, NY 10474",3,,3272,1910,TRUE,450000,https://www.zillow.com/homedetails/634-Coster-St-Bronx-NY-10474/29781311_zpid/,41:17.3
+567,"41-18 27th St #1A, Long Island City, NY 11101",2,,930,2008,TRUE,850000,https://www.zillow.com/homedetails/41-18-27th-St-1A-Long-Island-City-NY-11101/2078245403_zpid/,41:18.4
+568,"155 Beach 120th St APT 2A, Belle Harbor, NY 11694",2,,1200,1986,TRUE,499000,https://www.zillow.com/homedetails/155-Beach-120th-St-APT-2A-Belle-Harbor-NY-11694/2112336959_zpid/,41:19.8
+569,"100 W 57th St UNIT 4JK, New York, NY 10019",3,6,2200,1962,TRUE,799000,https://www.zillow.com/homedetails/100-W-57th-St-UNIT-4JK-New-York-NY-10019/306707664_zpid/,41:20.9
+570,"71-37 Central Ave, Ridgewood, NY 11385",1,6,1967,1925,TRUE,749000,https://www.zillow.com/homedetails/71-37-Central-Ave-Ridgewood-NY-11385/2077954214_zpid/,41:22.3
+571,"502 Clinton Ave APT 1, Brooklyn, NY 11238",8,6,7500,1930,TRUE,1995000,https://www.zillow.com/homedetails/502-Clinton-Ave-APT-1-Brooklyn-NY-11238/2077101287_zpid/,41:23.3
+572,"271 Hicks St, Brooklyn, NY 11201",271,,6354,1846,TRUE,13875000,https://www.zillow.com/homedetails/271-Hicks-St-Brooklyn-NY-11201/30567844_zpid/,41:24.2
+573,"8220 Colonial Rd, Brooklyn, NY 11209",3,6,2400,1910,TRUE,2895000,https://www.zillow.com/homedetails/8220-Colonial-Rd-Brooklyn-NY-11209/30698464_zpid/,41:25.2
+574,"100 W 57th St #16ON, New York, NY 10019",1,,,1962,TRUE,349000,https://www.zillow.com/homedetails/100-W-57th-St-16ON-New-York-NY-10019/2078949353_zpid/,41:26.1
+575,"15403 25th Ave, Whitestone, NY 11357",3,6,1323,1950,TRUE,1288888,https://www.zillow.com/homedetails/15403-25th-Ave-Whitestone-NY-11357/219889988_zpid/,41:27.1
+576,"26 Croft Ct, Staten Island, NY 10306",3,6,,1988,TRUE,499000,https://www.zillow.com/homedetails/26-Croft-Ct-Staten-Island-NY-10306/32340619_zpid/,41:28.1
+577,"82-39 134th St #4H, Jamaica, NY 11435",2,6,835,1950,TRUE,290000,https://www.zillow.com/homedetails/82-39-134th-St-4H-Jamaica-NY-11435/2072520090_zpid/,41:29.0
+578,"37-01 223rd St, Bayside, NY 11361",2008,6,,1930,TRUE,2999000,https://www.zillow.com/homedetails/37-01-223rd-St-Bayside-NY-11361/2077886781_zpid/,41:29.8
+579,"565 Broome St #S16B, New York, NY 10013",565,6,3576,2016,TRUE,14000000,https://www.zillow.com/homedetails/565-Broome-St-S16B-New-York-NY-10013/321901251_zpid/,41:30.7
+580,"190-08 35th Ave, Flushing, NY 11358",3,6,,1945,TRUE,899000,https://www.zillow.com/homedetails/190-08-35th-Ave-Flushing-NY-11358/2072357446_zpid/,41:31.5
+581,"403 Avenue C APT 4A, Brooklyn, NY 11218",403,6,59536,1915,TRUE,699000,https://www.zillow.com/homedetails/403-Avenue-C-APT-4A-Brooklyn-NY-11218/244992707_zpid/,41:32.3
+582,"1131 Brooklyn Ave, Brooklyn, NY 11203",1,6,,1920,TRUE,550000,https://www.zillow.com/homedetails/1131-Brooklyn-Ave-Brooklyn-NY-11203/30660619_zpid/,41:33.1
+583,"374 S 2nd St #32, Brooklyn, NY 11211",1,6,650,1924,TRUE,404999,https://www.zillow.com/homedetails/374-S-2nd-St-32-Brooklyn-NY-11211/2077707460_zpid/,41:34.0
+584,"526 W 158th St APT 62, New York, NY 10032",6,6,850,1925,TRUE,150000,https://www.zillow.com/homedetails/526-W-158th-St-APT-62-New-York-NY-10032/2090826016_zpid/,41:35.3
+585,"209 Maple Pkwy, Staten Island, NY 10303",3,6,,2002,TRUE,465000,https://www.zillow.com/homedetails/209-Maple-Pkwy-Staten-Island-NY-10303/62723330_zpid/,41:36.2
+586,"8 E 63rd St, New York, NY 10065",25,6,10000,1899,TRUE,29995000,https://www.zillow.com/homedetails/8-E-63rd-St-New-York-NY-10065/31533305_zpid/,41:37.1
+587,"165 E 60th St #PENTHOUSE, New York, NY 10022",2,6,,1930,TRUE,2495000,https://www.zillow.com/homedetails/165-E-60th-St-PENTHOUSE-New-York-NY-10022/2089715007_zpid/,41:37.9
+588,"547 W 47th St #1011, New York, NY 10036",2,6,886,2020,TRUE,1985000,https://www.zillow.com/homedetails/547-W-47th-St-1011-New-York-NY-10036/2072319511_zpid/,41:39.5
+589,"56 W 119th St APT 2C, New York, NY 10026",1,6,,1920,TRUE,200000,https://www.zillow.com/homedetails/56-W-119th-St-APT-2C-New-York-NY-10026/2078028917_zpid/,41:40.4
+590,"4319 169th St, Flushing, NY 11358",5,6,1788,1930,TRUE,1150000,https://www.zillow.com/homedetails/4319-169th-St-Flushing-NY-11358/32047392_zpid/,41:41.6
+591,"3238 Layton Ave, Bronx, NY 10465",3238,,1116,1950,TRUE,649000,https://www.zillow.com/homedetails/3238-Layton-Ave-Bronx-NY-10465/29845829_zpid/,41:42.4
+592,"12-15 Broadway #B6, Astoria, NY 11106",1,6,680,2013,TRUE,612000,https://www.zillow.com/homedetails/12-15-Broadway-B6-Astoria-NY-11106/2072820963_zpid/,41:43.4
+593,"135-40 231st St, Springfield Gardens, NY 11413",2,,1120,1920,TRUE,469900,https://www.zillow.com/homedetails/135-40-231st-St-Springfield-Gardens-NY-11413/2077505610_zpid/,41:44.4
+594,"80 Timber Ridge Dr, Staten Island, NY 10306",10,6,946,1981,TRUE,520000,https://www.zillow.com/homedetails/80-Timber-Ridge-Dr-Staten-Island-NY-10306/32342877_zpid/,41:45.7
+595,"25 Columbus Cir #75CE, New York, NY 10019",5,,4540,2004,TRUE,35000000,https://www.zillow.com/homedetails/25-Columbus-Cir-75CE-New-York-NY-10019/2079093725_zpid/,41:46.7
+596,"1271 E 93rd St, Brooklyn, NY 11236",5,6,1728,1930,TRUE,719000,https://www.zillow.com/homedetails/1271-E-93rd-St-Brooklyn-NY-11236/30775194_zpid/,41:47.4
+597,"23-35 Bell Blvd #1A, Bayside, NY 11360",2,6,950,1961,TRUE,279900,https://www.zillow.com/homedetails/23-35-Bell-Blvd-1A-Bayside-NY-11360/219870094_zpid/,41:48.4
+598,"87-31 Clover Pl, Hollis, NY 11423",2,6,6570,2007,TRUE,1985000,https://www.zillow.com/homedetails/87-31-Clover-Pl-Hollis-NY-11423/2077420269_zpid/,41:49.6
+599,"1007 Forest Ave, Staten Island, NY 10310",3,6,,1929,TRUE,550000,https://www.zillow.com/homedetails/1007-Forest-Ave-Staten-Island-NY-10310/32276943_zpid/,41:50.5
+600,"741 Beach Ave, Bronx, NY 10473",7,6,2800,1970,TRUE,645000,https://www.zillow.com/homedetails/741-Beach-Ave-Bronx-NY-10473/29792700_zpid/,41:51.5
+601,"740 Park Ave PH 17/18D, New York, NY 10021",3,6,,1930,TRUE,32500000,https://www.zillow.com/homedetails/740-Park-Ave-PH-17-18D-New-York-NY-10021/2084233151_zpid/,41:52.8
+602,"1015 Summit Ave APT 6A, Bronx, NY 10452",0,6,36900,1928,TRUE,70000,https://www.zillow.com/homedetails/1015-Summit-Ave-APT-6A-Bronx-NY-10452/244449990_zpid/,41:53.7
+603,"230 Timber Ridge Dr, Staten Island, NY 10306",3,6,,1988,TRUE,419000,https://www.zillow.com/homedetails/230-Timber-Ridge-Dr-Staten-Island-NY-10306/2072966460_zpid/,41:54.8
+604,"903 Sterling Pl, Brooklyn, NY 11216",2015,,2992,1899,TRUE,2399000,https://www.zillow.com/homedetails/903-Sterling-Pl-Brooklyn-NY-11216/30592176_zpid/,41:55.7
+605,"52 Slater Blvd, Staten Island, NY 10305",3,6,1200,1975,TRUE,589000,https://www.zillow.com/homedetails/52-Slater-Blvd-Staten-Island-NY-10305/32331259_zpid/,41:56.5
+606,"1499 Saint Johns Pl, Brooklyn, NY 11213",7,6,,1901,TRUE,899900,https://www.zillow.com/homedetails/1499-Saint-Johns-Pl-Brooklyn-NY-11213/30596684_zpid/,41:57.6
+607,"238 W 106th St APT 6C, New York, NY 10025",1909,6,,1925,TRUE,650000,https://www.zillow.com/homedetails/238-W-106th-St-APT-6C-New-York-NY-10025/2072649349_zpid/,41:58.7
+608,"210 W 122nd St, New York, NY 10027",6,,4750,1910,TRUE,3850000,https://www.zillow.com/homedetails/210-W-122nd-St-New-York-NY-10027/2138635696_zpid/,41:59.6
+609,"150 Sullivan St APT 37, New York, NY 10012",2,6,550,1900,TRUE,575000,https://www.zillow.com/homedetails/150-Sullivan-St-APT-37-New-York-NY-10012/112748291_zpid/,42:00.5
+610,"965C Kent Ave #C3, Brooklyn, NY 11205",400,6,2025,2003,TRUE,980000,https://www.zillow.com/homedetails/965C-Kent-Ave-C3-Brooklyn-NY-11205/2073227853_zpid/,42:01.3
+611,"100 Remsen St #E5, Brooklyn, NY 11201",0,6,,1950,TRUE,265000,https://www.zillow.com/homedetails/100-Remsen-St-E5-Brooklyn-NY-11201/2072645255_zpid/,42:02.0
+612,"130 William St #21B, New York, NY 10038",3,6,1528,2020,TRUE,2775990,https://www.zillow.com/homedetails/130-William-St-21B-New-York-NY-10038/2072359600_zpid/,42:03.1
+613,"50 Fairway Ave, Staten Island, NY 10304",3,,,1960,TRUE,524900,https://www.zillow.com/homedetails/50-Fairway-Ave-Staten-Island-NY-10304/32319427_zpid/,42:03.9
+614,"130 W 86th St #C10, New York, NY 10024",2,,1000,1926,TRUE,1199000,https://www.zillow.com/homedetails/130-W-86th-St-C10-New-York-NY-10024/2072323992_zpid/,42:05.1
+615,"3520 Tryon Ave APT 706, Bronx, NY 10467",1,6,800,1962,TRUE,179000,https://www.zillow.com/homedetails/3520-Tryon-Ave-APT-706-Bronx-NY-10467/244447079_zpid/,42:06.0
+616,"224-60 77th Ave, Oakland Gardens, NY 11364",26,6,,1950,TRUE,958000,https://www.zillow.com/homedetails/224-60-77th-Ave-Oakland-Gardens-NY-11364/2076384469_zpid/,42:07.1
+617,"26 Bank St, New York, NY 10014",5,,4664,1915,TRUE,19995000,https://www.zillow.com/homedetails/26-Bank-St-New-York-NY-10014/31500520_zpid/,42:08.6
+618,"912 Rhinelander Ave, Bronx, NY 10462",3,,1485,1950,TRUE,610000,https://www.zillow.com/homedetails/912-Rhinelander-Ave-Bronx-NY-10462/29814926_zpid/,42:09.4
+619,"8747 25th Ave, Brooklyn, NY 11214",4,6,1856,1950,TRUE,880000,https://www.zillow.com/homedetails/8747-25th-Ave-Brooklyn-NY-11214/30730425_zpid/,42:10.7
+620,"10-21 162nd St #3C, Whitestone, NY 11357",3,6,,1955,TRUE,410000,https://www.zillow.com/homedetails/10-21-162nd-St-3C-Whitestone-NY-11357/251289638_zpid/,42:11.9
+621,"26 Hunton St, Staten Island, NY 10304",3,6,,1940,TRUE,788888,https://www.zillow.com/homedetails/26-Hunton-St-Staten-Island-NY-10304/32294035_zpid/,42:12.9
+622,"440 9th St APT 3, Brooklyn, NY 11215",1,6,2535,1921,TRUE,699000,https://www.zillow.com/homedetails/440-9th-St-APT-3-Brooklyn-NY-11215/30584896_zpid/,42:13.7
+623,"3452 Ely Ave, Bronx, NY 10469",3452,6,2300,1920,TRUE,769000,https://www.zillow.com/homedetails/3452-Ely-Ave-Bronx-NY-10469/29833984_zpid/,42:14.6
+624,"224 Lefferts Ave APT 1, Brooklyn, NY 11225",1,6,650,224,TRUE,180000,https://www.zillow.com/homedetails/224-Lefferts-Ave-APT-1-Brooklyn-NY-11225/2103422698_zpid/,42:15.5
+625,"20 Sutton Pl S APT 19B, New York, NY 10022",3,6,2300,1953,TRUE,1599000,https://www.zillow.com/homedetails/20-Sutton-Pl-S-APT-19B-New-York-NY-10022/244787977_zpid/,42:16.3
+626,"77 Bleecker St APT 206, New York, NY 10012",0,6,525,1930,TRUE,440000,https://www.zillow.com/homedetails/77-Bleecker-St-APT-206-New-York-NY-10012/72512402_zpid/,42:17.2
+627,"622 Foster Ave #7B, Brooklyn, NY 11230",367,,1698,2008,TRUE,1178000,https://www.zillow.com/homedetails/622-Foster-Ave-7B-Brooklyn-NY-11230/89071805_zpid/,42:18.5
+628,"678 E 22nd St, Brooklyn, NY 11210",678,6,2320,1920,TRUE,1995000,https://www.zillow.com/homedetails/678-E-22nd-St-Brooklyn-NY-11210/30669327_zpid/,42:19.3
+629,"573 Gates Ave #3F, Brooklyn, NY 11221",1,6,617,1931,TRUE,499000,https://www.zillow.com/homedetails/573-Gates-Ave-3F-Brooklyn-NY-11221/2077555948_zpid/,42:20.9
+630,"216 Greenway S, Forest Hills Gardens, NY 11375",5,6,3541,1920,TRUE,2699000,https://www.zillow.com/homedetails/216-Greenway-S-Forest-Hills-Gardens-NY-11375/300305691_zpid/,42:22.3
+631,"115-33 203rd St, Saint Albans, NY 11412",115,6,,1950,TRUE,649000,https://www.zillow.com/homedetails/115-33-203rd-St-Saint-Albans-NY-11412/2077559104_zpid/,42:23.6
+632,"92 Maple Ave, Staten Island, NY 10302",4,6,,1899,TRUE,249900,https://www.zillow.com/homedetails/92-Maple-Ave-Staten-Island-NY-10302/32297393_zpid/,42:24.6
+633,"625 W 246th St, Bronx, NY 10471",625,6,7000,1940,TRUE,3895000,https://www.zillow.com/homedetails/625-W-246th-St-Bronx-NY-10471/29854125_zpid/,42:25.4
+634,"61 Lexington Ave APT G, New York, NY 10010",1,6,,1930,TRUE,459000,https://www.zillow.com/homedetails/61-Lexington-Ave-APT-G-New-York-NY-10010/2076719743_zpid/,42:26.9
+635,"42-39 194th St, Flushing, NY 11358",1,6,1600,1945,TRUE,849000,https://www.zillow.com/homedetails/42-39-194th-St-Flushing-NY-11358/2074562287_zpid/,42:27.8
+636,"6119 Liebig Ave, Bronx, NY 10471",2,6,1328,1930,TRUE,750000,https://www.zillow.com/homedetails/6119-Liebig-Ave-Bronx-NY-10471/29853956_zpid/,42:28.5
+637,"522 76th St, Brooklyn, NY 11209",522,6,2700,1910,TRUE,1500000,https://www.zillow.com/homedetails/522-76th-St-Brooklyn-NY-11209/30695900_zpid/,42:29.7
+638,"20804 33rd Ave, Flushing, NY 11361",4,,1612,1925,TRUE,879000,https://www.zillow.com/homedetails/20804-33rd-Ave-Flushing-NY-11361/32060121_zpid/,42:30.7
+639,"27 Macon Ave, Staten Island, NY 10312",3,6,,1970,TRUE,649827,https://www.zillow.com/homedetails/27-Macon-Ave-Staten-Island-NY-10312/32356214_zpid/,42:32.1
+640,"70-22 175th St, Fresh Meadows, NY 11365",3,6,1683,1940,TRUE,828000,https://www.zillow.com/homedetails/70-22-175th-St-Fresh-Meadows-NY-11365/2072723963_zpid/,50:11.6
+641,"307 Halsey St, Brooklyn, NY 11216",5,6,3000,1899,TRUE,1495000,https://www.zillow.com/homedetails/307-Halsey-St-Brooklyn-NY-11216/30610645_zpid/,50:12.8
+642,"7719 45th Ave, Flushing, NY 11373",3,,1945,1925,TRUE,1099000,https://www.zillow.com/homedetails/7719-45th-Ave-Flushing-NY-11373/31965259_zpid/,50:13.7
+643,"455 W 19th St PENTHOUSE 1, New York, NY 10011",4,6,3794,2019,TRUE,22750000,https://www.zillow.com/homedetails/455-W-19th-St-PENTHOUSE-1-New-York-NY-10011/2082045824_zpid/,50:14.7
+644,"366 Rolling Hill Grn, Staten Island, NY 10312",2,6,,1980,TRUE,449900,https://www.zillow.com/homedetails/366-Rolling-Hill-Grn-Staten-Island-NY-10312/32361378_zpid/,50:15.6
+645,"3293 Lucerne St, Bronx, NY 10465",3293,6,1188,1920,TRUE,525000,https://www.zillow.com/homedetails/3293-Lucerne-St-Bronx-NY-10465/29844145_zpid/,50:16.6
+646,"86-40 155th Ave #2, Howard Beach, NY 11414",2,6,,1970,TRUE,255000,https://www.zillow.com/homedetails/86-40-155th-Ave-2-Howard-Beach-NY-11414/2077084732_zpid/,50:17.5
+647,"79 Lamport Blvd, Staten Island, NY 10305",3,6,1152,1960,TRUE,549000,https://www.zillow.com/homedetails/79-Lamport-Blvd-Staten-Island-NY-10305/32325103_zpid/,50:18.1
+648,"81-48 249th St, Bellerose, NY 11426",5,6,1270,1955,TRUE,728000,https://www.zillow.com/homedetails/81-48-249th-St-Bellerose-NY-11426/2072325613_zpid/,50:19.3
+649,"424 E 115th St #3A, New York, NY 10029",0,6,200,1910,TRUE,105000,https://www.zillow.com/homedetails/424-E-115th-St-3A-New-York-NY-10029/2075670691_zpid/,50:20.2
+650,"5710 Junction Blvd APT 2D, Flushing, NY 11373",5,6,1250,1950,TRUE,525000,https://www.zillow.com/homedetails/5710-Junction-Blvd-APT-2D-Flushing-NY-11373/245463882_zpid/,50:21.4
+651,"3636 Greystone Ave APT 2E, Bronx, NY 10463",3,6,1350,1940,TRUE,309900,https://www.zillow.com/homedetails/3636-Greystone-Ave-APT-2E-Bronx-NY-10463/215955268_zpid/,50:22.6
+652,"139 W 131st St, New York, NY 10027",3,6,3816,1910,TRUE,3150000,https://www.zillow.com/homedetails/139-W-131st-St-New-York-NY-10027/31551885_zpid/,50:24.1
+653,"815 8th Ave APT 4R, Brooklyn, NY 11215",815,6,618,1920,TRUE,695000,https://www.zillow.com/homedetails/815-8th-Ave-APT-4R-Brooklyn-NY-11215/92693486_zpid/,50:24.9
+654,"246-15 57th Dr, Little Neck, NY 11362",246,6,1100,1951,TRUE,335000,https://www.zillow.com/homedetails/246-15-57th-Dr-Little-Neck-NY-11362/2072844099_zpid/,50:25.9
+655,"149 Clinton St, Brooklyn, NY 11201",4,,4902,1900,TRUE,10950000,https://www.zillow.com/homedetails/149-Clinton-St-Brooklyn-NY-11201/2079265897_zpid/,50:27.2
+656,"136 Stephens Ave, Bronx, NY 10473",8,,2500,2020,TRUE,999000,https://www.zillow.com/homedetails/136-Stephens-Ave-Bronx-NY-10473/112502177_zpid/,50:28.6
+657,"79-26 212th St, Oakland Gardens, NY 11364",79,6,1701,1945,TRUE,938000,https://www.zillow.com/homedetails/79-26-212th-St-Oakland-Gardens-NY-11364/2073227771_zpid/,50:29.9
+658,"374 Vanderbilt Ave, Brooklyn, NY 11238",374,6,3648,1899,TRUE,3995000,https://www.zillow.com/homedetails/374-Vanderbilt-Ave-Brooklyn-NY-11238/30613105_zpid/,50:30.6
+659,"100 W 57th St PENTHOUSE H, New York, NY 10019",0,6,600,1962,TRUE,140000,https://www.zillow.com/homedetails/100-W-57th-St-PENTHOUSE-H-New-York-NY-10019/306707670_zpid/,50:31.3
+660,"313 E Houston St #1, New York, NY 10002",313,6,,1910,TRUE,850000,https://www.zillow.com/homedetails/313-E-Houston-St-1-New-York-NY-10002/2072878876_zpid/,50:32.4
+661,"85-10 34th Ave APT 122, Jackson Heights, NY 11372",2,6,1000,1927,TRUE,460000,https://www.zillow.com/homedetails/85-10-34th-Ave-APT-122-Jackson-Heights-NY-11372/79734511_zpid/,50:33.4
+662,"2123 Albemarle Ter, Brooklyn, NY 11226",4,6,3500,1920,TRUE,2395000,https://www.zillow.com/homedetails/2123-Albemarle-Ter-Brooklyn-NY-11226/30666391_zpid/,50:34.1
+663,"547 W 47th St #1008, New York, NY 10036",2,6,1043,2020,TRUE,2710000,https://www.zillow.com/homedetails/547-W-47th-St-1008-New-York-NY-10036/2072319509_zpid/,50:35.3
+664,"2429 Brigham St, Brooklyn, NY 11235",1,,2640,1955,TRUE,828000,https://www.zillow.com/homedetails/2429-Brigham-St-Brooklyn-NY-11235/30748569_zpid/,50:36.5
+665,"35 Pleasant St, Staten Island, NY 10308",3,6,,2020,TRUE,969888,https://www.zillow.com/homedetails/35-Pleasant-St-Staten-Island-NY-10308/2077678007_zpid/,50:37.9
+666,"60-18 77th St, Middle Village, NY 11379",5,,,1950,TRUE,989000,https://www.zillow.com/homedetails/60-18-77th-St-Middle-Village-NY-11379/2073232695_zpid/,50:38.8
+667,"1814 Amethyst St, Bronx, NY 10462",1814,6,2120,1901,TRUE,734999,https://www.zillow.com/homedetails/1814-Amethyst-St-Bronx-NY-10462/29813227_zpid/,50:39.8
+668,"1824 Marmion Ave, Bronx, NY 10460",3,,,1910,TRUE,539000,https://www.zillow.com/homedetails/1824-Marmion-Ave-Bronx-NY-10460/29783155_zpid/,50:40.9
+669,"70 Charlton St PENTHOUSE A, New York, NY 10014",3,6,2856,2016,TRUE,7550000,https://www.zillow.com/homedetails/70-Charlton-St-PENTHOUSE-A-New-York-NY-10014/2072764318_zpid/,50:41.7
+670,"298 Bradford St, Brooklyn, NY 11207",1,,3120,1930,TRUE,949000,https://www.zillow.com/homedetails/298-Bradford-St-Brooklyn-NY-11207/30634369_zpid/,50:42.4
+671,"10 Bleecker St APT 1A, New York, NY 10012",2,6,1700,1900,TRUE,2850000,https://www.zillow.com/homedetails/10-Bleecker-St-APT-1A-New-York-NY-10012/72512256_zpid/,50:43.4
+672,"136 W 88th St, New York, NY 10024",8,6,4600,1900,TRUE,3500000,https://www.zillow.com/homedetails/136-W-88th-St-New-York-NY-10024/2075573320_zpid/,50:44.6
+673,"29 W 119th St APT 51, New York, NY 10026",2,,1000,1909,TRUE,649000,https://www.zillow.com/homedetails/29-W-119th-St-APT-51-New-York-NY-10026/2110054312_zpid/,50:45.6
+674,"406 Lenevar Ave, Staten Island, NY 10309",406,6,,1965,TRUE,530000,https://www.zillow.com/homedetails/406-Lenevar-Ave-Staten-Island-NY-10309/32370691_zpid/,50:46.4
+675,"154 W 120th St, New York, NY 10027",2,,4103,1910,TRUE,3495000,https://www.zillow.com/homedetails/154-W-120th-St-New-York-NY-10027/143176903_zpid/,50:47.5
+676,"4 Eugene St, Staten Island, NY 10309",4,,,2020,TRUE,899900,https://www.zillow.com/homedetails/4-Eugene-St-Staten-Island-NY-10309/2073082387_zpid/,50:48.6
+677,"27 E 65th St APT 14B, New York, NY 10065",65,,1500,1963,TRUE,735000,https://www.zillow.com/homedetails/27-E-65th-St-APT-14B-New-York-NY-10065/244756948_zpid/,50:49.4
+678,"19417 Station Rd, Flushing, NY 11358",3,6,,1940,TRUE,818000,https://www.zillow.com/homedetails/19417-Station-Rd-Flushing-NY-11358/32045014_zpid/,50:50.2
+679,"244-09 61st Ave, Little Neck, NY 11362",3,6,,1950,TRUE,328000,https://www.zillow.com/homedetails/244-09-61st-Ave-Little-Neck-NY-11362/2079252843_zpid/,50:51.4
+680,"84-34 107th St, Richmond Hill, NY 11418",2,6,2188,1915,TRUE,729000,https://www.zillow.com/homedetails/84-34-107th-St-Richmond-Hill-NY-11418/2073101276_zpid/,50:52.7
+681,"162 E 92nd St, New York, NY 10128",20,,10000,1925,TRUE,22000000,https://www.zillow.com/homedetails/162-E-92nd-St-New-York-NY-10128/31542307_zpid/,50:53.7
+682,"158 Mercer St FLOOR 10, New York, NY 10012",8,6,8900,1915,TRUE,20745000,https://www.zillow.com/homedetails/158-Mercer-St-FLOOR-10-New-York-NY-10012/2076803450_zpid/,50:54.6
+683,"204 Amber St, Staten Island, NY 10306",3,6,2392,1955,TRUE,765000,https://www.zillow.com/homedetails/204-Amber-St-Staten-Island-NY-10306/32339667_zpid/,50:55.5
+684,"139 Reid Ave, Staten Island, NY 10305",2,6,,2020,TRUE,599900,https://www.zillow.com/homedetails/139-Reid-Ave-Staten-Island-NY-10305/2077495314_zpid/,50:56.7
+685,"38 Gramercy Park N APT 1C, New York, NY 10010",0,6,,1930,TRUE,395000,https://www.zillow.com/homedetails/38-Gramercy-Park-N-APT-1C-New-York-NY-10010/108264028_zpid/,50:57.8
+686,"451 W 24th St, New York, NY 10011",451,6,5000,1910,TRUE,12950000,https://www.zillow.com/homedetails/451-W-24th-St-New-York-NY-10011/31502256_zpid/,50:59.2
+687,"80-33 88th Rd, Woodhaven, NY 11421",4,6,,1920,TRUE,779000,https://www.zillow.com/homedetails/80-33-88th-Rd-Woodhaven-NY-11421/2080381045_zpid/,51:00.3
+688,"90-08 86th Rd, Woodhaven, NY 11421",2,6,1292,1905,TRUE,635000,https://www.zillow.com/homedetails/90-08-86th-Rd-Woodhaven-NY-11421/2078639270_zpid/,51:01.0
+689,"227-23 88th Ave, Queens Village, NY 11427",227,6,,1950,TRUE,234900,https://www.zillow.com/homedetails/227-23-88th-Ave-Queens-Village-NY-11427/2075154957_zpid/,51:02.4
+690,"7015 Manse St, Flushing, NY 11375",3,6,1674,1930,TRUE,950000,https://www.zillow.com/homedetails/7015-Manse-St-Flushing-NY-11375/32004014_zpid/,51:03.4
+691,"10 Bedford St, New York, NY 10014",5,6,3780,1830,TRUE,5500000,https://www.zillow.com/homedetails/10-Bedford-St-New-York-NY-10014/2082691512_zpid/,51:04.2
+692,"279 Fordham Pl, Bronx, NY 10464",279,,1791,1970,TRUE,659000,https://www.zillow.com/homedetails/279-Fordham-Pl-Bronx-NY-10464/29850935_zpid/,51:05.1
+693,"445 W 240th St APT 2M, Bronx, NY 10463",3,,1230,1949,TRUE,575000,https://www.zillow.com/homedetails/445-W-240th-St-APT-2M-Bronx-NY-10463/29852334_zpid/,51:05.9
+694,"9 Center Pl, Staten Island, NY 10306",1,6,,1920,TRUE,344999,https://www.zillow.com/homedetails/9-Center-Pl-Staten-Island-NY-10306/32335902_zpid/,51:06.7
+695,"3 Riverview Ter, New York, NY 10022",5,,4400,1899,TRUE,7750000,https://www.zillow.com/homedetails/3-Riverview-Ter-New-York-NY-10022/31533212_zpid/,51:07.6
+696,"112-19 34th Ave APT 1C, Corona, NY 11368",2,6,700,1953,TRUE,175000,https://www.zillow.com/homedetails/112-19-34th-Ave-APT-1C-Corona-NY-11368/99402874_zpid/,51:08.7
+697,"350 150th St, Flushing, NY 11357",350,6,2754,1987,TRUE,1200000,https://www.zillow.com/homedetails/350-150th-St-Flushing-NY-11357/32027135_zpid/,51:09.5
+698,"111-15 158th St, Jamaica, NY 11433",9,6,,1925,TRUE,599000,https://www.zillow.com/homedetails/111-15-158th-St-Jamaica-NY-11433/2072970275_zpid/,51:10.9
+699,"5800 Arlington Ave APT 3F, Bronx, NY 10471",70,6,1000,1961,TRUE,285000,https://www.zillow.com/homedetails/5800-Arlington-Ave-APT-3F-Bronx-NY-10471/215958135_zpid/,51:11.6
+700,"230 Central Park S #14, New York, NY 10019",2,,3900,1937,TRUE,8995000,https://www.zillow.com/homedetails/230-Central-Park-S-14-New-York-NY-10019/219660971_zpid/,51:12.5
+701,"66 Bartlett Ave, Staten Island, NY 10312",3,6,984,1960,TRUE,427500,https://www.zillow.com/homedetails/66-Bartlett-Ave-Staten-Island-NY-10312/32354787_zpid/,51:13.1
+702,"1343 83rd St, Brooklyn, NY 11228",1,6,2586,1945,TRUE,1499000,https://www.zillow.com/homedetails/1343-83rd-St-Brooklyn-NY-11228/30709817_zpid/,51:14.3
+703,"33-05 90th St APT 6H, Jackson Heights, NY 11372",2,6,900,1957,TRUE,299900,https://www.zillow.com/homedetails/33-05-90th-St-APT-6H-Jackson-Heights-NY-11372/219844000_zpid/,51:15.2
+704,"82 Tennis Pl, Flushing, NY 11375",4,,2969,1930,TRUE,3000000,https://www.zillow.com/homedetails/82-Tennis-Pl-Flushing-NY-11375/32004200_zpid/,51:15.9
+705,"115A Nelson Ave, Staten Island, NY 10308",3,6,,1937,TRUE,549999,https://www.zillow.com/homedetails/115A-Nelson-Ave-Staten-Island-NY-10308/2076638463_zpid/,51:16.8
+706,"22 Watkins Ave, Staten Island, NY 10312",3,6,,1976,TRUE,599888,https://www.zillow.com/homedetails/22-Watkins-Ave-Staten-Island-NY-10312/145558479_zpid/,51:17.7
+707,"230 W 56th St #65AD, New York, NY 10019",230,,4500,2002,TRUE,11750000,https://www.zillow.com/homedetails/230-W-56th-St-65AD-New-York-NY-10019/61966840_zpid/,51:18.5
+708,"224 Lefferts Ave #1, Brooklyn, NY 11225",1,6,650,1907,TRUE,189000,https://www.zillow.com/homedetails/224-Lefferts-Ave-1-Brooklyn-NY-11225/306316458_zpid/,51:19.9
+709,"1750 E 14th St, Brooklyn, NY 11229",3,6,1300,1961,TRUE,420000,https://www.zillow.com/homedetails/1750-E-14th-St-Brooklyn-NY-11229/2072431036_zpid/,51:21.3
+710,"3587B Victory Blvd, Staten Island, NY 10314",3500,,,3587,TRUE,3500,https://www.zillow.com/homedetails/3587B-Victory-Blvd-Staten-Island-NY-10314/2076476626_zpid/,51:22.6
+711,"14 Saint Marks Pl, Staten Island, NY 10301",5,6,,1919,TRUE,595000,https://www.zillow.com/homedetails/14-Saint-Marks-Pl-Staten-Island-NY-10301/32270694_zpid/,51:23.7
+712,"220 Congress St APT 2D, Brooklyn, NY 11201",1,6,,1952,TRUE,565000,https://www.zillow.com/homedetails/220-Congress-St-APT-2D-Brooklyn-NY-11201/2072564043_zpid/,51:24.9
+713,"2840 Bruner Ave, Bronx, NY 10469",3,6,2805,2002,TRUE,849000,https://www.zillow.com/homedetails/2840-Bruner-Ave-Bronx-NY-10469/64735384_zpid/,51:26.0
+714,"2565 Flatbush Ave #C-1, Brooklyn, NY 11234",2,6,1200,1987,TRUE,239000,https://www.zillow.com/homedetails/2565-Flatbush-Ave-C-1-Brooklyn-NY-11234/2079238442_zpid/,51:27.1
+715,"79-14 Rockaway Beach Blvd #6L, Far Rockaway, NY 11693",1,6,658,2006,TRUE,329000,https://www.zillow.com/homedetails/79-14-Rockaway-Beach-Blvd-6L-Far-Rockaway-NY-11693/2072318888_zpid/,51:27.8
+716,"180 Dinsmore St APT B, Staten Island, NY 10314",3,6,,1983,TRUE,479000,https://www.zillow.com/homedetails/180-Dinsmore-St-APT-B-Staten-Island-NY-10314/32310223_zpid/,51:28.8
+717,"109-31 197th St, Saint Albans, NY 11412",5,6,,1920,TRUE,429900,https://www.zillow.com/homedetails/109-31-197th-St-Saint-Albans-NY-11412/2073644907_zpid/,51:29.6
+718,"4580 Kings Hwy, Brooklyn, NY 11234",3,6,1400,1945,TRUE,550000,https://www.zillow.com/homedetails/4580-Kings-Hwy-Brooklyn-NY-11234/30759916_zpid/,51:30.5
+719,"4202 Avenue T, Brooklyn, NY 11234",3,,4096,2020,TRUE,2995000,https://www.zillow.com/homedetails/4202-Avenue-T-Brooklyn-NY-11234/30786828_zpid/,51:31.7
+720,"244 Madison Ave PENTHOUSE J, New York, NY 10016",0,6,600,1916,TRUE,450000,https://www.zillow.com/homedetails/244-Madison-Ave-PENTHOUSE-J-New-York-NY-10016/2072498855_zpid/,51:32.7
+721,"2190 Boston Rd APT 2E, Bronx, NY 10462",1,6,750,1941,TRUE,175000,https://www.zillow.com/homedetails/2190-Boston-Rd-APT-2E-Bronx-NY-10462/244462760_zpid/,51:33.5
+722,"45 W 70th St, New York, NY 10023",11,6,8550,1900,TRUE,17500000,https://www.zillow.com/homedetails/45-W-70th-St-New-York-NY-10023/31518799_zpid/,51:34.7
+723,"56 Leonard St PH 58, New York, NY 10013",5,6,5489,2015,TRUE,34500000,https://www.zillow.com/homedetails/56-Leonard-St-PH-58-New-York-NY-10013/2100667030_zpid/,51:36.0
+724,"66-14 79th Pl, Middle Village, NY 11379",2,6,2000,1925,TRUE,865000,https://www.zillow.com/homedetails/66-14-79th-Pl-Middle-Village-NY-11379/2077715552_zpid/,51:36.8
+725,"150 E 27th St APT 5J, New York, NY 10016",0,6,47000,1960,TRUE,369000,https://www.zillow.com/homedetails/150-E-27th-St-APT-5J-New-York-NY-10016/244734142_zpid/,51:37.8
+726,"10 E 73rd St, New York, NY 10021",10,6,8800,1910,TRUE,29000000,https://www.zillow.com/homedetails/10-E-73rd-St-New-York-NY-10021/83939366_zpid/,51:38.6
+727,"48 Hart Loop, Staten Island, NY 10306",2,6,,1991,TRUE,409000,https://www.zillow.com/homedetails/48-Hart-Loop-Staten-Island-NY-10306/32340402_zpid/,51:39.6
+728,"571 Carlton Blvd, Staten Island, NY 10312",6,,2300,1965,TRUE,799000,https://www.zillow.com/homedetails/571-Carlton-Blvd-Staten-Island-NY-10312/32359482_zpid/,51:40.5
+729,"455 12th St APT 3A, Brooklyn, NY 11215",455,,985,2014,TRUE,1375000,https://www.zillow.com/homedetails/455-12th-St-APT-3A-Brooklyn-NY-11215/2072429445_zpid/,51:41.5
+730,"210 W 256th St, Bronx, NY 10471",3,,1555,1935,TRUE,799995,https://www.zillow.com/homedetails/210-W-256th-St-Bronx-NY-10471/29852969_zpid/,51:42.7
+731,"174 Pacific St APT G2, Brooklyn, NY 11201",2,6,1100,1901,TRUE,1765000,https://www.zillow.com/homedetails/174-Pacific-St-APT-G2-Brooklyn-NY-11201/79488627_zpid/,51:43.8
+732,"1545 Haight Ave, Bronx, NY 10461",5,6,2847,2005,TRUE,849000,https://www.zillow.com/homedetails/1545-Haight-Ave-Bronx-NY-10461/83178822_zpid/,51:44.5
+733,"440 E 56th St #4G, New York, NY 10022",2,,1425,1955,TRUE,995000,https://www.zillow.com/homedetails/440-E-56th-St-4G-New-York-NY-10022/244729614_zpid/,51:45.5
+734,"233-11 Seward Ave, Queens Village, NY 11427",3,6,,1954,TRUE,688888,https://www.zillow.com/homedetails/233-11-Seward-Ave-Queens-Village-NY-11427/2072345085_zpid/,51:46.6
+735,"3337 13th St, Astoria, NY 11106",5,6,2262,1996,TRUE,1295000,https://www.zillow.com/homedetails/3337-13th-St-Astoria-NY-11106/2114449059_zpid/,51:47.6
+736,"53 Boerum Pl APT 6A, Brooklyn, NY 11201",2,6,972,2003,TRUE,995000,https://www.zillow.com/homedetails/53-Boerum-Pl-APT-6A-Brooklyn-NY-11201/64766326_zpid/,51:48.5
+737,"25 W 64th St APT 8B, New York, NY 10023",1,6,550,1923,TRUE,500000,https://www.zillow.com/homedetails/25-W-64th-St-APT-8B-New-York-NY-10023/244725134_zpid/,51:49.8
+738,"70-35 Broadway #A20, Jackson Heights, NY 11372",1,6,500,1927,TRUE,220000,https://www.zillow.com/homedetails/70-35-Broadway-A20-Jackson-Heights-NY-11372/2077225775_zpid/,51:50.8
+739,"2413 Hering Ave, Bronx, NY 10469",5,6,1440,1940,TRUE,779000,https://www.zillow.com/homedetails/2413-Hering-Ave-Bronx-NY-10469/29821049_zpid/,51:51.7
+740,"14 Peter Ct, Staten Island, NY 10304",14,6,,2000,TRUE,5500000,https://www.zillow.com/homedetails/14-Peter-Ct-Staten-Island-NY-10304/32294692_zpid/,51:52.9
+741,"20 Calle 20, New York, NY 10001",4,,,2015,TRUE,120000,https://www.zillow.com/homedetails/20-Calle-20-New-York-NY-10001/2072323530_zpid/,51:54.3
+742,"472 Ashland Ave, Staten Island, NY 10309",4,6,,1965,TRUE,669900,https://www.zillow.com/homedetails/472-Ashland-Ave-Staten-Island-NY-10309/32370631_zpid/,51:55.3
+743,"6 Burns St APT 32, Forest Hills, NY 11375",2,6,1089,1920,TRUE,639000,https://www.zillow.com/homedetails/6-Burns-St-APT-32-Forest-Hills-NY-11375/90134491_zpid/,51:56.1
+744,"30 E 22nd St APT 6C, New York, NY 10010",0,6,,1925,TRUE,399000,https://www.zillow.com/homedetails/30-E-22nd-St-APT-6C-New-York-NY-10010/72516431_zpid/,51:57.1
+745,"495 E 7th St APT 6H, Brooklyn, NY 11218",0,6,600,1962,TRUE,299000,https://www.zillow.com/homedetails/495-E-7th-St-APT-6H-Brooklyn-NY-11218/245055143_zpid/,51:58.3
+746,"64-33 184th St, Fresh Meadows, NY 11365",64,6,,1950,TRUE,880000,https://www.zillow.com/homedetails/64-33-184th-St-Fresh-Meadows-NY-11365/2073545945_zpid/,51:59.0
+747,"48 E 81st St, New York, NY 10028",3,,7443,1924,TRUE,22000000,https://www.zillow.com/homedetails/48-E-81st-St-New-York-NY-10028/121198977_zpid/,51:59.9
+748,"327 Saint Marks Ave, Brooklyn, NY 11238",220,6,,1920,TRUE,2450000,https://www.zillow.com/homedetails/327-Saint-Marks-Ave-Brooklyn-NY-11238/2072446845_zpid/,52:00.9
+749,"2171 Bragg St APT 4D, Brooklyn, NY 11229",2,6,,2171,TRUE,165000,https://www.zillow.com/homedetails/2171-Bragg-St-APT-4D-Brooklyn-NY-11229/2073551106_zpid/,52:01.9
+750,"521 Willow Rd E #1, Staten Island, NY 10314",3,6,,1978,TRUE,459000,https://www.zillow.com/homedetails/521-Willow-Rd-E-1-Staten-Island-NY-10314/32303554_zpid/,52:02.6
+751,"424 E 115th St #2C, New York, NY 10029",0,6,200,1910,TRUE,110000,https://www.zillow.com/homedetails/424-E-115th-St-2C-New-York-NY-10029/2078858054_zpid/,52:03.8
+752,"303 W 122nd St #64, New York, NY 10027",1,6,1090,1913,TRUE,365000,https://www.zillow.com/homedetails/303-W-122nd-St-64-New-York-NY-10027/244885198_zpid/,52:04.9
+753,"8105 4th Ave APT 2B, Brooklyn, NY 11209",2,6,1100,1954,TRUE,399000,https://www.zillow.com/homedetails/8105-4th-Ave-APT-2B-Brooklyn-NY-11209/245044390_zpid/,52:05.7
+754,"3701 Glenwood Rd, Brooklyn, NY 11210",4,6,1944,1930,TRUE,938000,https://www.zillow.com/homedetails/3701-Glenwood-Rd-Brooklyn-NY-11210/30664113_zpid/,52:06.5
+755,"126 Winham Ave, Staten Island, NY 10306",3,,1200,2001,TRUE,498000,https://www.zillow.com/homedetails/126-Winham-Ave-Staten-Island-NY-10306/59820789_zpid/,52:07.3
+756,"1522 Mcdonald St, Bronx, NY 10461",2,6,2170,1955,TRUE,835000,https://www.zillow.com/homedetails/1522-Mcdonald-St-Bronx-NY-10461/145585710_zpid/,52:08.2
+757,"65-39 108th St #F12, Forest Hills, NY 11375",2,6,,1960,TRUE,349000,https://www.zillow.com/homedetails/65-39-108th-St-F12-Forest-Hills-NY-11375/2078232635_zpid/,52:08.9
+758,"166-23 20th Rd, Whitestone, NY 11357",4,6,,1945,TRUE,875000,https://www.zillow.com/homedetails/166-23-20th-Rd-Whitestone-NY-11357/2072763999_zpid/,52:10.0
+759,"260 Pelton Ave, Staten Island, NY 10310",3,6,,1920,TRUE,618000,https://www.zillow.com/homedetails/260-Pelton-Ave-Staten-Island-NY-10310/32274922_zpid/,52:11.3
+760,"167 E 61st St APT 9A, New York, NY 10065",24,6,1400,1983,TRUE,1490000,https://www.zillow.com/homedetails/167-E-61st-St-APT-9A-New-York-NY-10065/2072341567_zpid/,52:12.2
+761,"123 Windsor Pl, Brooklyn, NY 11215",123,6,3389,1920,TRUE,2850000,https://www.zillow.com/homedetails/123-Windsor-Pl-Brooklyn-NY-11215/30588793_zpid/,52:13.5
+762,"2151 5th Ave APT 2A, New York, NY 10037",2,6,721,1920,TRUE,335000,https://www.zillow.com/homedetails/2151-5th-Ave-APT-2A-New-York-NY-10037/121039947_zpid/,52:14.6
+763,"62-02 62nd Rd, Middle Village, NY 11379",3,6,1616,1920,TRUE,749000,https://www.zillow.com/homedetails/62-02-62nd-Rd-Middle-Village-NY-11379/2072667355_zpid/,52:15.6
+764,"189 Bridge St APT 8C, Brooklyn, NY 11201",2,6,800,2006,TRUE,895500,https://www.zillow.com/homedetails/189-Bridge-St-APT-8C-Brooklyn-NY-11201/2117734498_zpid/,52:16.8
+765,"202 W 122nd St, New York, NY 10027",125,6,4875,1910,TRUE,3150000,https://www.zillow.com/homedetails/202-W-122nd-St-New-York-NY-10027/31551978_zpid/,52:17.7
+766,"1221 E 224th St, Bronx, NY 10466",6,6,3316,2006,TRUE,579000,https://www.zillow.com/homedetails/1221-E-224th-St-Bronx-NY-10466/79720869_zpid/,52:18.5
+767,"35F Franklin Ln, Staten Island, NY 10306",3,6,1344,1986,TRUE,499999,https://www.zillow.com/homedetails/35F-Franklin-Ln-Staten-Island-NY-10306/2076688441_zpid/,52:19.7
+768,"1641 E 31st St, Brooklyn, NY 11234",1641,6,2000,1935,TRUE,869000,https://www.zillow.com/homedetails/1641-E-31st-St-Brooklyn-NY-11234/30756787_zpid/,52:20.8
+769,"22 E 67th St, New York, NY 10065",22,,13300,1915,TRUE,27500000,https://www.zillow.com/homedetails/22-E-67th-St-New-York-NY-10065/118328165_zpid/,52:22.3
+770,"65-20 78th Ave, Ridgewood, NY 11385",3,,2000,1920,TRUE,735000,https://www.zillow.com/homedetails/65-20-78th-Ave-Ridgewood-NY-11385/2077892916_zpid/,52:23.4
+771,"46 Manchester Dr, Staten Island, NY 10312",46,6,,1980,TRUE,665000,https://www.zillow.com/homedetails/46-Manchester-Dr-Staten-Island-NY-10312/32362693_zpid/,52:24.6
+772,"369 Beverly Rd, Flushing, NY 11363",5,,2160,1930,TRUE,1095000,https://www.zillow.com/homedetails/369-Beverly-Rd-Flushing-NY-11363/32092688_zpid/,52:25.5
+773,"13210 87th St, Jamaica, NY 11417",4,6,,1965,TRUE,999000,https://www.zillow.com/homedetails/13210-87th-St-Jamaica-NY-11417/32166799_zpid/,52:26.4
+774,"303 Mercer St APT A104, New York, NY 10003",2,6,1369,1900,TRUE,1750000,https://www.zillow.com/homedetails/303-Mercer-St-APT-A104-New-York-NY-10003/72512552_zpid/,52:27.5
+775,"316 Mott St APT 3E, New York, NY 10012",6,6,10985,1900,TRUE,600000,https://www.zillow.com/homedetails/316-Mott-St-APT-3E-New-York-NY-10012/244717607_zpid/,52:28.3
+776,"258 Poultney St, Staten Island, NY 10306",3,6,,1925,TRUE,649000,https://www.zillow.com/homedetails/258-Poultney-St-Staten-Island-NY-10306/32332752_zpid/,52:29.1
+777,"86 Crooke Ave, Brooklyn, NY 11226",2,6,1870,1910,TRUE,1125000,https://www.zillow.com/homedetails/86-Crooke-Ave-Brooklyn-NY-11226/30665718_zpid/,52:30.2
+778,"31-70 138th St #1E, Flushing, NY 11354",2,6,1100,1955,TRUE,375000,https://www.zillow.com/homedetails/31-70-138th-St-1E-Flushing-NY-11354/2076982177_zpid/,52:31.2
+779,"229 E 28th St APT 2B, New York, NY 10016",1,6,,1962,TRUE,390000,https://www.zillow.com/homedetails/229-E-28th-St-APT-2B-New-York-NY-10016/111375424_zpid/,52:31.9
+780,"21007 34th Rd, Flushing, NY 11361",40,6,1737,1935,TRUE,1150000,https://www.zillow.com/homedetails/21007-34th-Rd-Flushing-NY-11361/32060365_zpid/,52:32.8
+781,"157 Anderson St, Staten Island, NY 10305",4,6,1441,1920,TRUE,499999,https://www.zillow.com/homedetails/157-Anderson-St-Staten-Island-NY-10305/32318756_zpid/,52:33.7
+782,"8900 170th St, Jamaica, NY 11432",0,6,,1975,TRUE,99000,https://www.zillow.com/homedetails/8900-170th-St-Jamaica-NY-11432/245453247_zpid/,52:34.5
+783,"2728 Kingsbridge Ter, Bronx, NY 10463",6,6,3111,2005,TRUE,1150000,https://www.zillow.com/homedetails/2728-Kingsbridge-Ter-Bronx-NY-10463/83177958_zpid/,52:35.6
+784,"547 W 47th St #530, New York, NY 10036",1,6,672,2020,TRUE,1305000,https://www.zillow.com/homedetails/547-W-47th-St-530-New-York-NY-10036/2072319513_zpid/,52:36.6
+785,"420 E 51st St APT 5C, New York, NY 10022",2,6,1250,1962,TRUE,425000,https://www.zillow.com/homedetails/420-E-51st-St-APT-5C-New-York-NY-10022/244868772_zpid/,52:37.4
+786,"854 Intervale Ave APT 10, Bronx, NY 10459",2,6,800,1931,TRUE,140000,https://www.zillow.com/homedetails/854-Intervale-Ave-APT-10-Bronx-NY-10459/215948914_zpid/,52:38.2
+787,"43 Paris Ct, Staten Island, NY 10310",3,6,,2003,TRUE,299000,https://www.zillow.com/homedetails/43-Paris-Ct-Staten-Island-NY-10310/316675090_zpid/,52:38.9
+788,"92-42 218th Pl, Queens Village, NY 11428",3,6,,1920,TRUE,629000,https://www.zillow.com/homedetails/92-42-218th-Pl-Queens-Village-NY-11428/2072480420_zpid/,52:39.7
+789,"42 Main St #5AB, Brooklyn, NY 11201",42,6,1330,2002,TRUE,1995000,https://www.zillow.com/homedetails/42-Main-St-5AB-Brooklyn-NY-11201/2072436368_zpid/,52:40.8
+790,"114 W 13th St, New York, NY 10011",40,,5165,1848,TRUE,10995000,https://www.zillow.com/homedetails/114-W-13th-St-New-York-NY-10011/31499907_zpid/,52:42.0
+791,"154 Wythe Ave, Brooklyn, NY 11249",4,6,1920,1899,TRUE,3100000,https://www.zillow.com/homedetails/154-Wythe-Ave-Brooklyn-NY-11249/30618414_zpid/,52:43.1
+792,"114 E 10th St, New York, NY 10003",6,,3440,1899,TRUE,8600000,https://www.zillow.com/homedetails/114-E-10th-St-New-York-NY-10003/31496806_zpid/,52:44.2
+793,"33-45 94th St APT 6E, Jackson Heights, NY 11372",1,6,700,1959,TRUE,279000,https://www.zillow.com/homedetails/33-45-94th-St-APT-6E-Jackson-Heights-NY-11372/80622578_zpid/,52:45.1
+794,"246 Sumpter St APT 3C, Brooklyn, NY 11233",3,6,,1900,TRUE,399900,https://www.zillow.com/homedetails/246-Sumpter-St-APT-3C-Brooklyn-NY-11233/2085394105_zpid/,52:46.0
+795,"70-23 72nd St, Ridgewood, NY 11385",5,6,,1925,TRUE,728888,https://www.zillow.com/homedetails/70-23-72nd-St-Ridgewood-NY-11385/2072816468_zpid/,52:46.8
+796,"431 E 6th St APT 4, New York, NY 10009",431,6,1100,1920,TRUE,1500000,https://www.zillow.com/homedetails/431-E-6th-St-APT-4-New-York-NY-10009/2075433769_zpid/,52:47.5
+797,"3104 Netherland Ave, Bronx, NY 10463",1,,3850,1910,TRUE,2498000,https://www.zillow.com/homedetails/3104-Netherland-Ave-Bronx-NY-10463/29851733_zpid/,52:48.7
+798,"913 Dean Ave, Bronx, NY 10465",3,6,1190,1930,TRUE,675000,https://www.zillow.com/homedetails/913-Dean-Ave-Bronx-NY-10465/29845990_zpid/,52:49.5
+799,"30 Park Pl #82, New York, NY 10007",12,,4538,2016,TRUE,25000000,https://www.zillow.com/homedetails/30-Park-Pl-82-New-York-NY-10007/219636877_zpid/,52:50.6
