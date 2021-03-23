@@ -20,8 +20,8 @@ import psycopg2
 
 HOMES_DB_COLUMNS = ["id", "address", "bedrooms", "bathrooms", "sq_ft", "year_built", "for_sale", "current_price", "zillow_url", "last_modified"]
 HISTORY_DB_COLUMNS = ["id", "home_id", "date", "value"]
-CITY = "austin"
-STATE = "tx"
+CITY = "new-york"
+STATE = "ny"
 HEADERS = {
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
     'accept-encoding': 'gzip, deflate, br',
@@ -29,7 +29,7 @@ HEADERS = {
     'upgrade-insecure-requests': '1',
     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
 }
-NUM_PAGES = 5
+NUM_PAGES = 21
 
 def fetch_homes(page, city=CITY, state=STATE):
     with requests.Session() as s:
