@@ -12,6 +12,8 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.svm import LinearSVC
 from sklearn.calibration import calibration_curve
 import numpy as np
+from sklearn.linear_model import RANSACRegressor
+from sklearn.datasets import make_regression
 
 history_df = pd.read_csv('history.csv')
 homes_df = pd.read_csv('homes.csv')
@@ -43,12 +45,12 @@ Y = df['value']
 
 x_train, x_test,y_train,y_test = train_test_split(X,Y,test_size =0.2)
 
-logi=LogisticRegression()
-logi.fit(x_train,y_train)
-y_logi_predict=logi.predict(x_test)
-print(logi.score(x_test,y_test))
+#logi=LogisticRegression() #.02 score on NY data...
+#logi.fit(x_train,y_train)
+#y_logi_predict=logi.predict(x_test)
+#print(logi.score(x_test,y_test))
 
-reg = linear_model.Lasso(alpha=0.1)
+reg = linear_model.RANSACRegressor(random_state=0) #lasso=.31 score on NY data
 reg.fit(x_train, y_train)
 
 y_predict = reg.predict(x_test)
