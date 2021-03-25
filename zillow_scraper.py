@@ -3,6 +3,7 @@ import datetime
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 import time
 import sys
@@ -31,7 +32,6 @@ HEADERS = {
 NUM_PAGES = 5
 
 def fetch_homes(page, city=CITY, state=STATE):
-<<<<<<< HEAD
     url = "https://www.zillow.com/"+str(city)+"-"+str(state)+"/"+str(page)+"_p/"
        
     # with requests.Session() as s:
@@ -44,13 +44,6 @@ def fetch_homes(page, city=CITY, state=STATE):
 
 
 
-=======
-    with requests.Session() as s:
-        url = "https://www.zillow.com/"+str(city)+"-"+str(state)+"/"+str(page)+"_p/"
-        print(url)
-        r = s.get(url, headers=HEADERS)
-    return BeautifulSoup(r.content, 'html.parser')
->>>>>>> c5806d26835a7d76d58eb1b81e138fd091ac015e
 
 def fetch_home(url):
     with requests.Session() as s:
@@ -241,7 +234,7 @@ def check(conn_info):
 if __name__ == "__main__":
     # fetch_home_details("https://www.zillow.com/homes/8408-Kansas-River-Dr-Austin,-TX,-78745_rb/58316348_zpid/")
     homes_df = pd.DataFrame(columns=HOMES_DB_COLUMNS)
-    for i in range(1,NUM_PAGES):
+    for i in range(16,21):
         homes = fetch_homes(i)
         homes_df = add_homes(homes_df, homes)
         print(homes_df.head())
@@ -249,8 +242,8 @@ if __name__ == "__main__":
     homes_df, history_df = add_home_details(homes_df, history_df)
     # homes_df_to_db(homes_df)
 
-    history_df.to_csv('history.csv', index=False)
-    homes_df.to_csv('homes.csv', index=False)
+    history_df.to_csv('history4.csv', index=False)
+    homes_df.to_csv('homes4.csv', index=False)
 
     # conn_info = load_conn_info("db.ini")
     # delete_table(conn_info)
