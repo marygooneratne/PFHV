@@ -14,6 +14,9 @@ from sklearn.calibration import calibration_curve
 import numpy as np
 from sklearn.linear_model import RANSACRegressor
 from sklearn.datasets import make_regression
+from sklearn.datasets import load_digits
+from sklearn.linear_model import Perceptron
+from catboost import CatBoostRegressor
 
 history_df = pd.read_csv('history.csv')
 homes_df = pd.read_csv('homes.csv')
@@ -50,9 +53,9 @@ x_train, x_test,y_train,y_test = train_test_split(X,Y,test_size =0.2)
 #y_logi_predict=logi.predict(x_test)
 #print(logi.score(x_test,y_test))
 
-reg = linear_model.RANSACRegressor(random_state=0) #lasso=.31 score on NY data
-reg.fit(x_train, y_train)
+model = Cat(iterations=2, learning_rate=1, depth=2) #lasso=.31 score on NY data, ransac=-.018 on NY data, Perceptron=0.005 for some reason on NY data
+model.fit(x_train, y_train)
 
-y_predict = reg.predict(x_test)
-print(reg.score(x_test, y_test))
+y_predict = model.predict(x_test)
+print(model.score(x_test, y_test))
 
