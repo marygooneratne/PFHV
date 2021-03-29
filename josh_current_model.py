@@ -53,7 +53,10 @@ x_train, x_test,y_train,y_test = train_test_split(X,Y,test_size =0.2)
 #y_logi_predict=logi.predict(x_test)
 #print(logi.score(x_test,y_test))
 
-model = Cat(iterations=2, learning_rate=1, depth=2) #lasso=.31 score on NY data, ransac=-.018 on NY data, Perceptron=0.005 for some reason on NY data
+model = CatBoostRegressor(iterations=2, learning_rate=1, depth=2) 
+#lasso=.31 score on NY data, #
+#ransac=-.018 on NY data, Perceptron=0.005 for some reason on NY data, 
+#catboost(it=2,lr=1,d=2)=.42
 model.fit(x_train, y_train)
 
 y_predict = model.predict(x_test)
