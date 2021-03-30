@@ -6,12 +6,14 @@ import sys
 from io import StringIO
 import datetime
 import numpy as np
+from db.Database import Database
 
 HOMES_FILENAME = 'data/homes.csv'
 HISTORY_FILENAME = 'data/history.csv'
 
 def get_data(homes_filename=HOMES_FILENAME, history_filename=HISTORY_FILENAME):
-    homes_df = pd.read_csv(homes_filename)
+    db = Database()
+    homes_df = db.homes_df
     history_df = pd.read_csv(history_filename)
     return {"homes":homes_df, "history":history_df}
 
@@ -39,7 +41,7 @@ def clean_data(homes_df, history_df):
         history_df.loc[i, "zip_code"] = home_data[0].split(" ")[-1]
     
     # Transform datetime object to just year
-    history_df['date'] = history_df['date'].apply(lambda x:datetime.datetime.fromtimestamp(x/1e3).year)
+    history_df['date'] = history_df['date'].apply(lambda x: x.year)
     history_df.rename(columns={"date":"year"}, inplace=True)
 
     # Drop rows irrelevant to model
