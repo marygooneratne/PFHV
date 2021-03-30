@@ -37,6 +37,15 @@ macro_national_query = """
         last_modified TIMESTAMP
     )
 """
+macro_regional_query = """
+    CREATE TABLE macro_regional(
+        year INT,
+        housing_starts INT,
+        new_home_sales INT,
+        region VARCHAR(100),
+        last_modified TIMESTAMP
+    )
+"""
 def load_conn_info(filename):
     parser = ConfigParser()
     parser.read(filename)
@@ -130,6 +139,14 @@ def macro_national_df_to_db(df, conn_info):
     for i in macro_national_list:
         idx = idx+1
         insert_macro_national(i, conn_info)
+
+def macro_regional_df_to_db(df, conn_info):
+    idx = 0
+    macro_regional_list = df.values.tolist()
+    
+    for i in macro_regional_list:
+        idx = idx+1
+        insert_macro_regional(i, conn_info)
 
 def history_df_to_db(df, conn_info):
     sql = f"ALTER SEQUENCE history_id_seq RESTART WITH 1"
@@ -281,6 +298,46 @@ def insert_macro_national(macro_national_data, conn_info):
             if conn is not None:
                 conn.close()
 
+def insert_macro_regional(macro_regional_data, conn_info):
+    sql = """INSERT INTO macro_regional(year,housing_starts,new_home_sales, region, last_modified)
+             VALUES(%s, %s, %s, %s, %s)"""
+    conn = None
+    macro_regional_data = [i for i in macro_regional_data]
+    try:
+        macro_regional_data[0] = int(macro_regional_data[0])
+    except: 
+        macro_regional_data[0] = 0
+    try:
+        macro_regional_data[1] = int(macro_regional_data[1])
+    except:
+        macro_regional_data[1] = 0
+    try:
+        macro_regional_data[2] = int(macro_regional_data[2])
+    except:
+        macro_regional_data[2] = 0
+    try:
+        macro_regional_data[3] = str(macro_regional_data[3])
+    except:
+        macro_regional_data[3] = ""
+        
+    macro_regional_data.append(datetime.datetime.now())
+    macro_regional_data = tuple(macro_regional_data)
+    print(macro_regional_data)
+    if len(macro_regional_data) > 0:
+        psql_conn_str = f"user={conn_info['user']} password={conn_info['password']} dbname={conn_info['database']}"
+        try:
+            conn = psycopg2.connect(psql_conn_str)
+            cur = conn.cursor()
+            cur.execute(sql, macro_regional_data)
+            conn.commit()
+            print("successfully inserted ")
+            cur.close()
+        except (Exception, psycopg2.DatabaseError) as error:
+            print(error)
+        finally:
+            if conn is not None:
+                conn.close()
+
 def load_cols(conn_info, table_name):
     psql_conn_str = f"user={conn_info['user']} password={conn_info['password']} dbname={conn_info['database']}"
     conn = psycopg2.connect(psql_conn_str)
@@ -326,18 +383,14 @@ def drop_col(conn_info, table_name, col_name):
 
 if __name__ == "__main__":
     conn_info = load_conn_info("/Users/Goon/Desktop/Duke/ECE496/PFHV/db/db.ini")
-    file_name = "../data/macro_national.csv"
-    table_name = 'macro_national'
-    df = pd.read_csv(file_name)
-
+    file_name = "../data/macro_regional.csv"
+    table_name = 'macro_regional'
+    # df = pd.read_csv(file_name)s
     # delete_table(conn_info, table)
     # homes_df_to_db(df, conn_info)
     # history_df_to_db(df, conn_info)
-    # create_table(macro_national_query, conn_info)
-    macro_national_df_to_db(df, conn_info)
-    # # print(load_cols(conn_info, table_name))
-    load_table(conn_info, table_name)
-
-    
-
-
+    # create_table(macro_regional_query, conn_info)
+    # macro_national_df_to_db(df, conn_info)
+    # macro_regional_df_to_db(df, conn_info)
+    # print(load_cols(conn_info, table_name))
+    # load_table(conn_info, table_name)
