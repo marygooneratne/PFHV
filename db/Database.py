@@ -3,8 +3,8 @@ import psycopg2
 import pandas as pd
 
 class Database:
-    def __init__(self):
-        self.conn_info = self.load_conn_info("/Users/Goon/Desktop/Duke/ECE496/PFHV/db/db.ini")
+    def __init__(self, path_to_conn, version="heroku"):
+        self.conn_info = self.load_conn_info(path_to_conn, version)
         self.homes_df = self.get_df("homes")
         self.history_df = self.get_df("history")
         self.macro_national_df = self.get_df("macro_national")
@@ -17,10 +17,10 @@ class Database:
     def get_df(self, table_name):
         return pd.DataFrame(self.load_table(self.conn_info, table_name), columns=self.load_cols(self.conn_info, table_name))
 
-    def load_conn_info(self,filename):
+    def load_conn_info(self,filename,version):
         parser = ConfigParser()
         parser.read(filename)
-        conn_info = {param[0]:param[1] for param in parser.items("heroku")}
+        conn_info = {param[0]:param[1] for param in parser.items(version)}
         return conn_info
     
     def load_cols(self, conn_info, table_name):

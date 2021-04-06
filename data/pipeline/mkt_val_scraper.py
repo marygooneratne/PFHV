@@ -16,6 +16,9 @@ import prettify
 import numbers
 import htmltext
 from configparser import ConfigParser
+import sys
+sys.path.insert(1, '/Users/Goon/Desktop/Duke/ECE496/PFHV/db')
+from Database import Database
 
 
 HOMES_DB_COLUMNS = ["id", "address", "bedrooms", "bathrooms", "sq_ft", "year_built", "for_sale", "current_price", "zillow_url", "last_modified"]
@@ -44,23 +47,27 @@ def fetch_home(url):
 #     return s
 
 def fetch_market_history(url):
-    soup = fetch_home(url)
-    soup = str(soup)
-    soup = soup[soup.index("priceHistory")+16:]
-    history = soup[:soup.index("]")].replace("\\", "").replace("\"", "").split("},")
-
     history_cleaned = []
-    for row in history:
-        event = {}
-        row = row[1:].replace("}", "").replace("{", "").split(",")
-        for d in row:
-            d = d.split(":")
-            if(d[0] == "event"): event["event"] = d[1]
-            if(d[0] == "date"): event["date"] = d[1]
-            if(d[0] == "price"): event["price"] = d[1]
-        
-        if "event" in event.keys() and event["event"] == "Listed for sale":
-            history_cleaned.append(event)
+
+    try: 
+        soup = fetch_home(url)
+        soup = str(soup)
+        soup = soup[soup.index("priceHistory")+16:]
+        history = soup[:soup.index("]")].replace("\\", "").replace("\"", "").split("},")
+
+        for row in history:
+            event = {}
+            row = row[1:].replace("}", "").replace("{", "").split(",")
+            for d in row:
+                d = d.split(":")
+                if(d[0] == "event"): event["event"] = d[1]
+                if(d[0] == "date"): event["date"] = d[1]
+                if(d[0] == "price"): event["price"] = d[1]
+            
+            if "event" in event.keys() and event["event"] == "Listed for sale":
+                history_cleaned.append(event)
+    except:
+        print("Fetch failed: ", url)
     return history_cleaned
 
 # def find_number(string):
@@ -73,21 +80,42 @@ def fetch_market_history(url):
 #     return num
 
 if __name__ == "__main__":
-    homes_df = None
-    hist_df = None
+    db = Database("/Users/Goon/Desktop/Duke/ECE496/PFHV/db/db.ini")
+    homes = pd.read_csv("../homes_austin.csv")
+    history = pd.read_csv("../history_austin.csv")
+    history['date'] = history['date'].apply(lambda x:  int(datetime.datetime.fromtimestamp(x/1e3).year))
     mkt_hist = []
-    for i, r in homes_df.iterrrows():
-        row = {}
-        url = ""
-        assessed_val = ""
-        hist = fetch_market_history(url)
-        row["home_id"] = ""
-        row["year"] = ""
-        row["mkt_val"] = ""
-        row 
+    homes = homes.to_dict(orient='records')
+    df = pd.DataFrame(columns=["home_id", "year", "market_val", "assessed_val"])
+    for r in homes:
+        home_id = r['id']
+        hist = fetch_market_history(r["zillow_url"])
+        for event in hist:
+            year = int(event['date'].split("-")[0])
+            matched = history.loc[(history['date']==year)&(history['home_id']==home_id)]
+            if len(matched.index) > 0:
+                data = {}
+                matched = matched.iloc[0].to_dict()
+                data["home_id"] = home_id
+                data["year"] = year
+                data["market_val"] = event["price"]
+                data["assessed_val"] = matched["value"]
+                df = df.append(data, ignore_index=True)
+    df.to_csv("../market_value_data.csv")
+                
+    
+    #     print(r)
+        # row = {}
+        # url = ""
+        # assessed_val = ""
+        # hist = fetch_market_history(url)
+        # row["home_id"] = ""
+        # row["year"] = ""
+        # row["mkt_val"] = ""
+        # row["assessed_val] = ""
 
-    hist = fetch_market_history("https://www.zillow.com/homes/8408-Kansas-River-Dr-Austin,-TX,-78745_rb/58316348_zpid/")
-    print(hist)
+    # hist = fetch_market_history("https://www.zillow.com/homes/8408-Kansas-River-Dr-Austin,-TX,-78745_rb/58316348_zpid/")
+    # print(hist)
 
 
     # fetch_home_details("https://www.zillow.com/homes/8408-Kansas-River-Dr-Austin,-TX,-78745_rb/58316348_zpid/")

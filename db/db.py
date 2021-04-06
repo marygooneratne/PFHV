@@ -42,10 +42,191 @@ macro_regional_query = """
         year INT,
         housing_starts INT,
         new_home_sales INT,
-        region VARCHAR(100),
+        region_id SERIAL REFERENCES regions(id),
         last_modified TIMESTAMP
     )
 """
+macro_zipcode_query = """
+    CREATE TABLE macro_regional(
+        zipcode INT,
+        numeric_grade INT
+    )
+"""
+regions_query = """
+    CREATE TABLE regions(
+        id SERIAL PRIMARY KEY
+        region VARCHAR(100)
+    )
+"""
+zipcode_to_region_query = """
+    CREATE TABLE zipcode_to_region(
+        zipcode INT
+        region_id SERIAL REFERENCES regions(id)
+    )
+"""
+market_value_query = """
+    CREATE TABLE market_value(
+        home_id SERIAL REFERENCES homes(id),
+        year INT,
+        assessed_value INT,
+        market_value INT
+"""
+def macro_zipcode(df, conn_info):
+    idx = 0
+    macro_regional_list = df.values.tolist()
+    
+    for i in macro_regional_list:
+        idx = idx+1
+        insert_macro_zipcode(i, conn_info)
+
+def macro_regions(df, conn_info):
+    idx = 0
+    macro_regional_list = df.values.tolist()
+    
+    for i in macro_regional_list:
+        idx = idx+1
+        insert_regions(i, conn_info)
+
+def macro_zipcode_to_regions(df, conn_info):
+    idx = 0
+    macro_regional_list = df.values.tolist()
+    
+    for i in macro_regional_list:
+        idx = idx+1
+        insert_zipcode_to_region(i, conn_info)
+
+def market_value(df, conn_info):
+    idx = 0
+    macro_regional_list = df.values.tolist()
+    
+    for i in macro_regional_list:
+        idx = idx+1
+        insert_market_value(i, conn_info)
+
+def insert_macro_zipcode (macro_zipcode_data, conn_info):
+    sql = """INSERT INTO macro_zipcode(zipcode, numeric_grade)
+             VALUES(%s,%s)"""
+    conn = None
+    macro_zipcode_data = [i for i in macro_zipcode_data]
+    try:
+        macro_zipcode_data[0] = int(macro_zipcode_data[0])
+    except: 
+        macro_zipcode_data[0] = 0
+    try:
+        macro_zipcode_data[1] = int(macro_zipcode_data[1])
+    except:
+        macro_zipcode_data[1] = 0
+        
+    macro_zipcode_data = tuple(macro_zipcode_data)
+    if len(macro_zipcode_data) > 0:
+        psql_conn_str = f"user={conn_info['user']} password={conn_info['password']} dbname={conn_info['database']}"
+        try:
+            conn = psycopg2.connect(psql_conn_str)
+            cur = conn.cursor()
+            cur.execute(sql, macro_zipcode_data)
+            conn.commit()
+            print("successfully inserted ")
+            cur.close()
+        except (Exception, psycopg2.DatabaseError) as error:
+            print(error)
+        finally:
+            if conn is not None:
+                conn.close()
+
+def insert_regions (regions_data, conn_info):
+    sql = """INSERT INTO regions(region)
+             VALUES(%s)"""
+    conn = None
+    regions_data = [i for i in regions_data]
+    try:
+        regions_data[0] = int(regions_data[0])
+    except:
+        regions_data[0] = 0
+        
+    regions_data = tuple(regions_data)
+    if len(regions_data) > 0:
+        psql_conn_str = f"user={conn_info['user']} password={conn_info['password']} dbname={conn_info['database']}"
+        try:
+            conn = psycopg2.connect(psql_conn_str)
+            cur = conn.cursor()
+            cur.execute(sql, regions_data)
+            conn.commit()
+            print("successfully inserted ")
+            cur.close()
+        except (Exception, psycopg2.DatabaseError) as error:
+            print(error)
+        finally:
+            if conn is not None:
+                conn.close()
+
+def insert_zipcode_to_region (zipcode_to_region_data, conn_info):
+    sql = """INSERT INTO zipcode_to_region(zipcode, region_id)
+             VALUES(%s,%s)"""
+    conn = None
+    zipcode_to_region_data = [i for i in zipcode_to_region_data]
+    try:
+        zipcode_to_region_data[0] = int(zipcode_to_region_data[0])
+    except: 
+        zipcode_to_region_data[0] = 0
+    try:
+        zipcode_to_region_data[1] = int(zipcode_to_region_data[1])
+    except:
+        zipcode_to_region_data[1] = 0
+        
+    zipcode_to_region_data = tuple(zipcode_to_region_data)
+    if len(zipcode_to_region_data) > 0:
+        psql_conn_str = f"user={conn_info['user']} password={conn_info['password']} dbname={conn_info['database']}"
+        try:
+            conn = psycopg2.connect(psql_conn_str)
+            cur = conn.cursor()
+            cur.execute(sql, zipcode_to_region_data)
+            conn.commit()
+            print("successfully inserted ")
+            cur.close()
+        except (Exception, psycopg2.DatabaseError) as error:
+            print(error)
+        finally:
+            if conn is not None:
+                conn.close()
+
+def insert_market_value (market_value_data, conn_info):
+    sql = """INSERT INTO market_value(home_id, year, assessed_value, market_value)
+             VALUES(%s,%s, %s, %s)"""
+    conn = None
+    market_value_data = [i for i in market_value_data]
+    try:
+        market_value_data[0] = int(market_value_data[0])
+    except: 
+        market_value_data[0] = 0
+    try:
+        market_value_data[1] = int(market_value_data[1])
+    except:
+        market_value_data[1] = 0
+    try:
+        market_value_data[2] = int(market_value_data[2])
+    except: 
+        market_value_data[2] = 0
+    try:
+        market_value_data[3] = int(market_value_data[3])
+    except:
+        market_value_data[3] = 0
+        
+    market_value_data = tuple(market_value_data)
+    if len(market_value_data) > 0:
+        psql_conn_str = f"user={conn_info['user']} password={conn_info['password']} dbname={conn_info['database']}"
+        try:
+            conn = psycopg2.connect(psql_conn_str)
+            cur = conn.cursor()
+            cur.execute(sql, market_value_data)
+            conn.commit()
+            print("successfully inserted ")
+            cur.close()
+        except (Exception, psycopg2.DatabaseError) as error:
+            print(error)
+        finally:
+            if conn is not None:
+                conn.close()
+
 def load_conn_info(filename):
     parser = ConfigParser()
     parser.read(filename)
@@ -299,6 +480,7 @@ def insert_macro_national(macro_national_data, conn_info):
                 conn.close()
 
 def insert_macro_regional(macro_regional_data, conn_info):
+    regions = {"south":1, "northeast":2}
     sql = """INSERT INTO macro_regional(year,housing_starts,new_home_sales, region, last_modified)
              VALUES(%s, %s, %s, %s, %s)"""
     conn = None
@@ -316,7 +498,7 @@ def insert_macro_regional(macro_regional_data, conn_info):
     except:
         macro_regional_data[2] = 0
     try:
-        macro_regional_data[3] = str(macro_regional_data[3])
+        macro_regional_data[3] = regions[str(macro_regional_data[3])]
     except:
         macro_regional_data[3] = ""
         
@@ -381,10 +563,48 @@ def drop_col(conn_info, table_name, col_name):
         print(f"query:{cur.query}")
         cur.close()
 
+def create_tables(conn_info):
+    try:
+        create_table(homes_query, conn_info)
+    except:
+        print("Failed to create homes table")
+    try:
+        create_table(history_query, conn_info)
+    except:
+        print("Failed to create homes table")
+    try:
+        create_table(regions_query, conn_info)
+    except:
+        print("Failed to create regions table")
+    try:
+        create_table(macro_national_query, conn_info)
+    except:
+        print("Failed to create macro_national table")
+    try:
+        create_table(macro_regional_query, conn_info)
+    except:
+        print("Failed to create macro_regional table")
+    try:
+        create_table(macro_zipcode_query, conn_info)
+    except:
+        print("Failed to create macro_zipcode table")
+    
+    try:
+        create_table(zipcode_to_region_query, conn_info)
+    except:
+        print("Failed to create zipcode_to_region table")
+    try:
+        create_table(market_value_query, conn_info)
+    except:
+        print("Failed to create market_value table")
+    
+    print("All tables have been attempted.")
+    
+
+
 if __name__ == "__main__":
-    conn_info = load_conn_info("/Users/Goon/Desktop/Duke/ECE496/PFHV/db/db.ini")
-    file_name = "../data/macro_regional.csv"
-    table_name = 'macro_regional'
+    path_to_db= "/Users/Goon/Desktop/Duke/ECE496/PFHV/db/db.ini"
+    conn_info = load_conn_info(path_to_db)
     # df = pd.read_csv(file_name)s
     # delete_table(conn_info, table)
     # homes_df_to_db(df, conn_info)
@@ -394,3 +614,5 @@ if __name__ == "__main__":
     # macro_regional_df_to_db(df, conn_info)
     # print(load_cols(conn_info, table_name))
     # load_table(conn_info, table_name)
+    create_db(conn_info)
+    create_tables(conn_info)
