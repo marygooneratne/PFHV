@@ -9,11 +9,11 @@ class Database:
         self.history_df = self.get_df("history")
         self.macro_national_df = self.get_df("macro_national")
         self.macro_regional_df = self.get_df("macro_regional")
+        self.macro_zipcode_df = self.get_df("macro_zipcode")
+        self.regions_df = self.get_df("regions")
+        self.zipcode_to_region_df = self.get_df("zipcode_to_region")
+        self.market_value = self.get_df("market_value")
 
-        # TODO @Mary
-        # self.state_df = self.get_df("macro_state")
-        # self.zip_code_df = 
-    
     def get_df(self, table_name):
         return pd.DataFrame(self.load_table(self.conn_info, table_name), columns=self.load_cols(self.conn_info, table_name))
 
