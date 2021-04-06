@@ -1,4 +1,4 @@
-zip code,overall letter grade,converted overall grade
+zip_code,letter_grade,numeric_grade
 78610,B+,88
 78613,A+,98
 78617,C+,78
