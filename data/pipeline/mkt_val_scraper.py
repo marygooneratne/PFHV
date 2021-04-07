@@ -81,8 +81,8 @@ def fetch_market_history(url):
 
 if __name__ == "__main__":
     db = Database("/Users/Goon/Desktop/Duke/ECE496/PFHV/db/db.ini")
-    homes = pd.read_csv("../homes_austin.csv")
-    history = pd.read_csv("../history_austin.csv")
+    homes = pd.read_csv("../homes_complete.csv")
+    history = pd.read_csv("../history_complete.csv")
     history['date'] = history['date'].apply(lambda x:  int(datetime.datetime.fromtimestamp(x/1e3).year))
     mkt_hist = []
     homes = homes.to_dict(orient='records')
@@ -101,7 +101,7 @@ if __name__ == "__main__":
                 data["market_val"] = event["price"]
                 data["assessed_val"] = matched["value"]
                 df = df.append(data, ignore_index=True)
-    df.to_csv("../market_value_data.csv")
+    df.to_csv("../market_value_data_complete.csv")
                 
     
     #     print(r)

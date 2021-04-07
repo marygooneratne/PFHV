@@ -47,20 +47,20 @@ macro_regional_query = """
     )
 """
 macro_zipcode_query = """
-    CREATE TABLE macro_regional(
+    CREATE TABLE macro_zipcode(
         zipcode INT,
         numeric_grade INT
     )
 """
 regions_query = """
     CREATE TABLE regions(
-        id SERIAL PRIMARY KEY
+        id SERIAL PRIMARY KEY,
         region VARCHAR(100)
     )
 """
 zipcode_to_region_query = """
     CREATE TABLE zipcode_to_region(
-        zipcode INT
+        zipcode INT,
         region_id SERIAL REFERENCES regions(id)
     )
 """
@@ -69,7 +69,7 @@ market_value_query = """
         home_id SERIAL REFERENCES homes(id),
         year INT,
         assessed_value INT,
-        market_value INT
+        market_value INT)
 """
 def macro_zipcode(df, conn_info):
     idx = 0
@@ -97,6 +97,10 @@ def macro_zipcode_to_regions(df, conn_info):
 
 def market_value(df, conn_info):
     idx = 0
+    print(df.head())
+    df = df.drop('id', axis=1)
+    print(df.head())
+
     macro_regional_list = df.values.tolist()
     
     for i in macro_regional_list:
@@ -137,11 +141,11 @@ def insert_regions (regions_data, conn_info):
     sql = """INSERT INTO regions(region)
              VALUES(%s)"""
     conn = None
-    regions_data = [i for i in regions_data]
+    regions_data = [i for i in regions_data[1:]]
     try:
-        regions_data[0] = int(regions_data[0])
+        regions_data[0] = str(regions_data[0])
     except:
-        regions_data[0] = 0
+        regions_data[0] = ""
         
     regions_data = tuple(regions_data)
     if len(regions_data) > 0:
@@ -481,7 +485,7 @@ def insert_macro_national(macro_national_data, conn_info):
 
 def insert_macro_regional(macro_regional_data, conn_info):
     regions = {"south":1, "northeast":2}
-    sql = """INSERT INTO macro_regional(year,housing_starts,new_home_sales, region, last_modified)
+    sql = """INSERT INTO macro_regional(year,housing_starts,new_home_sales, region_id, last_modified)
              VALUES(%s, %s, %s, %s, %s)"""
     conn = None
     macro_regional_data = [i for i in macro_regional_data]
@@ -600,6 +604,21 @@ def create_tables(conn_info):
     
     print("All tables have been attempted.")
     
+def num_rows_in_table(conn_info, table):
+    psql_conn_str = f"user={conn_info['user']} password={conn_info['password']} dbname={conn_info['database']}"
+    conn = psycopg2.connect(psql_conn_str)
+    cur = conn.cursor()
+    conn.autocommit = True
+    query = f"SELECT count(*) FROM {table}"
+    resp = []
+    try:
+        cur.execute(query)
+        return cur.fetchall()
+    except Exception as e:
+        print(f"{type(e).__name__}: {e}")
+        print(f"query:{cur.query}")
+        cur.close()
+        return
 
 
 if __name__ == "__main__":
@@ -613,6 +632,22 @@ if __name__ == "__main__":
     # macro_national_df_to_db(df, conn_info)
     # macro_regional_df_to_db(df, conn_info)
     # print(load_cols(conn_info, table_name))
-    # load_table(conn_info, table_name)
-    create_db(conn_info)
-    create_tables(conn_info)
+    # print(num_rows_in_table(conn_info, "history"))
+    # create_db(conn_info)
+    # create_tables(conn_info)
+
+    df = pd.read_csv("./../data/market_value_data_complete.csv")
+    market_value(df, conn_info)
+
+    print(num_rows_in_table(conn_info, "market_value"))
+    # macro_regions(df, conn_info)
+
+# TODOL pfhv7
+# homes_df DONE
+# history_df DONE
+# macro reg DONE
+# macro nat DONE
+# regions DONE
+# zipcode_to_region DONE
+# market_val TODO
+# macro_zipcode DONE
