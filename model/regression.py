@@ -66,6 +66,7 @@ class RegressionModel:
         # Adds zip_code column to self.history_df
         self.history_df["zip_code"] = 0
 
+        #Compute ratio
         # Adds home data and zip_code to each history entry by matching history['home_id'] to home['id']
         for i, row in self.history_df.iterrows():
             home_data = self.homes_df.loc[self.homes_df['id'] == row['home_id']].values.tolist()[0][1:]
