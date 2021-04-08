@@ -1,24 +1,28 @@
 import pandas as pd
-_HOMES = './data/homes_complete.csv'
-_HISTORY = './data/history_complete.csv'
-_NATIONAL = "./data/macro_national.csv"
-_REGIONAL = "./data/macro_regional.csv"
-_ZIPCODE = "./data/macro_zipcode.csv"
-_REGIONS = "./data/regions.csv"
-_ZIPCODE_TO_REGION ="./zipcode_to_region.csv"
+from regression import RegressionModel
 
-def macro_data(zipcode, year):
-    data = {
-        "zipcode_rating": None,
-        "rgl_housing_starts": None,
-        "rgl_new_home_sales": None,
-        "ntl_construction_spending": None,
-        "ntl_housing_starts": None,
-        "ntl_home_sales": None,
-        "ntl_housing_price_idx": None
-    }
-    national_df = pd.read_csv(_NATIONAL)
-    regional_df = pd.read_csv(_REGIONAL)
-    zipcode_df = pd.read_csv(_ZIPCODE)
-    regions_df = pd.read_csv(_REGIONS)
-    zipcode_to_region_df = pd.read_csv(_ZIPCODE_TO_REGION)
+model = RegressionModel()
+print(model.predict())
+print(model.predict(use_macro=False))
+
+
+
+
+# year_prior = row['year']-years
+#             home_match = self.history_df.loc[self.history_df['home_id'] == row['home_id']]
+#             row_prior = home_match.loc[home_match['year'] == year_prior]
+
+#             # Break if not found
+#             if len(home_match)<2 or len(row_prior) < 1:
+#                 break
+
+#             # Create new row with home data, prev_year, prev_value, prev_value
+#             row_prior = row_prior.drop("home_id", axis=1)
+#             row_prior = row_prior.drop("year", axis=1)
+#             row_prior = row_prior.values.tolist()[0]
+#             row_prior = [row['year'], row['value']] + row_prior
+
+#             # Add row to DataFrame
+#             row_series =  pd.Series(row_prior, index=pred_df.columns)
+#             pred_df = pred_df.append(row_series, ignore_index=True)
+

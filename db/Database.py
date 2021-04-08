@@ -3,7 +3,7 @@ import psycopg2
 import pandas as pd
 
 class Database:
-    def __init__(self, path_to_conn, version="heroku"):
+    def __init__(self, path_to_conn="./db.ini", version="heroku"):
         self.conn_info = self.load_conn_info(path_to_conn, version)
         self.homes_df = self.get_df("homes")
         self.history_df = self.get_df("history")
