@@ -1,11 +1,16 @@
 import pandas as pd
+import numpy as np
 from ratio import RegressionModel
 
 model = RegressionModel()
-print(model.predict())
+#print(model.predict())
 print(model.predict(use_macro=False))
-
-
+""" df = pd.DataFrame({"name": ['Alfred', 'Batman', 'Catwoman'],
+                   "toy": [np.nan, 'Batmobile', 'Bullwhip'],
+                   "born": [pd.NaT, pd.Timestamp("1940-04-25"),
+                            pd.NaT]})
+df.dropna()
+print(df) """
 
 
 # year_prior = row['year']-years

@@ -57,8 +57,8 @@ class RegressionModel:
         Returns:
             None
         '''
-        self.market_value_df.apply(lambda x: pd.to_numeric(x, errors='coerce')).dropna()
-        self.market_value_df.dropna()
+        self.market_value_df.apply(lambda x: pd.to_numeric(x, errors='coerce')).dropna(axis=0,how='any',inplace=True)
+        self.market_value_df.dropna(axis=0,how='any',inplace=True)
         if self.verbose:
             print('function: clean_data')
         # Adds columns for home data to each market_value entry in self.market_value_df
@@ -88,8 +88,8 @@ class RegressionModel:
         self.market_value_df.drop('address', axis=1, inplace=True)
 
         #ensure model cleaned of string types
-        self.market_value_df.apply(lambda x: pd.to_numeric(x, errors='coerce')).dropna()
-        self.market_value_df.dropna()
+        self.market_value_df.apply(lambda x: pd.to_numeric(x, errors='coerce')).dropna(axis=0,how='any',inplace=True)
+        self.market_value_df.dropna(axis=0,how='any',inplace=True)
         if self.verbose:
             print('cleaned market_value_df:', self.market_value_df.head())        
     
