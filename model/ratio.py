@@ -6,6 +6,7 @@ import sys
 from io import StringIO
 import datetime
 import numpy as np
+from catboost import CatBoostRegressor
 # from db.Database import Database
 
 _HOMES = '../data/homes_complete.csv'
@@ -101,7 +102,8 @@ class RegressionModel:
         X=self.market_value_df[['year', 'market_val', 'assessed_val', 'bedrooms', 'bathrooms', 'sq_ft', 'year_built', 'zip_code']]
         Y = self.market_value_df['ratio']
         x_train, x_test,y_train,y_test = train_test_split(X,Y,test_size =0.2)
-        mlr = LinearRegression()
+        #mlr = LinearRegression()
+        mlr=CatBoostRegressor(iterations=2, learning_rate=1, depth=2)
         mlr.fit(x_train, y_train)
         score = mlr.score(x_test, y_test)
         return score

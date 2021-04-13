@@ -7,6 +7,7 @@ from io import StringIO
 import datetime
 import numpy as np
 import Database
+from catboost import CatBoostRegressor
 
 HOMES_FILENAME = 'data/homes.csv'
 HISTORY_FILENAME = 'data/history.csv'
