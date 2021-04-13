@@ -18,7 +18,7 @@ _ZIPCODE_TO_REGION ="../data/zipcode_to_region.csv"
 
 
 class RegressionModel:
-    def __init__(self, use_macro=True, limit=20000, use_db=False, verbose=True):
+    def __init__(self, use_macro=True, limit=1000, use_db=False, verbose=True):
         self.homes_df = None
         self.history_df = None
         self.national_df = None
@@ -91,7 +91,7 @@ class RegressionModel:
         if self.verbose:
             print('cleaned history_df:', self.history_df.head())
     
-    def build(self, years=3):
+    def build(self, years=10):
         '''
         Restructures DataFrame for *future* home value prediction by including home_data, 
         pred_year (year to predict), pred_value (value of home in year to predict),
@@ -171,9 +171,11 @@ class RegressionModel:
                 data["ntl_construction_spending"], data["ntl_housing_starts"], data["ntl_home_sales"], data["ntl_housing_price_idx"]= tuple(ntl_data[0][1:])
         return data
 
-    def predict(self, use_macro=None):
+    def predict(self, use_macro=None, years=None):
         if use_macro is None:
             use_macro = self.use_macro
+        if years is not None:
+            self.build(years=years)
         #TODO better NaN fill
         self.predict_df = self.predict_df.fillna(value=0)
         if use_macro:
