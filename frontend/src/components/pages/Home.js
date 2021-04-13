@@ -1,6 +1,7 @@
 import React from "react";
 import { Box, Card, Typography, Button } from "@material-ui/core";
 
+//
 function Home(props) {
   return (
     <Box className="home-box rows">
@@ -13,3 +14,4 @@ function Home(props) {
     </Box>
   );
 }
+export default Home;
