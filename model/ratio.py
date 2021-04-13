@@ -57,7 +57,7 @@ class RegressionModel:
         Returns:
             None
         '''
-        self.market_value_df.apply(lambda x: pd.to_numeric(x, errors='coerce')).dropna(axis=0,how='any',inplace=True)
+        self.market_value_df.apply(lambda x: pd.to_numeric(x, errors='coerce'))
         self.market_value_df.dropna(axis=0,how='any',inplace=True)
         if self.verbose:
             print('function: clean_data')
@@ -88,15 +88,16 @@ class RegressionModel:
         self.market_value_df.drop('address', axis=1, inplace=True)
 
         #ensure model cleaned of string types
-        self.market_value_df.apply(lambda x: pd.to_numeric(x, errors='coerce')).dropna(axis=0,how='any',inplace=True)
+        self.market_value_df.apply(lambda x: pd.to_numeric(x, errors='coerce'))
         self.market_value_df.dropna(axis=0,how='any',inplace=True)
         if self.verbose:
             print('cleaned market_value_df:', self.market_value_df.head())        
     
     def predict(self, use_macro=None):
         #TODO better NaN fill
-        self.market_value_df = self.market_value_df.fillna(value=0)
-        
+        #self.market_value_df = self.market_value_df.fillna(value=0)
+        self.market_value_df.to_csv ('testing.csv', index = False, header=True)
+
         X=self.market_value_df[['year', 'market_val', 'assessed_val', 'bedrooms', 'bathrooms', 'sq_ft', 'year_built', 'zip_code']]
         Y = self.market_value_df['ratio']
         x_train, x_test,y_train,y_test = train_test_split(X,Y,test_size =0.2)
