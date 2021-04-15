@@ -1,0 +1,38 @@
+.card {
+  width: 27vw;
+  height: 50vh;
+  padding: 2%;
+  justify-content: space-between;
+}
+.home-image {
+  text-align: center !important;
+  width: 100%;
+}
+.home-cards {
+  justify-content: space-between;
+}
+
+h6 {
+  font-size: 1rem !important;
+  font-weight: 800 !important;
+}
+
+.home-box {
+  justify-content: space-between;
+  height: 80vh;
+}
+
+button {
+  width: 15vw !important;
+  text-transform: none !important;
+  margin: 5px !important;
+}
+
+.model-button-box {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.model-chart {
+  height: 80% !important;
+}

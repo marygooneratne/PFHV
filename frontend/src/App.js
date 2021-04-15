@@ -7,6 +7,7 @@ import {
   IconButton,
   Typography,
   Button,
+  Box,
 } from "@material-ui/core";
 import MenuIcon from "@material-ui/icons/Menu";
 import Home from "./components/pages/Home";
@@ -44,7 +45,10 @@ function App() {
           <Button color="inherit">Login</Button>
         </Toolbar>
       </AppBar>
-      <Home /> {/*Change this line*/}
+      <Box className="content-box">
+        <Home />
+      </Box>
+      {/*Change this line*/}
     </div>
   );
 }
