@@ -3,14 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-<<<<<<< HEAD
-    "@devexpress/dx-chart-core": "^2.7.5",
-    "@devexpress/dx-react-chart": "^2.7.5",
-    "@devexpress/dx-react-chart-material-ui": "^2.7.5",
-    "@devexpress/dx-react-core": "^2.7.5",
-=======
     "@material-ui/system": "^4.11.3",
->>>>>>> 3c3664d9c53a26df479e85bcc1ae84ee8310acbf
     "@material-ui/core": "^4.11.3",
     "@material-ui/icons": "^4.11.2",
     "@testing-library/jest-dom": "^5.11.4",

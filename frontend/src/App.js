@@ -11,6 +11,7 @@ import {
 } from "@material-ui/core";
 import MenuIcon from "@material-ui/icons/Menu";
 import Home from "./components/pages/Home";
+import Homes from "./components/pages/Homes";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -46,7 +47,7 @@ function App() {
         </Toolbar>
       </AppBar>
       <Box className="content-box">
-        <Home />
+        <Homes />
       </Box>
       {/*Change this line*/}
     </div>
